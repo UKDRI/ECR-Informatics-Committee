@@ -1,0 +1,67 @@
+---
+title: "Connectome 2023 reproducibility survey analysis"
+author: "Mateus Harrington"
+format: 
+  pdf
+code-fold: show
+execute: 
+  message: false
+---
+
+# Load packages
+
+```{r}
+#| label: load-packages
+#| output: false
+# list packages
+pkg <- c("tidyverse", "here", "gt", "viridis")
+# install any missing packages and load them
+lapply(pkg, function(pkg) {
+  if (!require(pkg, character.only = TRUE)) {
+    install.packages(pkg)
+    library(pkg, character.only = TRUE)
+  } else {
+    library(pkg, character.only = TRUE)
+  }
+})
+```
+
+# Read in data 
+
+```{r}
+#| label: read-data
+# read in data
+df <-
+  readr::read_csv(
+    here::here(
+      "03_data/001_connectome_2023/2023-10-13_reproducibility-sentiment-analysis.csv"
+    ),
+    show_col_types = FALSE
+  )
+gt::gt(df)
+
+# pivot to long format
+df_long <- df %>%
+  pivot_longer(cols = -question, names_to = "experience", values_to = "count")
+
+gt::gt(head(df_long))
+```
+
+```{r}
+#| label: fig-plot
+#| fig-cap: "Counts of responses to reproducibility questions gathered at connectome 2023."
+#| fig-alt: "Counts show that most are unfamilair with CI/CD, Containerisation, Unit tests and Workflow managers."
+
+# Create the ggplot with dodged bars and colourblind-friendly palette
+ggplot(df_long, aes(x = question, y = count, fill = experience)) +
+  geom_col(position = "dodge") +
+  scale_fill_viridis_d() +  # Use viridis colour palette
+  labs(x = "Question", y = "Count", title = "Ordered Plot") +
+  theme_bw() +
+  # Rotate x-axis labels by 45 degrees
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+Seems like most folk aren't familiar with CI/CD, containers, unit tests and workflow managers (@fig-plot).
+Most people are aware off/actively using version control and virtual environments though.
+One wonders to what extend they're fully utilising even those though!
