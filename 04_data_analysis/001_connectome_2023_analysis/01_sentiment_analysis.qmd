@@ -48,6 +48,18 @@ gt::gt(head(df_long))
 ```
 
 ```{r}
+numeric_cols <- sapply(df, is.numeric)
+
+# Get the sum of each numeric column
+sums <- colSums(df[, numeric_cols])
+sums
+df_long %>%
+  group_by(question) %>%
+  summarise(total_responses = sum(count)) %>%
+  gt::gt()
+```
+
+```{r}
 #| label: fig-plot
 #| fig-cap: "Counts of responses to reproducibility questions gathered at connectome 2023."
 #| fig-alt: "Counts show that most are unfamilair with CI/CD, Containerisation, Unit tests and Workflow managers."
