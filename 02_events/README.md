@@ -1,3 +1,5 @@
+## Directory purpose
+
 Files associated with events the committee plans.
 
 Subdirs will be made for each year.
