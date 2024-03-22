@@ -65,13 +65,19 @@ df_long %>%
 #| fig-alt: "Counts show that most are unfamilair with CI/CD, Containerisation, Unit tests and Workflow managers."
 
 # Create the ggplot with dodged bars and colourblind-friendly palette
-ggplot(df_long, aes(x = question, y = count, fill = experience)) +
+plot <- ggplot(df_long, aes(x = question, y = count, fill = experience)) +
   geom_col(position = "dodge") +
   scale_fill_viridis_d() +  # Use viridis colour palette
-  labs(x = "Question", y = "Count", title = "Ordered Plot") +
+  labs(x = "Question", y = "Count") +
   theme_bw() +
   # Rotate x-axis labels by 45 degrees
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        text = element_text(size = 26))
+plot
+
+# Save plot
+ggsave(here::here("05_figures/001_connectome_2023_analysis/count_plot.svg"),
+       plot, device = "svg")
 ```
 
 Seems like most folk aren't familiar with CI/CD, containers, unit tests and workflow managers (@fig-plot).
