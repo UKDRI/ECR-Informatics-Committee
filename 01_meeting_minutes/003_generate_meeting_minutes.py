@@ -1,13 +1,13 @@
 import datetime
 from calendar import monthrange
 
-def last_thursday_of_month(year, month):
+def last_monday_of_month(year, month):
     # Find the last day of the month
     last_day = monthrange(year, month)[1]
     # Create a date object for the last day of the month
     last_date = datetime.date(year, month, last_day)
-    # Calculate the last Thursday of the month
-    return last_date - datetime.timedelta(days=(last_date.weekday() - 3) % 7)
+    # Calculate the last Monday of the month
+    return last_date - datetime.timedelta(days=(last_date.weekday() - 7) % 7)
 
 # Load the list of secretaries
 with open('001_secretaries.txt', 'r') as file:
@@ -17,14 +17,14 @@ with open('001_secretaries.txt', 'r') as file:
 with open('002_committee_members.txt', 'r') as file:
     committee_members = file.read().splitlines()
 
-# Determine the next meeting date (last Thursday of the current month)
+# Determine the next meeting date (last Monday of the current month)
 today = datetime.date.today()
-next_meeting = last_thursday_of_month(today.year, today.month)
+next_meeting = last_monday_of_month(today.year, today.month)
 if today > next_meeting:
     # If today's date is past the last Thursday, calculate for the next month
     next_month = today.month + 1 if today.month < 12 else 1
     next_year = today.year if today.month < 12 else today.year + 1
-    next_meeting = last_thursday_of_month(next_year, next_month)
+    next_meeting = last_monday_of_month(next_year, next_month)
 
 # Find the next secretary in the rotation
 secretary_index = (next_meeting.month - 1) % len(secretaries)  # simple rotation based on month
