@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "UKDRI ECR Informatics Committee"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/UKDRI/ECR-Informatics-Committee/tree/main
+      - icon: twitter
+        href: https://twitter.com
+format:
+  html:
+    theme:
+      light: [litera, styles.scss]
+      dark: [darkly, theme-dark.scss]
+
+

@@ -34,7 +34,7 @@ lapply(pkg, function(pkg) {
 df <-
   readr::read_csv(
     here::here(
-      "03_data/001_connectome_2023/2023-10-13_reproducibility-sentiment-analysis.csv"
+      "04_data/001_connectome_2023/2023-10-13_reproducibility-sentiment-analysis.csv"
     ),
     show_col_types = FALSE
   )
@@ -76,7 +76,7 @@ plot <- ggplot(df_long, aes(x = question, y = count, fill = experience)) +
 plot
 
 # Save plot
-ggsave(here::here("05_figures/001_connectome_2023_analysis/count_plot.svg"),
+ggsave(here::here("06_figures/001_connectome_2023_analysis/count_plot.svg"),
        plot, device = "svg")
 ```
 
