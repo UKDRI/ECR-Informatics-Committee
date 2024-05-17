@@ -1,16 +1,51 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Events and news",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMay 13, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 10, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMay 13, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 10, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Welcome to the UKDRI ECR Informatics Committee website!\nThis is intended to be a place for us to share news and upcoming events in the community."
+  },
+  {
+    "objectID": "07_dissemination/01_website/002_committee/gmbh/gmbh.html",
+    "href": "07_dissemination/01_website/002_committee/gmbh/gmbh.html",
+    "title": "Gabriel Mateus Bernardo Harrington",
+    "section": "",
+    "text": "Here is an example bio - members can put whatever they like here"
+  },
+  {
+    "objectID": "07_dissemination/01_website/001_posts/post-with-code/index.html",
+    "href": "07_dissemination/01_website/001_posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\nmtcars |&gt;\n  ggplot2::ggplot(ggplot2::aes(x = mpg, y = hp, colour = factor(cyl))) +\n  ggplot2::geom_point() +\n  ggplot2::theme_minimal()"
+  },
+  {
+    "objectID": "07_dissemination/01_website/001_posts/welcome/index.html",
+    "href": "07_dissemination/01_website/001_posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "07_dissemination/01_website/002_committee/index.html",
+    "href": "07_dissemination/01_website/002_committee/index.html",
+    "title": "Committee Members",
+    "section": "",
+    "text": "Gabriel Mateus Bernardo Harrington\n\n\n\n\nrole\n\n\nCo-Chair\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "committee.html",
+    "href": "committee.html",
+    "title": "UKDRI ECR Informatics Committee",
+    "section": "",
+    "text": "Committee Members\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

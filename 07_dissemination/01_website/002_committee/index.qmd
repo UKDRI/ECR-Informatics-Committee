@@ -1,0 +1,9 @@
+---
+title: "Committee Members"
+listing:
+  #contents: committee
+  type: grid
+  fields: [image, title, role]
+  sort: title
+  #image: image
+---

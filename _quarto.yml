@@ -1,20 +1,31 @@
 project:
   type: website
   output-dir: docs
+  render: 
+    - "*.qmd"
+    - "!*.md"
+    - "!05_data_analysis/"
 
 website:
   title: "UKDRI ECR Informatics Committee"
+  repo-url: https://github.com/UKDRI/ECR-Informatics-Committee/
+  issue-url: https://github.com/UKDRI/ECR-Informatics-Committee/issues/new/choose
+  repo-actions: [edit, issue]
   navbar:
     right:
       - about.qmd
+      - 07_dissemination/01_website/002_committee/index.qmd
       - icon: github
-        href: https://github.com/UKDRI/ECR-Informatics-Committee/tree/main
+        href: https://github.com/UKDRI/ECR-Informatics-Committee/
       - icon: twitter
         href: https://twitter.com
+        
 format:
   html:
     theme:
       light: [litera, styles.scss]
       dark: [darkly, theme-dark.scss]
-
+    code-copy: true
+    code-overflow: wrap
+    freeze: auto
 

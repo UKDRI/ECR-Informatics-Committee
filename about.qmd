@@ -7,13 +7,12 @@ about:
     - icon: twitter
       text: Twitter
       href: https://twitter.com
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/UKDRI/ECR-Informatics-Committee
 
 ---
 
-About this blog
+Welcome to the [UKDRI](https://ukdri.ac.uk/) ECR Informatics Committee website!
+
+This is intended to be a place for us to share news and upcoming events in the community.

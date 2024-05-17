@@ -1,0 +1,59 @@
+---
+title: Gabriel Mateus Bernardo Harrington
+role: Co-Chair
+image: profile.jpg
+about: 
+  template: jolla
+  links: 
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/Hmateus4
+    - icon: orcid
+      text: ORCID
+      href: https://orcid.org/0000-0001-6075-3619
+    - icon: github
+      text: GitHub
+      href: https://github.com/H-Mateus
+    - icon: file-person
+      text: Personal site
+      href: https://gmbernardoharrington.netlify.app/
+authors:
+  - id: gmbh
+    #number: number
+    name:
+      given: Gabriel Mateus
+      family: Bernardo Harrington
+    url: https://gmbernardoharrington.netlify.app/
+    #email: string
+    #phone: string
+    degrees: PhD
+    orcid: 0000-0001-6075-3619
+    #acknowledgements: string
+    roles: 
+      # see schema below
+      - website: creator
+      - Committee: co-chair
+    #metadata: object
+    affiliations:
+      - ref: ukdri
+      - ref: cardiff
+affiliations:
+  - id: ukdri
+    #number: number
+    name: UK Dementia Research Institue
+    #department: string
+    group: Webber
+    #address: string
+    #city: string
+    #region: string
+    #country: string
+    #postal-code: string
+    url: https://ukdri.ac.uk/ 
+  - id: cardiff
+    name: Cardiff University
+    group: Webber
+    city: Cardiff
+    url: https://www.cardiff.ac.uk/ 
+---
+
+Here is an example bio - members can put whatever they like here
