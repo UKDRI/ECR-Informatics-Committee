@@ -7,7 +7,7 @@ Simply put, the website is built from .qmd document, which allows you to have an
 ## Steps to add/edit site
 
 - Clone this repo to your machine
-- The site content is located here (07_dissemination/01_website)[https://github.com/UKDRI/ECR-Informatics-Committee/tree/main/07_dissemination/01_website]
+- The site content is located here [07_dissemination/01_website](https://github.com/UKDRI/ECR-Informatics-Committee/tree/main/07_dissemination/01_website)
 - The subfolders here correspond to different pages of the site, choose the one you one to add to and enter it
 - You'll need to create a new folder to house your page, I'd suggest just copying one that already exists and renaming it to something sensible
 - Inside that folder you'll have a .qmd file to add the content of your post, and any image files can be added here as well.
