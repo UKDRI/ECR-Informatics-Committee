@@ -1,0 +1,57 @@
+---
+title: Christina Maat
+role: Co-Chair
+image: profile_pic.jpg
+about: 
+  template: jolla
+  links: 
+    - icon: twitter
+      text: twitter
+      href: https://x.com/CA_maat
+    - icon: orcid
+      text: ORCID
+      href: https://orcid.org/0000-0003-3565-1535
+    - icon: github
+      text: GitHub
+      href: https://github.com/CAmaat
+    - icon: linkedin
+      text: LinkedIn
+      href: https://uk.linkedin.com/in/christina-maat-952088111
+authors:
+  - id: cm
+    #number: number
+    name:
+      given: Christina
+      family: Maat
+    #email: string
+    #phone: string
+    degrees: MSc
+    orcid: 0000-0003-3565-1535
+    #acknowledgements: string
+    roles: 
+      # see schema below
+      - Committee: co-chair
+    #metadata: object
+    affiliations:
+      - ref: ukdri
+      - ref: UCL
+affiliations:
+  - id: ukdri
+    #number: number
+    name: UK Dementia Research Institue
+    #department: string
+    group: Hong
+    #address: string
+    #city: string
+    #region: string
+    #country: string
+    #postal-code: string
+    url: https://ukdri.ac.uk/ 
+  - id: UCL
+    name: University College London
+    group: Hong
+    city: London
+    url: https://ukdri.ac.uk/centres/ucl
+---
+
+In the labs of Soyon Hong (UKDRI at UCL) and Kenneth Harris (Cortex Lab at UCL) I am studying the role of microglia in Alzheimer's Disease using spatial transcriptomics. When learning to work with advanced data analysis methods, I realized that we were not making full use of the incredibly rich informatics community at the UKDRI. By creating means for (starting) informaticians to connect - through events or digital platforms - I hope to contribute to making the informatics community a place that both propels cutting-edge computational approaches in dementia research and serves as a springboard to those breaking into the field.
