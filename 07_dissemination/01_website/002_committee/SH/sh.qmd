@@ -1,0 +1,59 @@
+---
+title: Steve Hill
+role: Member
+image: profile.jpeg
+about: 
+  template: jolla
+  links: 
+    #- icon: twitter
+     # text: twitter
+      #href: https://twitter.com/Hmateus4
+    - icon: orcid
+      text: ORCID
+      href: https://orcid.org/0000-0002-8903-4551
+    - icon: github
+      text: GitHub
+      href: https://github.com/stevehill373
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/stevehill373/
+authors:
+  - id: sh
+    #number: number
+    name:
+      given: Steve
+      family: Hill
+    #url: 
+    #email: string
+    #phone: string
+    degrees: PhD
+    orcid: https://orcid.org/0000-0002-8903-4551
+    #acknowledgements: string
+    roles: 
+      # see schema below
+      - website: creator
+      - Committee: member
+    #metadata: object
+    affiliations:
+      - ref: ukdri
+      - ref: edinburgh
+affiliations:
+  - id: ukdri
+    #number: number
+    name: UK Dementia Research Institue
+    #department: string
+    group: Díaz Castro
+    #address: string
+    #city: string
+    #region: string
+    #country: string
+    #postal-code: string
+    url: https://ukdri.ac.uk/ 
+  - id: edinburgh
+    name: University of Edinburgh
+    group: Díaz Castro
+    city: Edinburgh
+    url: https://ed.ac.uk/ 
+---
+
+I am an Alzheimer's Society Fellow in the lab of Blanca Díaz Castro (UKDRI at Edinburgh). My current work primarily uses proteomics to study astrocyte endfeet. I am a trained molecular biologist and self-taught in informatics data analyses. I joined the committee to bridge the gap between the wet lab scientists and informaticians of the UK DRI. I try to represent my experience from this perspective to ensure the theme is inclusive to all levels of experience. 

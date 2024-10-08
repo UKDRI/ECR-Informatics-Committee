@@ -1,24 +1,26 @@
 [
   {
-    "listing": "/committee.html",
+    "listing": "/index.html",
     "items": [
-      "/07_dissemination/01_website/002_committee/cam/cm.html",
-      "/07_dissemination/01_website/002_committee/index.html",
-      "/07_dissemination/01_website/002_committee/gmbh/gmbh.html"
+      "/07_dissemination/01_website/001_posts/post-with-code/index.html",
+      "/07_dissemination/01_website/001_posts/welcome/index.html"
     ]
   },
   {
     "listing": "/07_dissemination/01_website/002_committee/index.html",
     "items": [
       "/07_dissemination/01_website/002_committee/cam/cm.html",
-      "/07_dissemination/01_website/002_committee/gmbh/gmbh.html"
+      "/07_dissemination/01_website/002_committee/gmbh/gmbh.html",
+      "/07_dissemination/01_website/002_committee/SH/sh.html"
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/committee.html",
     "items": [
-      "/07_dissemination/01_website/001_posts/post-with-code/index.html",
-      "/07_dissemination/01_website/001_posts/welcome/index.html"
+      "/07_dissemination/01_website/002_committee/cam/cm.html",
+      "/07_dissemination/01_website/002_committee/index.html",
+      "/07_dissemination/01_website/002_committee/gmbh/gmbh.html",
+      "/07_dissemination/01_website/002_committee/SH/sh.html"
     ]
   }
 ]
