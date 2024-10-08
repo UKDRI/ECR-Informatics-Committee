@@ -1,24 +1,24 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Events and news",
+    "objectID": "07_dissemination/01_website/001_posts/post-with-code/index.html",
+    "href": "07_dissemination/01_website/001_posts/post-with-code/index.html",
+    "title": "Post With Code",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMay 13, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 10, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "mtcars |>\n  ggplot2::ggplot(ggplot2::aes(x = mpg, y = hp, colour = factor(cyl))) +\n  ggplot2::geom_point() +\n  ggplot2::theme_minimal()"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "07_dissemination/01_website/001_posts/welcome/index.html",
+    "href": "07_dissemination/01_website/001_posts/welcome/index.html",
+    "title": "Welcome To My Blog",
     "section": "",
-    "text": "Welcome to the UKDRI ECR Informatics Committee website!\nThis is intended to be a place for us to share news and upcoming events in the community."
+    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "07_dissemination/01_website/002_committee/gmbh/gmbh.html",
-    "href": "07_dissemination/01_website/002_committee/gmbh/gmbh.html",
-    "title": "Gabriel Mateus Bernardo Harrington",
+    "objectID": "07_dissemination/01_website/002_committee/MSh/MSh.html",
+    "href": "07_dissemination/01_website/002_committee/MSh/MSh.html",
+    "title": "Maryam Shoai",
     "section": "",
-    "text": "Here is an example bio - members can put whatever they like here"
+    "text": "Who: I am a senior research fellow in statistical genetics and have been working in the Hardy lab.\nWhy? I joined the ECR committee with the hope of helping to create a support network of informaticians/statisticians with varying degrees of experience for researchers in Genomics, Informatics and Statistics. It doesn’t matter if you are a master of the craft or a beginner, we want to form a network that will enrich your ECR experience."
   },
   {
     "objectID": "07_dissemination/01_website/002_committee/SH/sh.html",
@@ -28,20 +28,6 @@
     "text": "I am an Alzheimer’s Society Fellow in the lab of Blanca Díaz Castro (UKDRI at Edinburgh). My current work primarily uses proteomics to study astrocyte endfeet. I am a trained molecular biologist and self-taught in informatics data analyses. I joined the committee to bridge the gap between the wet lab scientists and informaticians of the UK DRI. I try to represent my experience from this perspective to ensure the theme is inclusive to all levels of experience."
   },
   {
-    "objectID": "07_dissemination/01_website/001_posts/post-with-code/index.html",
-    "href": "07_dissemination/01_website/001_posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\nmtcars |&gt;\n  ggplot2::ggplot(ggplot2::aes(x = mpg, y = hp, colour = factor(cyl))) +\n  ggplot2::geom_point() +\n  ggplot2::theme_minimal()"
-  },
-  {
-    "objectID": "07_dissemination/01_website/001_posts/welcome/index.html",
-    "href": "07_dissemination/01_website/001_posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
     "objectID": "07_dissemination/01_website/002_committee/cam/cm.html",
     "href": "07_dissemination/01_website/002_committee/cam/cm.html",
     "title": "Christina Maat",
@@ -49,17 +35,38 @@
     "text": "In the labs of Soyon Hong (UKDRI at UCL) and Kenneth Harris (Cortex Lab at UCL) I am studying the role of microglia in Alzheimer’s Disease using spatial transcriptomics. When learning to work with advanced data analysis methods, I realized that we were not making full use of the incredibly rich informatics community at the UKDRI. By creating means for (starting) informaticians to connect - through events or digital platforms - I hope to contribute to making the informatics community a place that both propels cutting-edge computational approaches in dementia research and serves as a springboard to those breaking into the field."
   },
   {
+    "objectID": "07_dissemination/01_website/002_committee/gmbh/gmbh.html",
+    "href": "07_dissemination/01_website/002_committee/gmbh/gmbh.html",
+    "title": "Gabriel Mateus Bernardo Harrington",
+    "section": "",
+    "text": "Here is an example bio - members can put whatever they like here"
+  },
+  {
     "objectID": "07_dissemination/01_website/002_committee/index.html",
     "href": "07_dissemination/01_website/002_committee/index.html",
     "title": "Committee Members",
     "section": "",
-    "text": "Christina Maat\n\n\n\n\nrole\n\n\nCo-Chair\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\nrole\n\n\nCo-Chair\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSteve Hill\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "role\n\n\nCo-Chair\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nrole\n\n\nCo-Chair\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This is intended to be a place for us to share news and upcoming events in the community."
   },
   {
     "objectID": "committee.html",
     "href": "committee.html",
     "title": "UKDRI ECR Informatics Committee",
     "section": "",
-    "text": "Christina Maat\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommittee Members\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSteve Hill\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "No matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Events and news",
+    "section": "",
+    "text": "news\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMay 13, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2024\n\n\n\n\n\n\nNo matching items"
   }
 ]

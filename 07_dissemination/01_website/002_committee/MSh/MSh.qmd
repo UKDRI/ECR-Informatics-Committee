@@ -1,0 +1,46 @@
+---
+title: Maryam Shoai
+role: Member 
+image: profile.png
+about: 
+  template: jolla
+  links: 
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/MaryamShoai
+    - icon: orcid
+      text: ORCID
+      href: https://orcid.org/0000-0003-2499-8533
+    - icon: github
+      text: GitHub
+      href: https://github.com/Hardy-Lab-Statistical-Genetics
+    - icon: file-person
+      text: UCL profile
+      href: https://profiles.ucl.ac.uk/35855-maryam-shoai
+      
+authors:
+  - name:
+      given: Maryam
+      family: Shoai
+    degrees: PhD
+    orcid: 0000-0003-2499-8533
+    affiliations:
+      - ref: ukdri
+      - ref: UCL 
+affiliations:
+  - id: ukdri
+    name: UK Dementia Research Institute
+    group: Hardy
+    url: https://ukdri.ac.uk/ 
+  - id: UCL
+    name: UCL Institute of Neurology
+    group: Hardy
+    city: London
+    url: https://www.ucl.ac.uk/ion/ucl-queen-square-institute-neurology
+---
+
+Affiliated and member of DRI and ECR Informatics committee since creation.
+
+[**Who:**]{.underline} I am a senior research fellow in statistical genetics and have been working in the Hardy lab. 
+
+[**Why?**]{.underline} I joined the ECR committee with the hope of helping to create a support network of informaticians/statisticians with varying degrees of experience for researchers in Genomics, Informatics and Statistics. It doesn't matter if you are a master of the craft or a beginner, we want to form a network that will enrich your ECR experience.
