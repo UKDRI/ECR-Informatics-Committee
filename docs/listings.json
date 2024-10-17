@@ -18,14 +18,11 @@
     ]
   },
   {
-    "listing": "/committee.html",
+    "listing": "/07_dissemination/01_website/events.html",
     "items": [
-      "/07_dissemination/01_website/002_committee/cam/cm.html",
-      "/07_dissemination/01_website/002_committee/index.html",
-      "/07_dissemination/01_website/002_committee/gmbh/gmbh.html",
-      "/07_dissemination/01_website/002_committee/kkgr/kkgr.html",
-      "/07_dissemination/01_website/002_committee/MSh/MSh.html",
-      "/07_dissemination/01_website/002_committee/SH/sh.html"
+      "/07_dissemination/01_website/001_posts/03_behind-the-pval/index.html",
+      "/07_dissemination/01_website/001_posts/02_recruiting/index.html",
+      "/07_dissemination/01_website/001_posts/01_welcome/index.html"
     ]
   }
 ]

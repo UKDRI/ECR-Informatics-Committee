@@ -39,7 +39,7 @@ affiliations:
     url: https://www.ucl.ac.uk/ion/ucl-queen-square-institute-neurology
 ---
 
-Affiliated and member of DRI and ECR Informatics committee since creation.
+Affiliated and member of UKDRI and ECR Informatics committee since creation.
 
 [**Who:**]{.underline} I am a senior research fellow in statistical genetics and have been working in the Hardy lab. 
 

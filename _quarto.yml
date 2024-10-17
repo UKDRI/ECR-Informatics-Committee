@@ -13,8 +13,9 @@ website:
   repo-actions: [edit, issue]
   navbar:
     right:
-      - about.qmd
+      - 07_dissemination/01_website/about.qmd
       - 07_dissemination/01_website/002_committee/index.qmd
+      - 07_dissemination/01_website/events.qmd
       - icon: github
         href: https://github.com/UKDRI/ECR-Informatics-Committee/
       - icon: twitter

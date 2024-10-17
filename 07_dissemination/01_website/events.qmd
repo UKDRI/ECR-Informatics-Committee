@@ -1,0 +1,8 @@
+---
+title: "Events and News"
+listing:
+  contents: 001_posts
+  type: default
+  filter-ui: true
+  sort-ui: true
+---
