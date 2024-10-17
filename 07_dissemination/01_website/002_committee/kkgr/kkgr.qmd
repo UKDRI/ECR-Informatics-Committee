@@ -1,0 +1,58 @@
+---
+title: Kiran K G Ravindran
+role: Member
+image: kkgr_profile.png
+about: 
+  template: trestles
+  links: 
+    - icon: orcid
+      text: ORCID
+      href: https://orcid.org/0000-0003-3051-0266
+    - icon: github
+      text: GitHub
+      href: https://github.com/KiranKGR
+    - icon: file-person
+      text: Personal site
+      href: https://www.kirankgravindran.com
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/kiran-kumar-gr/
+authors:
+  - id: kkgr
+    #number: number
+    name:
+      given: Kiran K
+      family: G Ravindran
+    url: https://www.kirankgravindran.com
+    #email: string
+    #phone: string
+    degrees: PhD
+    orcid: 0000-0003-3051-0266
+    #acknowledgements: string
+    roles: 
+      # see schema below
+      - website: creator
+      - Committee: Member
+    #metadata: object
+    affiliations:
+      - ref: ukdri
+      - ref: Care Research & Technology Centre
+affiliations:
+  - id: ukdri
+    #number: number
+    name: UK Dementia Research Institue
+    #department: string
+    group: Dijk Lab
+    #address: string
+    #city: string
+    #region: string
+    #country: string
+    #postal-code: string
+    url: https://ukdri.ac.uk/ 
+  - id: Care Research & Technology Centre
+    name: Care Research & Technology Centre 
+    group: Dijk Lab
+    city: 
+    url:  https://ukdri.ac.uk/centres/care-research-technology
+---
+I am a Postdoctoral Researcher at the Surrey Sleep Research Centre, University of Surrey, and UK DRI Care Research & Technology Centre (CRT) at Imperial College London and University of Surrey, Guildford. I am a biomedical engineer interested in all things "SLEEP"! I joined the committee to represent the data analytics and machine learning side of CRT.
