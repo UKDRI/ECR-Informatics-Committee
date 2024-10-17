@@ -1,0 +1,17 @@
+{
+  "hash": "596f94b49a59bc7ea4c91280e2f2c88c",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Post With Code\"\nauthor: \"Gabriel Mateus Bernardo Harrington\"\ndate: \"2024-05-13\"\ncategories: [news, code, analysis]\nimage: \"image.jpg\"\n---\n\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nmtcars |>\n  ggplot2::ggplot(ggplot2::aes(x = mpg, y = hp, colour = factor(cyl))) +\n  ggplot2::geom_point() +\n  ggplot2::theme_minimal()\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

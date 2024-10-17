@@ -1,0 +1,14 @@
+---
+title: "New committee members needed!"
+author: "Gabriel Mateus Bernardo Harrington"
+date: "2024-10-17"
+categories: [news, committee]
+image: "image.jpg"
+---
+
+We're looking to recruit some new members to the committee!
+
+We'd really like to have representation from each centre, so folk from the Cambridge and Kings DRI centres would be especially welcome.
+Having said that, we don't' intend to be exclusionary, so if you're keen to be involved you're very welcome regardless :)
+
+We'd also like to try and have folk representing different aspect of informatic work, and we're missing a member working with imaging data, so that'd also be great!

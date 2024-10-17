@@ -1,31 +1,24 @@
 [
   {
-    "objectID": "07_dissemination/01_website/001_posts/post-with-code/index.html",
-    "href": "07_dissemination/01_website/001_posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Events and news",
     "section": "",
-    "text": "mtcars |>\n  ggplot2::ggplot(ggplot2::aes(x = mpg, y = hp, colour = factor(cyl))) +\n  ggplot2::geom_point() +\n  ggplot2::theme_minimal()"
+    "text": "Behind the P-value\n\n\nThe first entry in our new seminar series!\n\n\n\nnews\n\n\nevents\n\n\n\n\n\n\n\n\n\nOct 18, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nNew committee members needed!\n\n\n\n\n\n\nnews\n\n\ncommittee\n\n\n\n\n\n\n\n\n\nOct 17, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome!\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 16, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "07_dissemination/01_website/001_posts/welcome/index.html",
-    "href": "07_dissemination/01_website/001_posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Welcome to the UKDRI ECR Informatics Committee website!\nThis is intended to be a place for us to share news and upcoming events in the community."
   },
   {
-    "objectID": "07_dissemination/01_website/002_committee/MSh/MSh.html",
-    "href": "07_dissemination/01_website/002_committee/MSh/MSh.html",
-    "title": "Maryam Shoai",
+    "objectID": "07_dissemination/01_website/002_committee/index.html",
+    "href": "07_dissemination/01_website/002_committee/index.html",
+    "title": "Committee Members",
     "section": "",
-    "text": "Who: I am a senior research fellow in statistical genetics and have been working in the Hardy lab.\nWhy? I joined the ECR committee with the hope of helping to create a support network of informaticians/statisticians with varying degrees of experience for researchers in Genomics, Informatics and Statistics. It doesn’t matter if you are a master of the craft or a beginner, we want to form a network that will enrich your ECR experience."
-  },
-  {
-    "objectID": "07_dissemination/01_website/002_committee/SH/sh.html",
-    "href": "07_dissemination/01_website/002_committee/SH/sh.html",
-    "title": "Steve Hill",
-    "section": "",
-    "text": "I am an Alzheimer’s Society Fellow in the lab of Blanca Díaz Castro (UKDRI at Edinburgh). My current work primarily uses proteomics to study astrocyte endfeet. I am a trained molecular biologist and self-taught in informatics data analyses. I joined the committee to bridge the gap between the wet lab scientists and informaticians of the UK DRI. I try to represent my experience from this perspective to ensure the theme is inclusive to all levels of experience."
+    "text": "Christina Maat\n\n\n\n\nrole\n\n\nCo-Chair\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\nrole\n\n\nCo-Chair\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKiran K G Ravindran\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaryam Shoai\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSteve Hill\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "07_dissemination/01_website/002_committee/cam/cm.html",
@@ -35,38 +28,59 @@
     "text": "In the labs of Soyon Hong (UKDRI at UCL) and Kenneth Harris (Cortex Lab at UCL) I am studying the role of microglia in Alzheimer’s Disease using spatial transcriptomics. When learning to work with advanced data analysis methods, I realized that we were not making full use of the incredibly rich informatics community at the UKDRI. By creating means for (starting) informaticians to connect - through events or digital platforms - I hope to contribute to making the informatics community a place that both propels cutting-edge computational approaches in dementia research and serves as a springboard to those breaking into the field."
   },
   {
+    "objectID": "07_dissemination/01_website/002_committee/MSh/MSh.html",
+    "href": "07_dissemination/01_website/002_committee/MSh/MSh.html",
+    "title": "Maryam Shoai",
+    "section": "",
+    "text": "Affiliated and member of DRI and ECR Informatics committee since creation.\nWho: I am a senior research fellow in statistical genetics and have been working in the Hardy lab.\nWhy? I joined the ECR committee with the hope of helping to create a support network of informaticians/statisticians with varying degrees of experience for researchers in Genomics, Informatics and Statistics. It doesn’t matter if you are a master of the craft or a beginner, we want to form a network that will enrich your ECR experience."
+  },
+  {
+    "objectID": "07_dissemination/01_website/001_posts/02_recruiting/index.html",
+    "href": "07_dissemination/01_website/001_posts/02_recruiting/index.html",
+    "title": "New committee members needed!",
+    "section": "",
+    "text": "We’re looking to recruit some new members to the committee!\nWe’d really like to have representation from each centre, so folk from the Cambridge and Kings DRI centres would be especially welcome. Having said that, we don’t’ intend to be exclusionary, so if you’re keen to be involved you’re very welcome regardless :)\nWe’d also like to try and have folk representing different aspect of informatic work, and we’re missing a member working with imaging data, so that’d also be great!"
+  },
+  {
+    "objectID": "07_dissemination/01_website/001_posts/01_welcome/index.html",
+    "href": "07_dissemination/01_website/001_posts/01_welcome/index.html",
+    "title": "Welcome!",
+    "section": "",
+    "text": "This is the first post for the UKDRI ECR informatics committee website!\nFor now we’d like this to be a place where people can see who we are and what upcoming events we have, but depending on what the community wants we might also add other stuff (links to nice training material, guest blog posts, etc).\nFeel free to get in touch if you’ve thoughts you want to share!"
+  },
+  {
+    "objectID": "07_dissemination/01_website/001_posts/03_behind-the-pval/index.html",
+    "href": "07_dissemination/01_website/001_posts/03_behind-the-pval/index.html",
+    "title": "Behind the P-value",
+    "section": "",
+    "text": "We have a new seminar series starting that we’re calling Behind the p-value!\nYou can find details, a calendar invite and the zoom link to join on the DRI portal here.\nHere’s the pitch:\nInformatics are used in many papers, but the methods and decisions used to generate the figures are often unclear. Why did they choose one package over another? How were the data filtered, and why were those filters chosen? Why UMAP and not tSNE, or vice versa?\nThe Informatics ECR committee invite you to a different kind of seminar that aims to focus on the informatics analyses that underlie published work.\nJoin us as Dr. Anna Mallach, Edmond and Lily Safra Research Fellow and UKDRI Emerging Leader at Imperial, discusses the methods and decisions she used when analysing data for her recent paper in Cell Reports (https://doi.org/10.1016/j.celrep.2024.114216)."
+  },
+  {
+    "objectID": "07_dissemination/01_website/002_committee/SH/sh.html",
+    "href": "07_dissemination/01_website/002_committee/SH/sh.html",
+    "title": "Steve Hill",
+    "section": "",
+    "text": "I am an Alzheimer’s Society Fellow in the lab of Blanca Díaz Castro (UKDRI at Edinburgh). My current work primarily uses proteomics to study astrocyte endfeet. I am a trained molecular biologist and self-taught in informatics data analyses. I joined the committee to bridge the gap between the wet lab scientists and informaticians of the UK DRI. I try to represent my experience from this perspective to ensure the theme is inclusive to all levels of experience."
+  },
+  {
     "objectID": "07_dissemination/01_website/002_committee/gmbh/gmbh.html",
     "href": "07_dissemination/01_website/002_committee/gmbh/gmbh.html",
     "title": "Gabriel Mateus Bernardo Harrington",
     "section": "",
-    "text": "Here is an example bio - members can put whatever they like here"
+    "text": "I’m a post-doc bioinformatician in the Webber lab in the Cardiff UKDRI. I work mainly on Alzheimer’s disease with a focus on the neurovasculature side of things, typically working with single nuclei seq data.\nI’ve a big interest in reproducibility in science! A lot of science isn’t done to a particularly high standard, so I’m very keen to try and help build community around better practises in the DRI (Git repo templates, training, support networks, etc). I’d like to make it easier for folk to adopt better practises and make their science more transparent so we can all learn from each other and beat these unpleasent diseases sooner :)"
   },
   {
-    "objectID": "07_dissemination/01_website/002_committee/index.html",
-    "href": "07_dissemination/01_website/002_committee/index.html",
-    "title": "Committee Members",
+    "objectID": "07_dissemination/01_website/002_committee/kkgr/kkgr.html",
+    "href": "07_dissemination/01_website/002_committee/kkgr/kkgr.html",
+    "title": "Kiran K G Ravindran",
     "section": "",
-    "text": "role\n\n\nCo-Chair\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nrole\n\n\nCo-Chair\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This is intended to be a place for us to share news and upcoming events in the community."
+    "text": "I am a Postdoctoral Researcher at the Surrey Sleep Research Centre, University of Surrey, and UK DRI Care Research & Technology Centre (CRT) at Imperial College London and University of Surrey, Guildford. I am a biomedical engineer interested in all things “SLEEP”! I joined the committee to represent the data analytics and machine learning side of CRT."
   },
   {
     "objectID": "committee.html",
     "href": "committee.html",
     "title": "UKDRI ECR Informatics Committee",
     "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Events and news",
-    "section": "",
-    "text": "news\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMay 13, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Christina Maat\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommittee Members\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKiran K G Ravindran\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaryam Shoai\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSteve Hill\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

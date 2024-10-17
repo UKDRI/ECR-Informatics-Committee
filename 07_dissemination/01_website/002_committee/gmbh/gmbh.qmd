@@ -3,7 +3,7 @@ title: Gabriel Mateus Bernardo Harrington
 role: Co-Chair
 image: profile.jpg
 about: 
-  template: jolla
+  template: trestles
   links: 
     - icon: twitter
       text: twitter

@@ -1,0 +1,20 @@
+---
+title: "Behind the P-value"
+subtitle: "The first entry in our new seminar series!"
+author: "Gabriel Mateus Bernardo Harrington"
+date: "2024-10-18"
+categories: [news, events]
+image: "thumbnail.jpg"
+---
+
+We have a new seminar series starting that we're calling Behind the p-value!
+
+You can find details, a calendar invite and the zoom link to join on the DRI portal [here](https://portal.ukdri.ac.uk/events/informatics-theme-seminar-2).
+
+Here's the pitch:
+
+Informatics are used in many papers, but the methods and decisions used to generate the figures are often unclear. Why did they choose one package over another? How were the data filtered, and why were those filters chosen? Why UMAP and not tSNE, or vice versa?
+
+The Informatics ECR committee invite you to a different kind of seminar that aims to focus on the informatics analyses that underlie published work.
+
+Join us as Dr. Anna Mallach, Edmond and Lily Safra Research Fellow and UKDRI Emerging Leader at Imperial, discusses the methods and decisions she used when analysing data for her recent paper in Cell Reports (https://doi.org/10.1016/j.celrep.2024.114216).

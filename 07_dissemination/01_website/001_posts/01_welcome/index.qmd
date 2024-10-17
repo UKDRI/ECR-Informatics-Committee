@@ -1,0 +1,14 @@
+---
+title: "Welcome!"
+author: "Gabriel Mateus Bernardo Harrington"
+date: "2024-10-16"
+categories: [news]
+---
+
+This is the first post for the UKDRI ECR informatics committee website!
+
+For now we'd like this to be a place where people can see who we are and what upcoming events we have, but depending on what the community wants we might also add other stuff (links to nice training material, guest blog posts, etc).
+
+Feel free to get in touch if you've thoughts you want to share!
+
+![](thumbnail.jpg)
