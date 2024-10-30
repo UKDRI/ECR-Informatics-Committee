@@ -15,11 +15,12 @@ website:
     right:
       - 07_dissemination/01_website/about.qmd
       - 07_dissemination/01_website/002_committee/index.qmd
+      - 07_dissemination/01_website/charter.qmd
       - 07_dissemination/01_website/events.qmd
       - icon: github
         href: https://github.com/UKDRI/ECR-Informatics-Committee/
-      - icon: twitter
-        href: https://twitter.com
+      #      - icon: twitter
+      #        href: https://twitter.com
         
 format:
   html:

@@ -1,0 +1,36 @@
+---
+title: "Committee Charter"
+subtitle: "UK DRI ECR Informatics Committee Charter"
+image: "/07_dissemination/01_website/charter.jpg"
+date-modified: "2024-03-13"
+author: "Charlotte Capitanchik"
+date: "2024-10-30"
+---
+
+![](/07_dissemination/01_website/charter.jpg)
+
+### General
+
+The committee will meet at a minimum every 5 weeks. 
+Our goal is to build a robust network of ECR Informatics researchers across the UK DRI and to provide these researchers with meetings and opportunities relevant to their interests, that will help their research and career development.
+
+### Committee Chair
+
+There will be two co-chairs at any time. 
+These will be decided on every year after Connectome. 
+One co-chair will run from March-March, the other co-chair will be from November-November. 
+If there is more than two nominations a vote will be held. 
+It is the chair's responsibility to organise meetings roughly every 5 weeks and manage the projects of the committee.
+
+### Secretary
+
+Secretary will be rotated between other ECR members (not co-chairs) on a rota basis, so that a different member takes this role every time. 
+Committee notes will be shared on our Github repo, making them available to everyone within the UKDRI Github organisation where ever this is sensible.
+
+### Membership of the committee
+
+We will try to have at least one member from each UK DRI centre doing informatics. 
+Currently if a member decides to step down they should make efforts to find a replacement.
+
+If a member doesn't attend two meetings in a row without contacting the committee with a reasonable explanation, they will be removed from the committee. 
+Members are expected to check the Slack channel (#theme-esc-informatics) and emails from the committee.

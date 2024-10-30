@@ -1,16 +1,15 @@
 ---
 title: "About"
-image: profile.jpg
+image: "/07_dissemination/01_website/about.jpg"
 about:
   template: jolla
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
     - icon: github
       text: Github
       href: https://github.com/UKDRI/ECR-Informatics-Committee
-
+    #- icon: twitter
+    #  text: Twitter
+    #  href: https://twitter.com
 ---
 
 Welcome to the [UKDRI](https://ukdri.ac.uk/) ECR Informatics Committee website!
