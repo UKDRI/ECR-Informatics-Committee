@@ -8,6 +8,10 @@ project:
 
 website:
   title: "UKDRI ECR Informatics Committee"
+  body-footer: |
+      <!-- 100% privacy-first analytics -->
+      <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+      <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
   repo-url: https://github.com/UKDRI/ECR-Informatics-Committee/
   issue-url: https://github.com/UKDRI/ECR-Informatics-Committee/issues/new/choose
   repo-actions: [edit, issue]
