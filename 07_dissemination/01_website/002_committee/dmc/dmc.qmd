@@ -1,0 +1,63 @@
+---
+title: David Cash
+role: Member
+image: profile.jpg
+about: 
+  template: trestles
+  links: 
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/davecash75
+    - icon: orcid
+      text: ORCID
+      href: https://orcid.org/0000-0001-7833-616X
+    - icon: github
+      text: GitHub
+      href: https://github.com/davecash75
+    - icon: file-person
+      text: Personal site
+      href: https://profiles.ucl.ac.uk/15006-dave-cash
+authors:
+  - id: dmc
+    #number: number
+    name:
+      given: David
+      family: Cash
+    url: https://healthbioscienceideas.github.io/
+    #email: string
+    #phone: string
+    degrees: PhD
+    orcid: 0000-0001-7833-616X
+    #acknowledgements: string
+    roles: 
+      # see schema below
+      - website: creator
+      - Committee: co-chair
+    #metadata: object
+    affiliations:
+      - ref: ukdri
+      - ref: ion
+affiliations:
+  - id: ukdri
+    #number: number
+    name: UK Dementia Research Institue
+    #department: string
+    group: Fox
+    #address: string
+    #city: string
+    #region: string
+    #country: string
+    #postal-code: string
+    url: https://ukdri.ac.uk/ 
+  - id: ion
+    name: UCL Queen Square Institute of Neurology
+    group: Fox
+    city: London
+    url: https://www.ucl.ac.uk/drc/research-clinical-trials/advanced-imaging-group
+---
+
+I'm a professorial research fellow at the Dementia Research Centre in the UCL Queen Square Institute of Neurology, where I lead the imaging and data management activities for high-profile studies in ageing (the Insight 46 neuroimaging sub-study of the MRC National Survey for Health and Development) and global multicentre studies in autosomal dominant forms of Alzheimer’s disease and frontotemporal dementia (GENFI). I have medical imaging acquisition, analysis and data management experiences in both academic and industrial settings. I worked five years at IXICO Ltd, a medical imaging contract research organisation, where I managed the imaging in clinical trials in Alzheimer’s disease and oncology for various pharmaceutical sponsors. I collobarate heavily with the Hawkes Institute (formerly known as [Centre for Medical Image Computing (CMIC)](https://www.ucl.ac.uk/medical-image-computing)) to help translate cutting edge informatics and medical imaging analysis techniques are being implemented into clinical research. 
+
+I am also the primary investigator on [Health and Bioscience IDEAS](https://healthbioscienceideas.github.io/), a UK Research and Innovation funded programme to train researchers on how to use medical imaging data more effectively within their work. We have developed numerous interactive coding workshops helping researchers get involved with medical imaging analysis and data management.
+
+I have an active role on various national and international committees working on imaging in Alzheimer’s disease, including the Dominantly Inherited Alzheimer Network (DIAN), the Alzheimer’s Disease Neuroimaging Initiative (ADNI), the GENetic Frontotemporal Initiative (GENFI). I am Immediate Past Chair of the ISTAART Neuroimaging PIA, an organization of over 1700 neuroimaging researchers working in dementia.
