@@ -1,0 +1,99 @@
+import datetime
+from calendar import monthrange
+
+def last_monday_of_month(year, month):
+    # Find the last day of the month
+    last_day = monthrange(year, month)[1]
+    # Create a date object for the last day of the month
+    last_date = datetime.date(year, month, last_day)
+    # Calculate the last Monday of the month
+    return last_date - datetime.timedelta(days=(last_date.weekday() - 7) % 7)
+
+# Load the list of secretaries
+with open('001_secretaries.txt', 'r') as file:
+    secretaries = file.read().splitlines()
+
+# Load the list of committee members
+with open('002_committee_members.txt', 'r') as file:
+    committee_members = file.read().splitlines()
+
+# Determine the next meeting date (last Monday of the current month)
+today = datetime.date.today()
+next_meeting = last_monday_of_month(today.year, today.month)
+if today > next_meeting:
+    # If today's date is past the last Thursday, calculate for the next month
+    next_month = today.month + 1 if today.month < 12 else 1
+    next_year = today.year if today.month < 12 else today.year + 1
+    next_meeting = last_monday_of_month(next_year, next_month)
+
+# Find the next secretary in the rotation
+secretary_index = (next_meeting.month - 1) % len(secretaries)  # simple rotation based on month
+secretary_name = secretaries[secretary_index]
+
+# Create the meeting minutes markdown file
+file_name = next_meeting.strftime('%Y-%m-%d.md')
+attendees_list = '\n'.join(f"- {name}" for name in committee_members)
+template = f"""# Meeting Minutes for {next_meeting.strftime('%Y-%m-%d')}
+
+## Secretary
+- {secretary_name}
+
+## Attendees
+- Christina Maat (CM)
+- Mateus Harrington (MH)
+- Maryam Shoai (MS)
+- Kiran Ravindran (KR)
+- Amonida Zadissa (AZ)
+- Steve Hill (SH)
+
+
+## Agenda
+- Website
+- Behind the p-value
+- Core team
+- Connectome planning
+- Next Informatics ECR symposium
+- Hackathon: DEMON network meeting?
+- AOB
+
+## Notes
+- Website (Matteus's update):
+    Permission issues/token problem. Was able to build locally.
+    Short list of bio requirements/proforma for the website to include:
+    Post, Name,Centre, Why ECR bioinformatics group:
+    MS: Create a tutorial for the website editing please?
+    CM: Should we fork GitHub repo? MH: Not necessary Clone it locally make a branch and then push edits eventually but not necessary now.
+- behind the p-value
+    1st session in Early October: WIP: behind the p-value.
+    Behind the p-values and WIP two separate sessions. Trial one of each to judge the interest.
+    Fifteen minutes each with 10 minutes questions? Digital poll at the end to create word clouds. General questions on the utility of the WIP and behind the p-values.
+    Possible idea for behind the p-values: https://www.cell.com/cell-reports/fulltext/S2211-1247(24)00578-3?uuid=uuid%3Aa3249738-c635-4202-a36b-689e75bb41a4
+Data clinics and bioinformatician collaborations
+- Core team
+    AZ: Informatics Core team will start in September 2024!
+    DOI for DRI: Everything DRI produces will have its own organisational DOI including papers and software. Currently using ChatGPT to scour PubMed.
+    KR: Contracts with specific journals with respect to the DOI?
+
+- Hackathon
+    No update except that DEMON is keen but are struggling internally with their own renewal. They have funding from ARUK to do a hackathon. Will chase with David Cash.
+- Connectome?
+    Structure and numbers significantly different this year. Eg Poster numbers reduced substantially.
+    CM: We should represent the Bioinformatics Committee for visibility and to raise popularity.
+    MH: Is there money for a second symposium? AZ: No indication yet.
+    Maybe our best target is ECR day! We need a booth!
+    AZ: Restructuring shouldn’t affect the Bioinformatics core.
+    Regenerative Art using R codes / Analyse search history etc..
+    Contact Emilia
+
+    KR: Created a template folder. Requested everyone to check the content. Will finish by the end of the week.
+
+## Action Items
+    Action for MH: Sort out the zoom host/co-host.
+
+"""
+
+# Write the template to the markdown file
+with open(file_name, 'w') as file:
+    file.write(template)
+
+print(f"Created minutes file: {file_name} with secretary: {secretary_name}")
