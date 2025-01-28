@@ -63,7 +63,7 @@ def main():
     filename, content = create_markdown(latest)
     
     # Write to file
-    with open(f"07_dissemination/01_website/003_discoveries/{filename}", 'wb') as f:
+    with open(f"07_dissemination/01_website/003_discoveries/{filename}", 'w', encoding='utf-8') as f:
         f.write(content)
 
 if __name__ == "__main__":
