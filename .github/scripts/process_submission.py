@@ -17,18 +17,35 @@ def parse_timestamp(timestamp_str):
             print(f"Warning: Could not parse timestamp '{timestamp_str}', using current date")
             return datetime.now()
 
+def clean_yaml_string(s):
+    """Clean a string for YAML single-line output"""
+    if pd.isna(s):
+        return ''
+    # Replace newlines and multiple spaces with single space
+    s = ' '.join(str(s).split())
+    # If string contains special characters, wrap in quotes and escape internal quotes
+    if any(char in s for char in '"\':#{}[]|>&*?!%@`'):
+        s = f'"{s.replace('"', '\\"')}"'
+    return s
+
 def create_markdown(row):
     """Convert a form submission row into a markdown file"""
     # Convert submission date to proper format
     date = parse_timestamp(row['Timestamp']).strftime('%Y-%m-%d')
     
+    # Clean all fields that go into YAML header
+    clean_title = clean_yaml_string(row['Package Name'])
+    clean_author = clean_yaml_string(row['Your Name'])
+    clean_description = clean_yaml_string(row['Short Description'])
+    clean_categories = [clean_yaml_string(cat.strip()) for cat in str(row['Categories']).split(',')]
+    
     # Create the markdown content with frontmatter
     content = f"""---
-title: {row['Package Name']}
+title: {clean_title}
 date: {date}
-author: {row['Your Name']}
-categories: [{', '.join(f'"{cat.strip()}"' for cat in row['Categories'].split(','))}]
-description: {row['Short description']}
+author: {clean_author}
+categories: [{', '.join(clean_categories)}]
+description: {clean_description}
 ---
 
 ## Problem Solved
@@ -40,6 +57,7 @@ description: {row['Short description']}
 ```
 
 ## Additional Resources
+- Documentation: {row['Documentation Link']}
 - Source Code: {row['Source Code Link']}
 
 ## Notes
