@@ -21,18 +21,16 @@ def create_markdown(row):
     """Convert a form submission row into a markdown file"""
     # Convert submission date to proper format
     date = parse_timestamp(row['Timestamp']).strftime('%Y-%m-%d')
-
-    # Create the frontmatter content
-    metadata = {
-        'title': row['Package Name'],
-        'date': date,
-        'author': row['Your Name'],
-        'categories': [cat.strip() for cat in row['Categories'].split(',')],
-        'description': row['Short description']
-    }
     
-    # Create the markdown content
-    content = f"""
+    # Create the markdown content with frontmatter
+    content = f"""---
+title: {row['Package Name']}
+date: {date}
+author: {row['Your Name']}
+categories: [{', '.join(f'"{cat.strip()}"' for cat in row['Categories'].split(','))}]
+description: {row['Short description']}
+---
+
 ## Problem Solved
 {row['What is the package or tool useful for?']}
 
@@ -48,13 +46,10 @@ def create_markdown(row):
 {row['Additional Notes']}
 """
     
-    # Combine into a proper markdown file with frontmatter
-    post = frontmatter.Post(content, **metadata)
-    
-    # Create filename from date and package name
+    # Create filename with .qmd extension
     filename = f"{date}-{row['Package Name'].lower().replace(' ', '-')}.qmd"
     
-    return filename, post
+    return filename, content
 
 def main():
     # Read the latest submission from CSV
@@ -69,7 +64,7 @@ def main():
     
     # Write to file
     with open(f"07_dissemination/01_website/003_discoveries/{filename}", 'wb') as f:
-        frontmatter.dump(post, f)
+        f.write(content)
 
 if __name__ == "__main__":
     main()
