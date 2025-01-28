@@ -1,0 +1,34 @@
+name: Process Package Discovery Submission
+
+on:
+  workflow_dispatch:  # Manual trigger for testing
+  push:
+    paths:
+      - '04_data/002_form_exports/discoveries_form_export.csv'  # The exported Google Form data
+
+jobs:
+  process-submission:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.x'
+          
+      - name: Install dependencies
+        run: |
+          pip install pandas frontmatter python-dateutil
+
+      - name: Process new submission
+        run: |
+          python .github/scripts/process_submission.py
+        
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: "Add new package discovery"
+          title: "New Package Discovery Submission"
+          body: "Automated PR from Google Form submission"
+          branch: "submission/new-discovery"
