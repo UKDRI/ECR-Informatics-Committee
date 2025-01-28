@@ -2,10 +2,8 @@
 title: here
 date: 2025-01-28
 author: Mateus Harrington
-categories: ["Reproducibility"]
-description: A little package for managing file paths in R projects.
-
-Using `here` you can always get file paths that're relative to the project root which're expanded to the full system path.
+categories: [Reproducibility]
+description: "A little package for managing file paths in R projects. Using `here` you can always get file paths that're relative to the project root which're expanded to the full system path."
 ---
 
 ## Problem Solved
@@ -25,7 +23,7 @@ print(file)
 ```
 
 ## Additional Resources
-- Source Code: https://github.com/r-lib/here/
+- Source Code: (https://github.com/r-lib/here/)[https://github.com/r-lib/here/]
 
 ## Notes
 nan
