@@ -36,7 +36,7 @@ def create_markdown(row):
     # Clean all fields that go into YAML header
     clean_title = clean_yaml_string(row['Package Name'])
     clean_author = clean_yaml_string(row['Your Name'])
-    clean_description = clean_yaml_string(row['Short Description'])
+    clean_description = clean_yaml_string(row['Short description'])
     clean_categories = [clean_yaml_string(cat.strip()) for cat in str(row['Categories']).split(',')]
     
     # Create the markdown content with frontmatter
