@@ -57,8 +57,7 @@ description: {clean_description}
 ```
 
 ## Additional Resources
-- Documentation: {row['Documentation Link']}
-- Source Code: {row['Source Code Link']}
+- Source Code: ({row['Source Code Link']})[{row['Source Code Link']}]
 
 ## Notes
 {row['Additional Notes']}
