@@ -1,1 +1,19 @@
-"Timestamp","Your Name","Package/tool name","Short description","What is the package or tool useful for?","Example Code","Language?","Source Code Link","Categories","Additional Notes"
+"Timestamp","Your Name","Package Name","Short description","What is the package or tool useful for?","Example Code","Language?","Source Code Link","Categories","Additional Notes"
+Tue Jan 28 2025 12:30:38 GMT+0000 (Greenwich Mean Time),"Mateus Harrington","janitor","Has super handy function for cleaning data, particularly cleaning column names","I use it most often immediately after I read in a file to clean the column names. It'll do things like remove special characters and replace spaces with underscores.","# Data with dirty column names
+head(iris)
+
+# Easy cleaning!
+iris |>
+  janitor::clean_names() |>
+  head()","R","https://github.com/sfirke/janitor","Data cleaning",""
+Tue Jan 28 2025 12:45:52 GMT+0000 (Greenwich Mean Time),"Mateus Harrington","here","A little package for managing file paths in R projects.
+
+Using `here` you can always get file paths that're relative to the project root which're expanded to the full system path.","Useful for managing file paths in Quarto/R Markdown files. If you have a nested .qmd or .rmd and want to put file paths in, you'll know when they render they set the working directory to the location of that file and not the project root.","# Create a new project, check you've got a .Rproj file in the project root.
+# you can then just use the function:
+here::here() # get the project path
+
+# Example reading fake file
+file <- here::here(""data_folder/example_table.csv"")
+print(file)
+# Read in data
+# data <- read.csv(file)","R","https://github.com/r-lib/here/","Reproducibility",""
