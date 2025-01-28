@@ -60,7 +60,7 @@ def main():
     os.makedirs('07_dissemination/01_website/003_discoveries', exist_ok=True)
     
     # Process the submission
-    filename, post = create_markdown(latest)
+    filename, content = create_markdown(latest)
     
     # Write to file
     with open(f"07_dissemination/01_website/003_discoveries/{filename}", 'wb') as f:
