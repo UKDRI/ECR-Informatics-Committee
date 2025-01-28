@@ -1,14 +1,27 @@
 import pandas as pd
-import frontmatter
 from datetime import datetime
-from dateutil import parser
+import frontmatter
 import os
+
+def parse_timestamp(timestamp_str):
+    """Parse timestamp from Google Forms format"""
+    try:
+        # Try parsing the M/D/YYYY H:M:S format
+        return datetime.strptime(timestamp_str, '%m/%d/%Y %H:%M:%S')
+    except ValueError:
+        try:
+            # Fallback for other potential formats
+            return pd.to_datetime(timestamp_str).to_pydatetime()
+        except:
+            # If all else fails, use current date
+            print(f"Warning: Could not parse timestamp '{timestamp_str}', using current date")
+            return datetime.now()
 
 def create_markdown(row):
     """Convert a form submission row into a markdown file"""
     # Convert submission date to proper format
-    date = parser.parse(row['Timestamp']).strftime('%Y-%m-%d')
-    
+    date = parse_timestamp(row['Timestamp']).strftime('%Y-%m-%d')
+
     # Create the frontmatter content
     metadata = {
         'title': row['Package Name'],
