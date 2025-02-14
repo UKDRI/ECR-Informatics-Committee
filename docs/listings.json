@@ -8,9 +8,17 @@
     ]
   },
   {
+    "listing": "/07_dissemination/01_website/003_discoveries/index.html",
+    "items": [
+      "/07_dissemination/01_website/003_discoveries/2025-01-28-here.html",
+      "/07_dissemination/01_website/003_discoveries/2025-02-14-janitor.html"
+    ]
+  },
+  {
     "listing": "/07_dissemination/01_website/002_committee/index.html",
     "items": [
       "/07_dissemination/01_website/002_committee/cam/cm.html",
+      "/07_dissemination/01_website/002_committee/dmc/dmc.html",
       "/07_dissemination/01_website/002_committee/gmbh/gmbh.html",
       "/07_dissemination/01_website/002_committee/kkgr/kkgr.html",
       "/07_dissemination/01_website/002_committee/MSh/MSh.html",

@@ -6,10 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Charlotte Capitanchik">
-<meta name="dcterms.date" content="2024-10-30">
+<meta name="author" content="Mateus Harrington">
+<meta name="dcterms.date" content="2025-01-28">
+<meta name="description" content="A little package for managing file paths in R projects. Using here you can always get file paths that’re relative to the project root which’re expanded to the full system path.">
 
-<title>Committee Charter – UKDRI ECR Informatics Committee</title>
+<title>here – UKDRI ECR Informatics Committee</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,27 +23,61 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-a20ab85efdfcf2043da0f9529e795bf9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-c9e12d8150b34dc739c483fe14b010cf.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-a20ab85efdfcf2043da0f9529e795bf9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-c9e12d8150b34dc739c483fe14b010cf.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -81,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">UKDRI ECR Informatics Committee</span>
     </a>
   </div>
@@ -92,23 +127,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../07_dissemination/01_website/about.html"> 
+    <a class="nav-link" href="../../../07_dissemination/01_website/about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../07_dissemination/01_website/002_committee/index.html"> 
+    <a class="nav-link" href="../../../07_dissemination/01_website/002_committee/index.html"> 
 <span class="menu-text">Committee Members</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../07_dissemination/01_website/003_discoveries/index.html"> 
+    <a class="nav-link" href="../../../07_dissemination/01_website/003_discoveries/index.html"> 
 <span class="menu-text">Discoveries</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../07_dissemination/01_website/charter.html" aria-current="page"> 
+    <a class="nav-link" href="../../../07_dissemination/01_website/charter.html"> 
 <span class="menu-text">Committee Charter</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../07_dissemination/01_website/events.html"> 
+    <a class="nav-link" href="../../../07_dissemination/01_website/events.html"> 
 <span class="menu-text">Events and News</span></a>
   </li>  
   <li class="nav-item compact">
@@ -134,10 +169,17 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Committee Charter</h1>
-<p class="subtitle lead">UK DRI ECR Informatics Committee Charter</p>
-</div>
+<h1 class="title">here</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Reproducibility</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    A little package for managing file paths in R projects. Using <code>here</code> you can always get file paths that’re relative to the project root which’re expanded to the full system path.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -145,23 +187,17 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Charlotte Capitanchik </p>
+             <p>Mateus Harrington </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 30, 2024</p>
+      <p class="date">January 28, 2025</p>
     </div>
   </div>
   
-    <div>
-    <div class="quarto-title-meta-heading">Modified</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date-modified">March 13, 2024</p>
-    </div>
-  </div>
     
   </div>
   
@@ -170,23 +206,29 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="../../07_dissemination/01_website/charter.jpg" class="img-fluid"></p>
-<section id="general" class="level3">
-<h3 class="anchored" data-anchor-id="general">General</h3>
-<p>The committee will meet at a minimum every 5 weeks. Our goal is to build a robust network of ECR Informatics researchers across the UK DRI and to provide these researchers with meetings and opportunities relevant to their interests, that will help their research and career development.</p>
+<section id="problem-solved" class="level2">
+<h2 class="anchored" data-anchor-id="problem-solved">Problem Solved</h2>
+<p>Useful for managing file paths in <a href="https://quarto.org/">Quarto</a>/R Markdown files. If you have a nested .qmd or .rmd and want to put file paths in, you’ll know when they render they set the working directory to the location of that file and not the project root.</p>
 </section>
-<section id="committee-chair" class="level3">
-<h3 class="anchored" data-anchor-id="committee-chair">Committee Chair</h3>
-<p>There will be two co-chairs at any time. These will be decided on every year after Connectome. One co-chair will run from March-March, the other co-chair will be from November-November. If there is more than two nominations a vote will be held. It is the chair’s responsibility to organise meetings roughly every 5 weeks and manage the projects of the committee.</p>
+<section id="example-usage" class="level2">
+<h2 class="anchored" data-anchor-id="example-usage">Example Usage</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a new project, check you've got a .Rproj file in the project root.</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># you can then just use the function:</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>here<span class="sc">::</span><span class="fu">here</span>() <span class="co"># get the project path</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Example reading fake file</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>file <span class="ot">&lt;-</span> here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data_folder/example_table.csv"</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(file)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Read in data</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># data &lt;- read.csv(file)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
-<section id="secretary" class="level3">
-<h3 class="anchored" data-anchor-id="secretary">Secretary</h3>
-<p>Secretary will be rotated between other ECR members (not co-chairs) on a rota basis, so that a different member takes this role every time. Committee notes will be shared on our Github repo, making them available to everyone within the UKDRI Github organisation where ever this is sensible.</p>
-</section>
-<section id="membership-of-the-committee" class="level3">
-<h3 class="anchored" data-anchor-id="membership-of-the-committee">Membership of the committee</h3>
-<p>We will try to have at least one member from each UK DRI centre doing informatics. Currently if a member decides to step down they should make efforts to find a replacement.</p>
-<p>If a member doesn’t attend two meetings in a row without contacting the committee with a reasonable explanation, they will be removed from the committee. Members are expected to check the Slack channel (#theme-esc-informatics) and emails from the committee.</p>
+<section id="additional-resources" class="level2">
+<h2 class="anchored" data-anchor-id="additional-resources">Additional Resources</h2>
+<ul>
+<li>Source Code: <a href="https://github.com/r-lib/here/">https://github.com/r-lib/here/</a></li>
+</ul>
 
 
 </section>
@@ -758,4 +800,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/UKDRI/ECR-Informatics-Committee/edit/main/07_dissemination/01_website/charter.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/UKDRI/ECR-Informatics-Committee/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/UKDRI/ECR-Informatics-Committee/edit/main/07_dissemination/01_website/003_discoveries/2025-01-28-here.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/UKDRI/ECR-Informatics-Committee/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
