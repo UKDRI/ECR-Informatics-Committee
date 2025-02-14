@@ -1,0 +1,10 @@
+---
+title: "Discoveries"
+subtitle: "An list of cool discoveries people have submitted for the Informatics Collaboration Cafe"
+listing:
+  #contents: committee
+  type: grid
+  #fields: [image, title, role]
+  #sort: title
+  #image: image
+---

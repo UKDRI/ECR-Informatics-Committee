@@ -10,7 +10,7 @@ description: Has super handy function for cleaning data, particularly cleaning c
 I use it most often immediately after I read in a file to clean the column names. It'll do things like remove special characters and replace spaces with underscores.
 
 ## Example Usage
-```R
+```{r}
 # Data with dirty column names
 head(iris)
 
@@ -21,7 +21,7 @@ iris |>
 ```
 
 ## Additional Resources
-- Source Code: (https://github.com/sfirke/janitor)[https://github.com/sfirke/janitor]
+- Source Code: [https://github.com/sfirke/janitor](https://github.com/sfirke/janitor)
 
 ## Notes
 nan
