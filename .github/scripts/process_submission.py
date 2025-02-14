@@ -32,13 +32,17 @@ def create_markdown(row):
     """Convert a form submission row into a markdown file"""
     # Convert submission date to proper format
     date = parse_timestamp(row['Timestamp']).strftime('%Y-%m-%d')
-    
+
     # Clean all fields that go into YAML header
     clean_title = clean_yaml_string(row['Package Name'])
     clean_author = clean_yaml_string(row['Your Name'])
     clean_description = clean_yaml_string(row['Short description'])
     clean_categories = [clean_yaml_string(cat.strip()) for cat in str(row['Categories']).split(',')]
-    
+    # Convert the value to lowercase
+    lowercase_language = row['Language?'].lower()
+    # Use the .format() method to add literal curly braces
+    formatted_language = "{{{}}}".format(lowercase_language)
+
     # Create the markdown content with frontmatter
     content = f"""---
 title: {clean_title}
@@ -52,33 +56,34 @@ description: {clean_description}
 {row['What is the package or tool useful for?']}
 
 ## Example Usage
-```{row['Language?']}
+```{formatted_language}
+|# eval: false
 {row['Example Code']}
 ```
 
 ## Additional Resources
-- Source Code: ({row['Source Code Link']})[{row['Source Code Link']}]
+- Source Code: [{row['Source Code Link']}]({row['Source Code Link']})
 
 ## Notes
 {row['Additional Notes']}
 """
-    
+
     # Create filename with .qmd extension
     filename = f"{date}-{row['Package Name'].lower().replace(' ', '-')}.qmd"
-    
+
     return filename, content
 
 def main():
     # Read the latest submission from CSV
     df = pd.read_csv('04_data/002_form_exports/discoveries_form_export.csv')
     latest = df.iloc[-1]  # Get most recent submission
-    
+
     # Create the posts directory if it doesn't exist
     os.makedirs('07_dissemination/01_website/003_discoveries', exist_ok=True)
-    
+
     # Process the submission
     filename, content = create_markdown(latest)
-    
+
     # Write to file
     with open(f"07_dissemination/01_website/003_discoveries/{filename}", 'w', encoding='utf-8') as f:
         f.write(content)
