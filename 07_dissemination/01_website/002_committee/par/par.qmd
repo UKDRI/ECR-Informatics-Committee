@@ -1,0 +1,55 @@
+---
+title: Pierre Parutto
+role: Member
+image: pprofile.jpeg
+about: 
+  template: jolla
+  links: 
+    - icon: orcid
+      text: ORCID
+      href: https://orcid.org/0000-0002-9866-407X
+    - icon: github
+      text: GitHub
+      href: https://github.com/pparutto
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/pierre-parutto-532990303
+
+authors:
+  - id: sh
+    #number: number
+    name:
+      given: Pierre
+      family: Parutto
+    #url: 
+    #email: string
+    #phone: string
+    degrees: PhD
+    orcid: 0000-0002-9866-407X
+    #acknowledgements: string
+    roles: 
+      # see schema below
+      - website: creator
+      - Committee: member
+    #metadata: object
+    affiliations:
+      - ref: ukdri
+      - ref: cambridge
+affiliations:
+  - id: ukdri
+    #number: number
+    name: UK Dementia Research Institute
+    #department: string
+    group: Avezov
+    #address: string
+    #city: string
+    #region: string
+    #country: string
+    #postal-code: string
+    url: https://ukdri.ac.uk/ 
+  - id: cambridge
+    name: University of Cambridge
+    group: Avezov
+    city: Cambridge
+---
+Hello there! I am currently a postdoctoral researcher at the department of Clinical Neurosciences at the University of Cambridge and UKDRI. I work at the intersection between cellular biology, neurosciences, microscopy and data modelling with a particular interest in explaining complex biological systems from first principles. 
