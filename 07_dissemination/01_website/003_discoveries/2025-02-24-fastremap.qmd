@@ -1,0 +1,13 @@
+---
+title: Fastremap
+date: 2025-02-24
+author: Christina Maat
+categories: ["array handling?"]
+description: "Renumber and relabel Numpy arrays at C++ speed and physically convert rectangular Numpy arrays between C and Fortran order using an in-place transposition. (https://github.com/seung-lab/fastremap)"
+---
+
+## Problem Solved
+Relabeling large segmented images (could be anything, but in my case confocal microscopy images)
+
+## Additional Resources
+- Source Code: [https://github.com/seung-lab/fastremap](https://github.com/seung-lab/fastremap)
