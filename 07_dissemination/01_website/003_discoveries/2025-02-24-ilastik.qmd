@@ -9,14 +9,5 @@ description: Ilastik allows to segment images based on live training. You draw o
 ## Problem Solved
 image segmentation
 
-## Example Usage
-```{gui}
-|# eval: false
-nan
-```
-
 ## Additional Resources
 - Source Code: [https://www.ilastik.org/](https://www.ilastik.org/)
-
-## Notes
-nan
