@@ -1,0 +1,28 @@
+---
+title: janitor
+date: 2025-02-24
+author: Mateus Harrington
+categories: [Data cleaning]
+description: Has super handy function for cleaning data, particularly cleaning column names
+---
+
+## Problem Solved
+I use it most often immediately after I read in a file to clean the column names. It'll do things like remove special characters and replace spaces with underscores.
+
+## Example Usage
+```{r}
+|# eval: false
+# Data with dirty column names
+head(iris)
+
+# Easy cleaning!
+iris |>
+  janitor::clean_names() |>
+  head()
+```
+
+## Additional Resources
+- Source Code: [https://github.com/sfirke/janitor](https://github.com/sfirke/janitor)
+
+## Notes
+nan
