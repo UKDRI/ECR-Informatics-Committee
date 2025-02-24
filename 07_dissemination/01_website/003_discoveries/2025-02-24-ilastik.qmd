@@ -1,0 +1,13 @@
+---
+title: Ilastik
+date: 2025-02-24
+author: Pierre Parutto
+categories: [image processing]
+description: Ilastik allows to segment images based on live training. You draw on the image examples of the different elements you want to segment and it updates the model live.
+---
+
+## Problem Solved
+image segmentation
+
+## Additional Resources
+- Source Code: [https://www.ilastik.org/](https://www.ilastik.org/)
