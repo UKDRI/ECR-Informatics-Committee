@@ -8,3 +8,5 @@ listing:
   #sort: title
   #image: image
 ---
+
+You can find the form to add new discoveries here: [https://forms.gle/PCpRe214Jjptm8Cz8](https://forms.gle/PCpRe214Jjptm8Cz8)
