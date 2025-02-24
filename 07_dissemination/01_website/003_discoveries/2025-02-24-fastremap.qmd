@@ -9,14 +9,5 @@ description: "Renumber and relabel Numpy arrays at C++ speed and physically conv
 ## Problem Solved
 Relabeling large segmented images (could be anything, but in my case confocal microscopy images)
 
-## Example Usage
-```{python}
-|# eval: false
-nan
-```
-
 ## Additional Resources
 - Source Code: [https://github.com/seung-lab/fastremap](https://github.com/seung-lab/fastremap)
-
-## Notes
-nan
