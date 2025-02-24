@@ -18,7 +18,7 @@
     "href": "07_dissemination/01_website/003_discoveries/index.html",
     "title": "Discoveries",
     "section": "",
-    "text": "here\n\n\nA little package for managing file paths in R projects. Using here you can always get file paths that’re relative to the project root which’re expanded to the full system…\n\n\n\nMateus Harrington\n\n\nJan 28, 2025\n\n\n\n\n\n\n\n\n\n\n\n\njanitor\n\n\nHas super handy function for cleaning data, particularly cleaning column names\n\n\n\nMateus Harrington\n\n\nFeb 14, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "You can find the form to add new discoveries here: https://forms.gle/PCpRe214Jjptm8Cz8\n\n\n\n\n\n\n\n\n\n\n\n\nFastremap\n\n\nRenumber and relabel Numpy arrays at C++ speed and physically convert rectangular Numpy arrays between C and Fortran order using an in-place transposition.…\n\n\n\nChristina Maat\n\n\nFeb 24, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nIlastik\n\n\nIlastik allows to segment images based on live training. You draw on the image examples of the different elements you want to segment and it updates the model live.\n\n\n\nPierre Parutto\n\n\nFeb 24, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nMultiQC, Atria(maybe)\n\n\nMultiQC is the standard in bioinformatics reporting.\n\n\n\nUmran Yaman\n\n\nFeb 24, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nhere\n\n\nA little package for managing file paths in R projects. Using here you can always get file paths that’re relative to the project root which’re expanded to the full system…\n\n\n\nMateus Harrington\n\n\nJan 28, 2025\n\n\n\n\n\n\n\n\n\n\n\n\njanitor\n\n\nHas super handy function for cleaning data, particularly cleaning column names\n\n\n\nMateus Harrington\n\n\nFeb 14, 2025\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "07_dissemination/01_website/002_committee/kkgr/kkgr.html",
@@ -166,5 +166,75 @@
     "title": "janitor",
     "section": "Notes",
     "text": "Notes\nnan"
+  },
+  {
+    "objectID": "07_dissemination/01_website/003_discoveries/2025-02-24-ilastik.html",
+    "href": "07_dissemination/01_website/003_discoveries/2025-02-24-ilastik.html",
+    "title": "Ilastik",
+    "section": "",
+    "text": "image segmentation"
+  },
+  {
+    "objectID": "07_dissemination/01_website/003_discoveries/2025-02-24-ilastik.html#problem-solved",
+    "href": "07_dissemination/01_website/003_discoveries/2025-02-24-ilastik.html#problem-solved",
+    "title": "Ilastik",
+    "section": "",
+    "text": "image segmentation"
+  },
+  {
+    "objectID": "07_dissemination/01_website/003_discoveries/2025-02-24-ilastik.html#additional-resources",
+    "href": "07_dissemination/01_website/003_discoveries/2025-02-24-ilastik.html#additional-resources",
+    "title": "Ilastik",
+    "section": "Additional Resources",
+    "text": "Additional Resources\n\nSource Code: https://www.ilastik.org/"
+  },
+  {
+    "objectID": "07_dissemination/01_website/002_committee/par/par.html",
+    "href": "07_dissemination/01_website/002_committee/par/par.html",
+    "title": "Pierre Parutto",
+    "section": "",
+    "text": "Hello there! I am currently a postdoctoral researcher at the department of Clinical Neurosciences at the University of Cambridge and UKDRI. I work at the intersection between cellular biology, neurosciences, microscopy and data modelling with a particular interest in explaining complex biological systems from first principles."
+  },
+  {
+    "objectID": "07_dissemination/01_website/003_discoveries/2025-02-24-fastremap.html",
+    "href": "07_dissemination/01_website/003_discoveries/2025-02-24-fastremap.html",
+    "title": "Fastremap",
+    "section": "",
+    "text": "Relabeling large segmented images (could be anything, but in my case confocal microscopy images)"
+  },
+  {
+    "objectID": "07_dissemination/01_website/003_discoveries/2025-02-24-fastremap.html#problem-solved",
+    "href": "07_dissemination/01_website/003_discoveries/2025-02-24-fastremap.html#problem-solved",
+    "title": "Fastremap",
+    "section": "",
+    "text": "Relabeling large segmented images (could be anything, but in my case confocal microscopy images)"
+  },
+  {
+    "objectID": "07_dissemination/01_website/003_discoveries/2025-02-24-fastremap.html#additional-resources",
+    "href": "07_dissemination/01_website/003_discoveries/2025-02-24-fastremap.html#additional-resources",
+    "title": "Fastremap",
+    "section": "Additional Resources",
+    "text": "Additional Resources\n\nSource Code: https://github.com/seung-lab/fastremap"
+  },
+  {
+    "objectID": "07_dissemination/01_website/003_discoveries/2025-02-24-multiqc,-atria(maybe).html",
+    "href": "07_dissemination/01_website/003_discoveries/2025-02-24-multiqc,-atria(maybe).html",
+    "title": "MultiQC, Atria(maybe)",
+    "section": "",
+    "text": "Recently they have incorporated summaries using OpenAI, Seqera AI etc and user can make use of these summaries by creating a token easily. Good for interpreting the QC results."
+  },
+  {
+    "objectID": "07_dissemination/01_website/003_discoveries/2025-02-24-multiqc,-atria(maybe).html#problem-solved",
+    "href": "07_dissemination/01_website/003_discoveries/2025-02-24-multiqc,-atria(maybe).html#problem-solved",
+    "title": "MultiQC, Atria(maybe)",
+    "section": "",
+    "text": "Recently they have incorporated summaries using OpenAI, Seqera AI etc and user can make use of these summaries by creating a token easily. Good for interpreting the QC results."
+  },
+  {
+    "objectID": "07_dissemination/01_website/003_discoveries/2025-02-24-multiqc,-atria(maybe).html#additional-resources",
+    "href": "07_dissemination/01_website/003_discoveries/2025-02-24-multiqc,-atria(maybe).html#additional-resources",
+    "title": "MultiQC, Atria(maybe)",
+    "section": "Additional Resources",
+    "text": "Additional Resources\n\nSource Code: https://seqera.io/multiqc/"
   }
 ]
