@@ -1,0 +1,22 @@
+---
+title: MultiQC, Atria(maybe)
+date: 2025-02-24
+author: Umran Yaman
+categories: [Visualisation, Statistics, Reproducibility]
+description: MultiQC is the standard in bioinformatics reporting.
+---
+
+## Problem Solved
+ Recently they have incorporated summaries using OpenAI, Seqera AI etc and user can make use of these summaries by creating a token easily. Good for interpreting the QC results. 
+
+## Example Usage
+```{python}
+|# eval: false
+nan
+```
+
+## Additional Resources
+- Source Code: [https://seqera.io/multiqc/](https://seqera.io/multiqc/)
+
+## Notes
+nan
