@@ -1,5 +1,5 @@
 ---
-title: "Committee Members"
+title: "Alumni Committee Members"
 listing:
   #contents: committee
   type: grid
@@ -7,5 +7,3 @@ listing:
   sort: title
   #image: image
 ---
-
-Committee alumni can be found [here](../003_committe_alumni/index.qmd)
