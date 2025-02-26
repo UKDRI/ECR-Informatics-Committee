@@ -88,7 +88,7 @@
     "href": "07_dissemination/01_website/002_committee/index.html",
     "title": "Committee Members",
     "section": "",
-    "text": "Christina Maat\n\n\n\n\nrole\n\n\nCo-Chair\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDavid Cash\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\nrole\n\n\nCo-Chair\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKiran K G Ravindran\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaryam Shoai\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSteve Hill\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Committee alumni can be found here\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChristina Maat\n\n\n\n\nrole\n\n\nCo-Chair\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\nrole\n\n\nCo-Chair\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKiran K G Ravindran\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaryam Shoai\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPierre Parutto\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSteve Hill\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "07_dissemination/01_website/003_discoveries/2025-01-28-here.html",
@@ -233,6 +233,153 @@
   {
     "objectID": "07_dissemination/01_website/003_discoveries/2025-02-24-multiqc,-atria(maybe).html#additional-resources",
     "href": "07_dissemination/01_website/003_discoveries/2025-02-24-multiqc,-atria(maybe).html#additional-resources",
+    "title": "MultiQC, Atria(maybe)",
+    "section": "Additional Resources",
+    "text": "Additional Resources\n\nSource Code: https://seqera.io/multiqc/"
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/index.html",
+    "href": "07_dissemination/01_website/004_discoveries/index.html",
+    "title": "Discoveries",
+    "section": "",
+    "text": "You can find the form to add new discoveries here: https://forms.gle/PCpRe214Jjptm8Cz8\n\n\n\n\n\n\n\n\n\n\n\n\nFastremap\n\n\nRenumber and relabel Numpy arrays at C++ speed and physically convert rectangular Numpy arrays between C and Fortran order using an in-place transposition.…\n\n\n\nChristina Maat\n\n\nFeb 24, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nIlastik\n\n\nIlastik allows to segment images based on live training. You draw on the image examples of the different elements you want to segment and it updates the model live.\n\n\n\nPierre Parutto\n\n\nFeb 24, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nMultiQC, Atria(maybe)\n\n\nMultiQC is the standard in bioinformatics reporting.\n\n\n\nUmran Yaman\n\n\nFeb 24, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nhere\n\n\nA little package for managing file paths in R projects. Using here you can always get file paths that’re relative to the project root which’re expanded to the full system…\n\n\n\nMateus Harrington\n\n\nJan 28, 2025\n\n\n\n\n\n\n\n\n\n\n\n\njanitor\n\n\nHas super handy function for cleaning data, particularly cleaning column names\n\n\n\nMateus Harrington\n\n\nFeb 14, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-02-24-ilastik.html",
+    "href": "07_dissemination/01_website/004_discoveries/2025-02-24-ilastik.html",
+    "title": "Ilastik",
+    "section": "",
+    "text": "image segmentation"
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-02-24-ilastik.html#problem-solved",
+    "href": "07_dissemination/01_website/004_discoveries/2025-02-24-ilastik.html#problem-solved",
+    "title": "Ilastik",
+    "section": "",
+    "text": "image segmentation"
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-02-24-ilastik.html#additional-resources",
+    "href": "07_dissemination/01_website/004_discoveries/2025-02-24-ilastik.html#additional-resources",
+    "title": "Ilastik",
+    "section": "Additional Resources",
+    "text": "Additional Resources\n\nSource Code: https://www.ilastik.org/"
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html",
+    "href": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html",
+    "title": "janitor",
+    "section": "",
+    "text": "I use it most often immediately after I read in a file to clean the column names. It’ll do things like remove special characters and replace spaces with underscores."
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html#problem-solved",
+    "href": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html#problem-solved",
+    "title": "janitor",
+    "section": "",
+    "text": "I use it most often immediately after I read in a file to clean the column names. It’ll do things like remove special characters and replace spaces with underscores."
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html#example-usage",
+    "href": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html#example-usage",
+    "title": "janitor",
+    "section": "Example Usage",
+    "text": "Example Usage\n\n# Data with dirty column names\nhead(iris)\n\n  Sepal.Length Sepal.Width Petal.Length Petal.Width Species\n1          5.1         3.5          1.4         0.2  setosa\n2          4.9         3.0          1.4         0.2  setosa\n3          4.7         3.2          1.3         0.2  setosa\n4          4.6         3.1          1.5         0.2  setosa\n5          5.0         3.6          1.4         0.2  setosa\n6          5.4         3.9          1.7         0.4  setosa\n\n# Easy cleaning!\niris |&gt;\n  janitor::clean_names() |&gt;\n  head()\n\n  sepal_length sepal_width petal_length petal_width species\n1          5.1         3.5          1.4         0.2  setosa\n2          4.9         3.0          1.4         0.2  setosa\n3          4.7         3.2          1.3         0.2  setosa\n4          4.6         3.1          1.5         0.2  setosa\n5          5.0         3.6          1.4         0.2  setosa\n6          5.4         3.9          1.7         0.4  setosa"
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html#additional-resources",
+    "href": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html#additional-resources",
+    "title": "janitor",
+    "section": "Additional Resources",
+    "text": "Additional Resources\n\nSource Code: https://github.com/sfirke/janitor"
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html#notes",
+    "href": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html#notes",
+    "title": "janitor",
+    "section": "Notes",
+    "text": "Notes\nnan"
+  },
+  {
+    "objectID": "07_dissemination/01_website/003_committe_alumni/index.html",
+    "href": "07_dissemination/01_website/003_committe_alumni/index.html",
+    "title": "Alumni Committee Members",
+    "section": "",
+    "text": "David Cash\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "07_dissemination/01_website/003_committe_alumni/dmc/dmc.html",
+    "href": "07_dissemination/01_website/003_committe_alumni/dmc/dmc.html",
+    "title": "David Cash",
+    "section": "",
+    "text": "I’m a professorial research fellow at the Dementia Research Centre in the UCL Queen Square Institute of Neurology, where I lead the imaging and data management activities for high-profile studies in ageing (the Insight 46 neuroimaging sub-study of the MRC National Survey for Health and Development) and global multicentre studies in autosomal dominant forms of Alzheimer’s disease and frontotemporal dementia (GENFI). I have medical imaging acquisition, analysis and data management experiences in both academic and industrial settings. I worked five years at IXICO Ltd, a medical imaging contract research organisation, where I managed the imaging in clinical trials in Alzheimer’s disease and oncology for various pharmaceutical sponsors. I collobarate heavily with the Hawkes Institute (formerly known as Centre for Medical Image Computing (CMIC)) to help translate cutting edge informatics and medical imaging analysis techniques are being implemented into clinical research.\nI am also the primary investigator on Health and Bioscience IDEAS, a UK Research and Innovation funded programme to train researchers on how to use medical imaging data more effectively within their work. We have developed numerous interactive coding workshops helping researchers get involved with medical imaging analysis and data management.\nI have an active role on various national and international committees working on imaging in Alzheimer’s disease, including the Dominantly Inherited Alzheimer Network (DIAN), the Alzheimer’s Disease Neuroimaging Initiative (ADNI), the GENetic Frontotemporal Initiative (GENFI). I am Immediate Past Chair of the ISTAART Neuroimaging PIA, an organization of over 1700 neuroimaging researchers working in dementia."
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-01-28-here.html",
+    "href": "07_dissemination/01_website/004_discoveries/2025-01-28-here.html",
+    "title": "here",
+    "section": "",
+    "text": "Useful for managing file paths in Quarto/R Markdown files. If you have a nested .qmd or .rmd and want to put file paths in, you’ll know when they render they set the working directory to the location of that file and not the project root."
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-01-28-here.html#problem-solved",
+    "href": "07_dissemination/01_website/004_discoveries/2025-01-28-here.html#problem-solved",
+    "title": "here",
+    "section": "",
+    "text": "Useful for managing file paths in Quarto/R Markdown files. If you have a nested .qmd or .rmd and want to put file paths in, you’ll know when they render they set the working directory to the location of that file and not the project root."
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-01-28-here.html#example-usage",
+    "href": "07_dissemination/01_website/004_discoveries/2025-01-28-here.html#example-usage",
+    "title": "here",
+    "section": "Example Usage",
+    "text": "Example Usage\n\n# Create a new project, check you've got a .Rproj file in the project root.\n# you can then just use the function:\nhere::here() # get the project path\n\n# Example reading fake file\nfile &lt;- here::here(\"data_folder/example_table.csv\")\nprint(file)\n# Read in data\n# data &lt;- read.csv(file)"
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-01-28-here.html#additional-resources",
+    "href": "07_dissemination/01_website/004_discoveries/2025-01-28-here.html#additional-resources",
+    "title": "here",
+    "section": "Additional Resources",
+    "text": "Additional Resources\n\nSource Code: https://github.com/r-lib/here/"
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-02-24-fastremap.html",
+    "href": "07_dissemination/01_website/004_discoveries/2025-02-24-fastremap.html",
+    "title": "Fastremap",
+    "section": "",
+    "text": "Relabeling large segmented images (could be anything, but in my case confocal microscopy images)"
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-02-24-fastremap.html#problem-solved",
+    "href": "07_dissemination/01_website/004_discoveries/2025-02-24-fastremap.html#problem-solved",
+    "title": "Fastremap",
+    "section": "",
+    "text": "Relabeling large segmented images (could be anything, but in my case confocal microscopy images)"
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-02-24-fastremap.html#additional-resources",
+    "href": "07_dissemination/01_website/004_discoveries/2025-02-24-fastremap.html#additional-resources",
+    "title": "Fastremap",
+    "section": "Additional Resources",
+    "text": "Additional Resources\n\nSource Code: https://github.com/seung-lab/fastremap"
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-02-24-multiqc,-atria(maybe).html",
+    "href": "07_dissemination/01_website/004_discoveries/2025-02-24-multiqc,-atria(maybe).html",
+    "title": "MultiQC, Atria(maybe)",
+    "section": "",
+    "text": "Recently they have incorporated summaries using OpenAI, Seqera AI etc and user can make use of these summaries by creating a token easily. Good for interpreting the QC results."
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-02-24-multiqc,-atria(maybe).html#problem-solved",
+    "href": "07_dissemination/01_website/004_discoveries/2025-02-24-multiqc,-atria(maybe).html#problem-solved",
+    "title": "MultiQC, Atria(maybe)",
+    "section": "",
+    "text": "Recently they have incorporated summaries using OpenAI, Seqera AI etc and user can make use of these summaries by creating a token easily. Good for interpreting the QC results."
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-02-24-multiqc,-atria(maybe).html#additional-resources",
+    "href": "07_dissemination/01_website/004_discoveries/2025-02-24-multiqc,-atria(maybe).html#additional-resources",
     "title": "MultiQC, Atria(maybe)",
     "section": "Additional Resources",
     "text": "Additional Resources\n\nSource Code: https://seqera.io/multiqc/"
