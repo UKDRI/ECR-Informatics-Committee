@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Events and news",
     "section": "",
-    "text": "Behind the P-value\n\n\nThe first entry in our new seminar series!\n\n\n\nnews\n\n\nevents\n\n\n\n\n\n\n\n\n\nOct 18, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nNew committee members needed!\n\n\n\n\n\n\nnews\n\n\ncommittee\n\n\n\n\n\n\n\n\n\nOct 17, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome!\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 16, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\nNo matching items"
+    "text": "Bioinformatics Bytes Café\n\n\nA new community building event!\n\n\n\nnews\n\n\nevents\n\n\n\n\n\n\n\n\n\nFeb 27, 2025\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nBehind the P-value\n\n\nThe first entry in our new seminar series!\n\n\n\nnews\n\n\nevents\n\n\n\n\n\n\n\n\n\nOct 18, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nNew committee members needed!\n\n\n\n\n\n\nnews\n\n\ncommittee\n\n\n\n\n\n\n\n\n\nOct 17, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome!\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 16, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "07_dissemination/01_website/charter.html",
@@ -130,7 +130,7 @@
     "href": "07_dissemination/01_website/events.html",
     "title": "Events and News",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBehind the P-value\n\n\nThe first entry in our new seminar series!\n\n\n\n\n\n\n\n\nOct 18, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nNew committee members needed!\n\n\n\n\n\n\n\n\n\n\n\nOct 17, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome!\n\n\n\n\n\n\n\n\n\n\n\nOct 16, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBehind the P-value\n\n\nThe first entry in our new seminar series!\n\n\n\n\n\n\n\n\nOct 18, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nBioinformatics Bytes Café\n\n\nA new community building event!\n\n\n\n\n\n\n\n\nFeb 27, 2025\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nNew committee members needed!\n\n\n\n\n\n\n\n\n\n\n\nOct 17, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome!\n\n\n\n\n\n\n\n\n\n\n\nOct 16, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "07_dissemination/01_website/003_discoveries/2025-02-14-janitor.html",
@@ -383,5 +383,12 @@
     "title": "MultiQC, Atria(maybe)",
     "section": "Additional Resources",
     "text": "Additional Resources\n\nSource Code: https://seqera.io/multiqc/"
+  },
+  {
+    "objectID": "07_dissemination/01_website/001_posts/04_bioinformatics_bytes_cafe/index.html",
+    "href": "07_dissemination/01_website/001_posts/04_bioinformatics_bytes_cafe/index.html",
+    "title": "Bioinformatics Bytes Café",
+    "section": "",
+    "text": "The inaugural Bioinformatics Bytes Café is scheduled for 2025-02-28 at 14:00 via Zoom, please come along!\nThe idea here is to get informatics folks together, sharing cool ideas and chatting. We’ll be starting with a discoveries session where we showcase some cool tools/packages rapid fire. Then we’ll have a brief presentation around the UK DRI GitHub and we’ll finish with a discussion session.\nWe’re very open to changing this structure if that’s what folk want, so please get in touch with any feedback, we are here for you! 😄\nYou don’t have to be a hardcore informatician, if you’re learning or planning to learn informatics related stuff then you are part of the community and should be there!\nYou can find details, a calendar invite and the zoom link to join on the DRI portal here.\nHope to see many of you there!"
   }
 ]

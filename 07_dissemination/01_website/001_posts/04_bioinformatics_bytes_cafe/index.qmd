@@ -1,0 +1,20 @@
+---
+title: "Bioinformatics Bytes Café"
+subtitle: "A new community building event!"
+author: "Gabriel Mateus Bernardo Harrington"
+date: "2025-02-27"
+categories: [news, events]
+image: "thumbnail.jpg"
+---
+
+The inaugural Bioinformatics Bytes Café is scheduled for 2025-02-28 at 14:00 via Zoom, please come along!
+
+The idea here is to get informatics folks together, sharing cool ideas and chatting. We'll be starting with a discoveries session where we showcase some cool tools/packages rapid fire. Then we'll have a brief presentation around the UK DRI GitHub and we'll finish with a discussion session.
+
+We're very open to changing this structure if that's what folk want, so please get in touch with any feedback, we are here for you! 😄
+
+You don’t have to be a hardcore informatician, if you’re learning or planning to learn informatics related stuff then you are part of the community and should be there!
+
+You can find details, a calendar invite and the zoom link to join on the DRI portal [here](https://portal.ukdri.ac.uk/events/bioinformatic-bytes-cafe).
+
+Hope to see many of you there!
