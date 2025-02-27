@@ -80,9 +80,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -130,9 +130,9 @@ window.Quarto = {
 };
 </script>
 
-</head>
+<link rel="alternate" type="application/rss+xml" title="UKDRI ECR Informatics Committee" href="events.xml" data-external="1"></head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -186,7 +186,9 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Y29tbWl0dGVl">committee <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZXZlbnRz">events <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(4)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -241,35 +243,7 @@ window.Quarto = {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="bmV3cyUyQ2V2ZW50cw==" data-listing-date-sort="1729206000000" data-listing-file-modified-sort="1729160114080" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="135">
-<div class="thumbnail">
-<p><a href="../../07_dissemination/01_website/001_posts/03_behind-the-pval/index.html" class="no-external"></a></p><a href="../../07_dissemination/01_website/001_posts/03_behind-the-pval/index.html" class="no-external">
-<p><img loading="lazy" src="../../07_dissemination/01_website/001_posts/03_behind-the-pval/thumbnail.jpg" class="thumbnail-image"></p>
-</a><p><a href="../../07_dissemination/01_website/001_posts/03_behind-the-pval/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../07_dissemination/01_website/001_posts/03_behind-the-pval/index.html" class="no-external">Behind the P-value</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../07_dissemination/01_website/001_posts/03_behind-the-pval/index.html" class="no-external">The first entry in our new seminar series!</a>
-</div>
-<div class="listing-description">
-<a href="../../07_dissemination/01_website/001_posts/03_behind-the-pval/index.html" class="no-external">We have a new seminar series starting that we’re calling Behind the p-value!</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../07_dissemination/01_website/001_posts/03_behind-the-pval/index.html" class="no-external">
-<div class="listing-date">
-Oct 18, 2024
-</div>
-<div class="listing-author">
-Gabriel Mateus Bernardo Harrington
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="bmV3cyUyQ2V2ZW50cw==" data-listing-date-sort="1740614400000" data-listing-file-modified-sort="1740671582896" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="138">
+<div class="quarto-post image-right" data-index="0" data-categories="bmV3cyUyQ2V2ZW50cw==" data-listing-date-sort="1740614400000" data-listing-file-modified-sort="1740671582896" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="138">
 <div class="thumbnail">
 <p><a href="../../07_dissemination/01_website/001_posts/04_bioinformatics_bytes_cafe/index.html" class="no-external"></a></p><a href="../../07_dissemination/01_website/001_posts/04_bioinformatics_bytes_cafe/index.html" class="no-external">
 <p><img loading="lazy" src="../../07_dissemination/01_website/001_posts/04_bioinformatics_bytes_cafe/thumbnail.jpg" class="thumbnail-image"></p>
@@ -282,6 +256,14 @@ Gabriel Mateus Bernardo Harrington
 <div class="listing-subtitle">
 <a href="../../07_dissemination/01_website/001_posts/04_bioinformatics_bytes_cafe/index.html" class="no-external">A new community building event!</a>
 </div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">
+news
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ZXZlbnRz'); return false;">
+events
+</div>
+</div>
 <div class="listing-description">
 <a href="../../07_dissemination/01_website/001_posts/04_bioinformatics_bytes_cafe/index.html" class="no-external">The inaugural Bioinformatics Bytes Café is scheduled for 2025-02-28 at 14:00 via Zoom, please come along!</a>
 </div>
@@ -290,6 +272,42 @@ Gabriel Mateus Bernardo Harrington
 <a href="../../07_dissemination/01_website/001_posts/04_bioinformatics_bytes_cafe/index.html" class="no-external">
 <div class="listing-date">
 Feb 27, 2025
+</div>
+<div class="listing-author">
+Gabriel Mateus Bernardo Harrington
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="bmV3cyUyQ2V2ZW50cw==" data-listing-date-sort="1729206000000" data-listing-file-modified-sort="1729160114080" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="135">
+<div class="thumbnail">
+<p><a href="../../07_dissemination/01_website/001_posts/03_behind-the-pval/index.html" class="no-external"></a></p><a href="../../07_dissemination/01_website/001_posts/03_behind-the-pval/index.html" class="no-external">
+<p><img loading="lazy" src="../../07_dissemination/01_website/001_posts/03_behind-the-pval/thumbnail.jpg" class="thumbnail-image"></p>
+</a><p><a href="../../07_dissemination/01_website/001_posts/03_behind-the-pval/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../07_dissemination/01_website/001_posts/03_behind-the-pval/index.html" class="no-external">Behind the P-value</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../07_dissemination/01_website/001_posts/03_behind-the-pval/index.html" class="no-external">The first entry in our new seminar series!</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">
+news
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ZXZlbnRz'); return false;">
+events
+</div>
+</div>
+<div class="listing-description">
+<a href="../../07_dissemination/01_website/001_posts/03_behind-the-pval/index.html" class="no-external">We have a new seminar series starting that we’re calling Behind the p-value!</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../07_dissemination/01_website/001_posts/03_behind-the-pval/index.html" class="no-external">
+<div class="listing-date">
+Oct 18, 2024
 </div>
 <div class="listing-author">
 Gabriel Mateus Bernardo Harrington
@@ -309,6 +327,14 @@ Gabriel Mateus Bernardo Harrington
 </h3>
 <div class="listing-subtitle">
 <a href="../../07_dissemination/01_website/001_posts/02_recruiting/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">
+news
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Y29tbWl0dGVl'); return false;">
+committee
+</div>
 </div>
 <div class="listing-description">
 <a href="../../07_dissemination/01_website/001_posts/02_recruiting/index.html" class="no-external">We’re looking to recruit some new members to the committee!</a>
@@ -337,6 +363,11 @@ Gabriel Mateus Bernardo Harrington
 </h3>
 <div class="listing-subtitle">
 <a href="../../07_dissemination/01_website/001_posts/01_welcome/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">
+news
+</div>
 </div>
 <div class="listing-description">
 <a href="../../07_dissemination/01_website/001_posts/01_welcome/index.html" class="no-external">This is the first post for the UKDRI ECR informatics committee website!</a>
@@ -592,7 +623,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/ukdri\.github\.io\/ECR-Informatics-Committee\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

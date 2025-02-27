@@ -8,6 +8,7 @@ project:
 
 website:
   title: "UKDRI ECR Informatics Committee"
+  site-url: "https://ukdri.github.io/ECR-Informatics-Committee/"
   body-footer: |
       <!-- 100% privacy-first analytics -->
       <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>

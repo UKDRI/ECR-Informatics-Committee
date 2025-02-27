@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>UKDRI ECR Informatics Committee</title>
+<link>https://ukdri.github.io/ECR-Informatics-Committee/07_dissemination/01_website/events.html</link>
+<atom:link href="https://ukdri.github.io/ECR-Informatics-Committee/07_dissemination/01_website/events.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.6.40</generator>
+<lastBuildDate>Thu, 27 Feb 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Bioinformatics Bytes Café</title>
+  <dc:creator>Gabriel Mateus Bernardo Harrington</dc:creator>
+  <link>https://ukdri.github.io/ECR-Informatics-Committee/07_dissemination/01_website/001_posts/04_bioinformatics_bytes_cafe/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>The inaugural Bioinformatics Bytes Café is scheduled for 2025-02-28 at 14:00 via Zoom, please come along!</p>
+<p>The idea here is to get informatics folks together, sharing cool ideas and chatting. We’ll be starting with a discoveries session where we showcase some cool tools/packages rapid fire. Then we’ll have a brief presentation around the UK DRI GitHub and we’ll finish with a discussion session.</p>
+<p>We’re very open to changing this structure if that’s what folk want, so please get in touch with any feedback, we are here for you! 😄</p>
+<p>You don’t have to be a hardcore informatician, if you’re learning or planning to learn informatics related stuff then you are part of the community and should be there!</p>
+<p>You can find details, a calendar invite and the zoom link to join on the DRI portal <a href="https://portal.ukdri.ac.uk/events/bioinformatic-bytes-cafe">here</a>.</p>
+<p>Hope to see many of you there!</p>
+
+
+
+<script async="" defer="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script> ]]></description>
+  <category>news</category>
+  <category>events</category>
+  <guid>https://ukdri.github.io/ECR-Informatics-Committee/07_dissemination/01_website/001_posts/04_bioinformatics_bytes_cafe/</guid>
+  <pubDate>Thu, 27 Feb 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://ukdri.github.io/ECR-Informatics-Committee/07_dissemination/01_website/001_posts/04_bioinformatics_bytes_cafe/thumbnail.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Behind the P-value</title>
+  <dc:creator>Gabriel Mateus Bernardo Harrington</dc:creator>
+  <link>https://ukdri.github.io/ECR-Informatics-Committee/07_dissemination/01_website/001_posts/03_behind-the-pval/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>We have a new seminar series starting that we’re calling Behind the p-value!</p>
+<p>You can find details, a calendar invite and the zoom link to join on the DRI portal <a href="https://portal.ukdri.ac.uk/events/informatics-theme-seminar-2">here</a>.</p>
+<p>Here’s the pitch:</p>
+<p>Informatics are used in many papers, but the methods and decisions used to generate the figures are often unclear. Why did they choose one package over another? How were the data filtered, and why were those filters chosen? Why UMAP and not tSNE, or vice versa?</p>
+<p>The Informatics ECR committee invite you to a different kind of seminar that aims to focus on the informatics analyses that underlie published work.</p>
+<p>Join us as Dr.&nbsp;Anna Mallach, Edmond and Lily Safra Research Fellow and UKDRI Emerging Leader at Imperial, discusses the methods and decisions she used when analysing data for her recent paper in Cell Reports (https://doi.org/10.1016/j.celrep.2024.114216).</p>
+
+
+
+<script async="" defer="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script> ]]></description>
+  <category>news</category>
+  <category>events</category>
+  <guid>https://ukdri.github.io/ECR-Informatics-Committee/07_dissemination/01_website/001_posts/03_behind-the-pval/</guid>
+  <pubDate>Thu, 17 Oct 2024 23:00:00 GMT</pubDate>
+  <media:content url="https://ukdri.github.io/ECR-Informatics-Committee/07_dissemination/01_website/001_posts/03_behind-the-pval/thumbnail.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>New committee members needed!</title>
+  <dc:creator>Gabriel Mateus Bernardo Harrington</dc:creator>
+  <link>https://ukdri.github.io/ECR-Informatics-Committee/07_dissemination/01_website/001_posts/02_recruiting/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>We’re looking to recruit some new members to the committee!</p>
+<p>We’d really like to have representation from each centre, so folk from the Cambridge and Kings DRI centres would be especially welcome. Having said that, we don’t’ intend to be exclusionary, so if you’re keen to be involved you’re very welcome regardless :)</p>
+<p>We’d also like to try and have folk representing different aspect of informatic work, and we’re missing a member working with imaging data, so that’d also be great!</p>
+
+
+
+<script async="" defer="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script> ]]></description>
+  <category>news</category>
+  <category>committee</category>
+  <guid>https://ukdri.github.io/ECR-Informatics-Committee/07_dissemination/01_website/001_posts/02_recruiting/</guid>
+  <pubDate>Wed, 16 Oct 2024 23:00:00 GMT</pubDate>
+  <media:content url="https://ukdri.github.io/ECR-Informatics-Committee/07_dissemination/01_website/001_posts/02_recruiting/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Welcome!</title>
+  <dc:creator>Gabriel Mateus Bernardo Harrington</dc:creator>
+  <link>https://ukdri.github.io/ECR-Informatics-Committee/07_dissemination/01_website/001_posts/01_welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is the first post for the UKDRI ECR informatics committee website!</p>
+<p>For now we’d like this to be a place where people can see who we are and what upcoming events we have, but depending on what the community wants we might also add other stuff (links to nice training material, guest blog posts, etc).</p>
+<p>Feel free to get in touch if you’ve thoughts you want to share!</p>
+<p><img src="https://ukdri.github.io/ECR-Informatics-Committee/07_dissemination/01_website/001_posts/01_welcome/thumbnail.jpg" class="img-fluid"></p>
+
+
+
+<script async="" defer="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script> ]]></description>
+  <category>news</category>
+  <guid>https://ukdri.github.io/ECR-Informatics-Committee/07_dissemination/01_website/001_posts/01_welcome/</guid>
+  <pubDate>Tue, 15 Oct 2024 23:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

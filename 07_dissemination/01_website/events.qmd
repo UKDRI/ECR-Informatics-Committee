@@ -3,6 +3,11 @@ title: "Events and News"
 listing:
   contents: 001_posts
   type: default
+  categories: true
+  feed: true
+  sort:
+    - "date desc"
+    - "title desc"
   filter-ui: true
   sort-ui: true
 ---
