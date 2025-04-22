@@ -1,0 +1,22 @@
+---
+title: tidytuesday
+date: 2025-04-22
+author: Mateus Harrington
+categories: [Data science]
+description: TidyTuesday is a weekly social data project. Data is released weekly, and folk share their approaches for analysing it
+---
+
+## Problem Solved
+A fun data science community to participate in and learn with
+
+## Example Usage
+```{r}
+|# eval: false
+nan
+```
+
+## Additional Resources
+- Source Code: [https://github.com/rfordatascience/tidytuesday](https://github.com/rfordatascience/tidytuesday)
+
+## Notes
+nan
