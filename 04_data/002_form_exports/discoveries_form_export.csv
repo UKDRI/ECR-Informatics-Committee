@@ -1,4 +1,4 @@
-"Timestamp","Your Name","Package Name","Short description","What is the package or tool useful for?","Example Code","Language?","Source Code Link","Categories","Additional Notes"
+"Timestamp","Your Name","Package Name","Short description","What is the package or tool useful for?","Example Code","Language?","Source Code Link","Categories","Additional Notes","Column 10"
 Tue Jan 28 2025 12:45:52 GMT+0000 (Greenwich Mean Time),"Mateus Harrington","here","A little package for managing file paths in R projects.
 
 Using `here` you can always get file paths that're relative to the project root which're expanded to the full system path.","Useful for managing file paths in Quarto/R Markdown files. If you have a nested .qmd or .rmd and want to put file paths in, you'll know when they render they set the working directory to the location of that file and not the project root.","# Create a new project, check you've got a .Rproj file in the project root.
@@ -9,14 +9,16 @@ here::here() # get the project path
 file <- here::here(""data_folder/example_table.csv"")
 print(file)
 # Read in data
-# data <- read.csv(file)","R","https://github.com/r-lib/here/","Reproducibility",""
+# data <- read.csv(file)","R","https://github.com/r-lib/here/","Reproducibility","",""
 Tue Jan 28 2025 12:30:38 GMT+0000 (Greenwich Mean Time),"Mateus Harrington","janitor","Has super handy function for cleaning data, particularly cleaning column names","I use it most often immediately after I read in a file to clean the column names. It'll do things like remove special characters and replace spaces with underscores.","# Data with dirty column names
 head(iris)
 
 # Easy cleaning!
 iris |>
   janitor::clean_names() |>
-  head()","R","https://github.com/sfirke/janitor","Data cleaning",""
-Tue Feb 18 2025 16:15:55 GMT+0000 (Greenwich Mean Time),"Christina Maat","Fastremap","Renumber and relabel Numpy arrays at C++ speed and physically convert rectangular Numpy arrays between C and Fortran order using an in-place transposition. (https://github.com/seung-lab/fastremap)","Relabeling large segmented images (could be anything, but in my case confocal microscopy images)","","Python","https://github.com/seung-lab/fastremap","array handling?",""
-Mon Feb 24 2025 15:30:40 GMT+0000 (Greenwich Mean Time),"Pierre Parutto","Ilastik","Ilastik allows to segment images based on live training. You draw on the image examples of the different elements you want to segment and it updates the model live.","image segmentation","","GUI","https://www.ilastik.org/","image processing",""
-Mon Feb 24 2025 15:34:30 GMT+0000 (Greenwich Mean Time),"Umran Yaman","MultiQC, Atria(maybe)","MultiQC is the standard in bioinformatics reporting."," Recently they have incorporated summaries using OpenAI, Seqera AI etc and user can make use of these summaries by creating a token easily. Good for interpreting the QC results. ","","Python","https://seqera.io/multiqc/","Visualisation, Statistics, Reproducibility",""
+  head()","R","https://github.com/sfirke/janitor","Data cleaning","",""
+Tue Feb 18 2025 16:15:55 GMT+0000 (Greenwich Mean Time),"Christina Maat","Fastremap","Renumber and relabel Numpy arrays at C++ speed and physically convert rectangular Numpy arrays between C and Fortran order using an in-place transposition. (https://github.com/seung-lab/fastremap)","Relabeling large segmented images (could be anything, but in my case confocal microscopy images)","","Python","https://github.com/seung-lab/fastremap","array handling?","",""
+Mon Feb 24 2025 15:30:40 GMT+0000 (Greenwich Mean Time),"Pierre Parutto","Ilastik","Ilastik allows to segment images based on live training. You draw on the image examples of the different elements you want to segment and it updates the model live.","image segmentation","","GUI","https://www.ilastik.org/","image processing","",""
+Mon Feb 24 2025 15:34:30 GMT+0000 (Greenwich Mean Time),"Umran Yaman","MultiQC, Atria(maybe)","MultiQC is the standard in bioinformatics reporting."," Recently they have incorporated summaries using OpenAI, Seqera AI etc and user can make use of these summaries by creating a token easily. Good for interpreting the QC results. ","","Python","https://seqera.io/multiqc/","Visualisation, Statistics, Reproducibility","",""
+Thu Apr 17 2025 16:29:55 GMT+0100 (British Summer Time),"Mateus Harrington","targets","A [Make](https://www.gnu.org/software/make/)-like pipeline tool for statistics and data science in R","Lets you make efficient pipelines in R to save rerunning lengthy steps of processing, and improve reproducibly.","","R","https://github.com/ropensci/targets","","Nice documentation for the package can be found here: https://books.ropensci.org/targets/",""
+Thu Apr 17 2025 16:34:30 GMT+0100 (British Summer Time),"Mateus Harrington","tidytuesday","TidyTuesday is a weekly social data project. Data is released weekly, and folk share their approaches for analysing it","A fun data science community to participate in and learn with","","R","https://github.com/rfordatascience/tidytuesday","Data science","",""
