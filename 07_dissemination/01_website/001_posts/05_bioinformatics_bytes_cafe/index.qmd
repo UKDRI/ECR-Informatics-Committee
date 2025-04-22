@@ -1,0 +1,25 @@
+---
+title: "Bioinformatics Bytes Café, take two!"
+subtitle: "Tuning into cell-cell interactions"
+author: "Gabriel Mateus Bernardo Harrington"
+date: "2025-04-28"
+categories: [news, events]
+image: "thumbnail.jpg"
+---
+
+The second Bioinformatics Bytes Café is scheduled for 2025-04-28 at 15:00 via Zoom, please come along!
+
+As a reminder, the idea here is to get informatics folks together, sharing cool ideas and chatting. We'll be starting with a discoveries session where we showcase some cool tools/packages rapid fire. 
+Then we'll have a brief presentation around the UK DRI GitHub and we'll finish with a discussion session.
+The main focus for this session will be cell-cell interaction analysis
+We'll be going into breakout rooms to discuss experiences in different domains, so one room for single cell seq, one for proteomics and one for cell imaging.
+
+Can't wait to see if everyone finds CellChat as fiddly as I do!
+
+We're very open to changing this structure if that's what folk want, so please get in touch with any feedback, we are here for you! 😄
+
+You don’t have to be a hardcore informatician, if you’re learning or planning to learn informatics related stuff then you are part of the community and should be there!
+
+You can find details, a calendar invite and the zoom link to join on the DRI portal [here](https://portal.ukdri.ac.uk/events/bioinformatic-bytes-cafe-2).
+
+Hope to see many of you there!

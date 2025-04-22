@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Events and news",
     "section": "",
-    "text": "Bioinformatics Bytes Café\n\n\nA new community building event!\n\n\n\nnews\n\n\nevents\n\n\n\n\n\n\n\n\n\nFeb 27, 2025\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nBehind the P-value\n\n\nThe first entry in our new seminar series!\n\n\n\nnews\n\n\nevents\n\n\n\n\n\n\n\n\n\nOct 18, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nNew committee members needed!\n\n\n\n\n\n\nnews\n\n\ncommittee\n\n\n\n\n\n\n\n\n\nOct 17, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome!\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 16, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\nNo matching items"
+    "text": "Bioinformatics Bytes Café, take two!\n\n\nTuning into cell-cell interactions\n\n\n\nnews\n\n\nevents\n\n\n\n\n\n\n\n\n\nApr 28, 2025\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nBioinformatics Bytes Café\n\n\nA new community building event!\n\n\n\nnews\n\n\nevents\n\n\n\n\n\n\n\n\n\nFeb 27, 2025\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nBehind the P-value\n\n\nThe first entry in our new seminar series!\n\n\n\nnews\n\n\nevents\n\n\n\n\n\n\n\n\n\nOct 18, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nNew committee members needed!\n\n\n\n\n\n\nnews\n\n\ncommittee\n\n\n\n\n\n\n\n\n\nOct 17, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome!\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 16, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "07_dissemination/01_website/charter.html",
@@ -147,18 +147,11 @@
     "text": "Affiliated and member of UKDRI and ECR Informatics committee since creation.\nWho: I am a senior research fellow in statistical genetics and have been working in the Hardy lab.\nWhy? I joined the ECR committee with the hope of helping to create a support network of informaticians/statisticians with varying degrees of experience for researchers in Genomics, Informatics and Statistics. It doesn’t matter if you are a master of the craft or a beginner, we want to form a network that will enrich your ECR experience."
   },
   {
-    "objectID": "07_dissemination/01_website/001_posts/03_behind-the-pval/index.html",
-    "href": "07_dissemination/01_website/001_posts/03_behind-the-pval/index.html",
-    "title": "Behind the P-value",
+    "objectID": "07_dissemination/01_website/001_posts/04_bioinformatics_bytes_cafe/index.html",
+    "href": "07_dissemination/01_website/001_posts/04_bioinformatics_bytes_cafe/index.html",
+    "title": "Bioinformatics Bytes Café",
     "section": "",
-    "text": "We have a new seminar series starting that we’re calling Behind the p-value!\nYou can find details, a calendar invite and the zoom link to join on the DRI portal here.\nHere’s the pitch:\nInformatics are used in many papers, but the methods and decisions used to generate the figures are often unclear. Why did they choose one package over another? How were the data filtered, and why were those filters chosen? Why UMAP and not tSNE, or vice versa?\nThe Informatics ECR committee invite you to a different kind of seminar that aims to focus on the informatics analyses that underlie published work.\nJoin us as Dr. Anna Mallach, Edmond and Lily Safra Research Fellow and UKDRI Emerging Leader at Imperial, discusses the methods and decisions she used when analysing data for her recent paper in Cell Reports (https://doi.org/10.1016/j.celrep.2024.114216)."
-  },
-  {
-    "objectID": "07_dissemination/01_website/001_posts/01_welcome/index.html",
-    "href": "07_dissemination/01_website/001_posts/01_welcome/index.html",
-    "title": "Welcome!",
-    "section": "",
-    "text": "This is the first post for the UKDRI ECR informatics committee website!\nFor now we’d like this to be a place where people can see who we are and what upcoming events we have, but depending on what the community wants we might also add other stuff (links to nice training material, guest blog posts, etc).\nFeel free to get in touch if you’ve thoughts you want to share!"
+    "text": "The inaugural Bioinformatics Bytes Café is scheduled for 2025-02-28 at 14:00 via Zoom, please come along!\nThe idea here is to get informatics folks together, sharing cool ideas and chatting. We’ll be starting with a discoveries session where we showcase some cool tools/packages rapid fire. Then we’ll have a brief presentation around the UK DRI GitHub and we’ll finish with a discussion session.\nWe’re very open to changing this structure if that’s what folk want, so please get in touch with any feedback, we are here for you! 😄\nYou don’t have to be a hardcore informatician, if you’re learning or planning to learn informatics related stuff then you are part of the community and should be there!\nYou can find details, a calendar invite and the zoom link to join on the DRI portal here.\nHope to see many of you there!"
   },
   {
     "objectID": "07_dissemination/01_website/001_posts/02_recruiting/index.html",
@@ -168,11 +161,25 @@
     "text": "We’re looking to recruit some new members to the committee!\nWe’d really like to have representation from each centre, so folk from the Cambridge and Kings DRI centres would be especially welcome. Having said that, we don’t’ intend to be exclusionary, so if you’re keen to be involved you’re very welcome regardless :)\nWe’d also like to try and have folk representing different aspect of informatic work, and we’re missing a member working with imaging data, so that’d also be great!"
   },
   {
-    "objectID": "07_dissemination/01_website/001_posts/04_bioinformatics_bytes_cafe/index.html",
-    "href": "07_dissemination/01_website/001_posts/04_bioinformatics_bytes_cafe/index.html",
-    "title": "Bioinformatics Bytes Café",
+    "objectID": "07_dissemination/01_website/001_posts/01_welcome/index.html",
+    "href": "07_dissemination/01_website/001_posts/01_welcome/index.html",
+    "title": "Welcome!",
     "section": "",
-    "text": "The inaugural Bioinformatics Bytes Café is scheduled for 2025-02-28 at 14:00 via Zoom, please come along!\nThe idea here is to get informatics folks together, sharing cool ideas and chatting. We’ll be starting with a discoveries session where we showcase some cool tools/packages rapid fire. Then we’ll have a brief presentation around the UK DRI GitHub and we’ll finish with a discussion session.\nWe’re very open to changing this structure if that’s what folk want, so please get in touch with any feedback, we are here for you! 😄\nYou don’t have to be a hardcore informatician, if you’re learning or planning to learn informatics related stuff then you are part of the community and should be there!\nYou can find details, a calendar invite and the zoom link to join on the DRI portal here.\nHope to see many of you there!"
+    "text": "This is the first post for the UKDRI ECR informatics committee website!\nFor now we’d like this to be a place where people can see who we are and what upcoming events we have, but depending on what the community wants we might also add other stuff (links to nice training material, guest blog posts, etc).\nFeel free to get in touch if you’ve thoughts you want to share!"
+  },
+  {
+    "objectID": "07_dissemination/01_website/001_posts/03_behind-the-pval/index.html",
+    "href": "07_dissemination/01_website/001_posts/03_behind-the-pval/index.html",
+    "title": "Behind the P-value",
+    "section": "",
+    "text": "We have a new seminar series starting that we’re calling Behind the p-value!\nYou can find details, a calendar invite and the zoom link to join on the DRI portal here.\nHere’s the pitch:\nInformatics are used in many papers, but the methods and decisions used to generate the figures are often unclear. Why did they choose one package over another? How were the data filtered, and why were those filters chosen? Why UMAP and not tSNE, or vice versa?\nThe Informatics ECR committee invite you to a different kind of seminar that aims to focus on the informatics analyses that underlie published work.\nJoin us as Dr. Anna Mallach, Edmond and Lily Safra Research Fellow and UKDRI Emerging Leader at Imperial, discusses the methods and decisions she used when analysing data for her recent paper in Cell Reports (https://doi.org/10.1016/j.celrep.2024.114216)."
+  },
+  {
+    "objectID": "07_dissemination/01_website/001_posts/05_bioinformatics_bytes_cafe/index.html",
+    "href": "07_dissemination/01_website/001_posts/05_bioinformatics_bytes_cafe/index.html",
+    "title": "Bioinformatics Bytes Café, take two!",
+    "section": "",
+    "text": "The second Bioinformatics Bytes Café is scheduled for 2025-04-28 at 15:00 via Zoom, please come along!\nAs a reminder, the idea here is to get informatics folks together, sharing cool ideas and chatting. We’ll be starting with a discoveries session where we showcase some cool tools/packages rapid fire. Then we’ll have a brief presentation around the UK DRI GitHub and we’ll finish with a discussion session. The main focus for this session will be cell-cell interaction analysis We’ll be going into breakout rooms to discuss experiences in different domains, so one room for single cell seq, one for proteomics and one for cell imaging.\nCan’t wait to see if everyone finds CellChat as fiddly as I do!\nWe’re very open to changing this structure if that’s what folk want, so please get in touch with any feedback, we are here for you! 😄\nYou don’t have to be a hardcore informatician, if you’re learning or planning to learn informatics related stuff then you are part of the community and should be there!\nYou can find details, a calendar invite and the zoom link to join on the DRI portal here.\nHope to see many of you there!"
   },
   {
     "objectID": "07_dissemination/01_website/002_committee/SH/sh.html",
@@ -319,6 +326,6 @@
     "href": "07_dissemination/01_website/events.html",
     "title": "Events and News",
     "section": "",
-    "text": "Sign up for our mailing list to keep up to date here\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBioinformatics Bytes Café\n\n\nA new community building event!\n\n\n\nnews\n\n\nevents\n\n\n\n\n\n\n\n\n\nFeb 27, 2025\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nBehind the P-value\n\n\nThe first entry in our new seminar series!\n\n\n\nnews\n\n\nevents\n\n\n\n\n\n\n\n\n\nOct 18, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nNew committee members needed!\n\n\n\n\n\n\nnews\n\n\ncommittee\n\n\n\n\n\n\n\n\n\nOct 17, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome!\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 16, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\nNo matching items"
+    "text": "Sign up for our mailing list to keep up to date here\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBioinformatics Bytes Café, take two!\n\n\nTuning into cell-cell interactions\n\n\n\nnews\n\n\nevents\n\n\n\n\n\n\n\n\n\nApr 28, 2025\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nBioinformatics Bytes Café\n\n\nA new community building event!\n\n\n\nnews\n\n\nevents\n\n\n\n\n\n\n\n\n\nFeb 27, 2025\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nBehind the P-value\n\n\nThe first entry in our new seminar series!\n\n\n\nnews\n\n\nevents\n\n\n\n\n\n\n\n\n\nOct 18, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nNew committee members needed!\n\n\n\n\n\n\nnews\n\n\ncommittee\n\n\n\n\n\n\n\n\n\nOct 17, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome!\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 16, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\nNo matching items"
   }
 ]

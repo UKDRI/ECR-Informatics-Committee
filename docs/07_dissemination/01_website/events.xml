@@ -10,7 +10,34 @@
 <atom:link href="https://ukdri.github.io/ECR-Informatics-Committee/07_dissemination/01_website/events.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.6.40</generator>
-<lastBuildDate>Thu, 27 Feb 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 27 Apr 2025 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Bioinformatics Bytes Café, take two!</title>
+  <dc:creator>Gabriel Mateus Bernardo Harrington</dc:creator>
+  <link>https://ukdri.github.io/ECR-Informatics-Committee/07_dissemination/01_website/001_posts/05_bioinformatics_bytes_cafe/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>The second Bioinformatics Bytes Café is scheduled for 2025-04-28 at 15:00 via Zoom, please come along!</p>
+<p>As a reminder, the idea here is to get informatics folks together, sharing cool ideas and chatting. We’ll be starting with a discoveries session where we showcase some cool tools/packages rapid fire. Then we’ll have a brief presentation around the UK DRI GitHub and we’ll finish with a discussion session. The main focus for this session will be cell-cell interaction analysis We’ll be going into breakout rooms to discuss experiences in different domains, so one room for single cell seq, one for proteomics and one for cell imaging.</p>
+<p>Can’t wait to see if everyone finds CellChat as fiddly as I do!</p>
+<p>We’re very open to changing this structure if that’s what folk want, so please get in touch with any feedback, we are here for you! 😄</p>
+<p>You don’t have to be a hardcore informatician, if you’re learning or planning to learn informatics related stuff then you are part of the community and should be there!</p>
+<p>You can find details, a calendar invite and the zoom link to join on the DRI portal <a href="https://portal.ukdri.ac.uk/events/bioinformatic-bytes-cafe-2">here</a>.</p>
+<p>Hope to see many of you there!</p>
+
+
+
+<script async="" defer="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script> ]]></description>
+  <category>news</category>
+  <category>events</category>
+  <guid>https://ukdri.github.io/ECR-Informatics-Committee/07_dissemination/01_website/001_posts/05_bioinformatics_bytes_cafe/</guid>
+  <pubDate>Sun, 27 Apr 2025 23:00:00 GMT</pubDate>
+  <media:content url="https://ukdri.github.io/ECR-Informatics-Committee/07_dissemination/01_website/001_posts/05_bioinformatics_bytes_cafe/thumbnail.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Bioinformatics Bytes Café</title>
   <dc:creator>Gabriel Mateus Bernardo Harrington</dc:creator>
