@@ -97,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Committee Members</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../07_dissemination/01_website/003_discoveries/index.html"> 
+    <a class="nav-link" href="../../../../07_dissemination/01_website/004_discoveries/index.html"> 
 <span class="menu-text">Discoveries</span></a>
   </li>  
   <li class="nav-item">
@@ -404,7 +404,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/ukdri\.github\.io\/ECR-Informatics-Committee\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

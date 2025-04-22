@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Pierre Parutto">
-<meta name="dcterms.date" content="2025-02-24">
-<meta name="description" content="Ilastik allows to segment images based on live training. You draw on the image examples of the different elements you want to segment and it updates the model live.">
+<meta name="author" content="Mateus Harrington">
+<meta name="dcterms.date" content="2025-04-22">
+<meta name="description" content="TidyTuesday is a weekly social data project. Data is released weekly, and folk share their approaches for analysing it">
 
-<title>Ilastik – UKDRI ECR Informatics Committee</title>
+<title>tidytuesday – UKDRI ECR Informatics Committee</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -101,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Committee Members</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../07_dissemination/01_website/003_discoveries/index.html"> 
+    <a class="nav-link" href="../../../07_dissemination/01_website/004_discoveries/index.html"> 
 <span class="menu-text">Discoveries</span></a>
   </li>  
   <li class="nav-item">
@@ -135,15 +169,15 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ilastik</h1>
+<h1 class="title">tidytuesday</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">image processing</div>
+    <div class="quarto-category">Data science</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Ilastik allows to segment images based on live training. You draw on the image examples of the different elements you want to segment and it updates the model live.
+    TidyTuesday is a weekly social data project. Data is released weekly, and folk share their approaches for analysing it
   </div>
 </div>
 
@@ -153,14 +187,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Pierre Parutto </p>
+             <p>Mateus Harrington </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 24, 2025</p>
+      <p class="date">April 22, 2025</p>
     </div>
   </div>
   
@@ -174,13 +208,23 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="problem-solved" class="level2">
 <h2 class="anchored" data-anchor-id="problem-solved">Problem Solved</h2>
-<p>image segmentation</p>
+<p>A fun data science community to participate in and learn with</p>
+</section>
+<section id="example-usage" class="level2">
+<h2 class="anchored" data-anchor-id="example-usage">Example Usage</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>nan</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="additional-resources" class="level2">
 <h2 class="anchored" data-anchor-id="additional-resources">Additional Resources</h2>
 <ul>
-<li>Source Code: <a href="https://www.ilastik.org/">https://www.ilastik.org/</a></li>
+<li>Source Code: <a href="https://github.com/rfordatascience/tidytuesday">https://github.com/rfordatascience/tidytuesday</a></li>
 </ul>
+</section>
+<section id="notes" class="level2">
+<h2 class="anchored" data-anchor-id="notes">Notes</h2>
+<p>nan</p>
 
 
 </section>
@@ -420,7 +464,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/ukdri\.github\.io\/ECR-Informatics-Committee\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -752,4 +796,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/UKDRI/ECR-Informatics-Committee/edit/main/07_dissemination/01_website/003_discoveries/2025-02-24-ilastik.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/UKDRI/ECR-Informatics-Committee/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/UKDRI/ECR-Informatics-Committee/edit/main/07_dissemination/01_website/004_discoveries/2025-04-22-tidytuesday.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/UKDRI/ECR-Informatics-Committee/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

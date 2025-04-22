@@ -2,6 +2,7 @@
 title: janitor
 date: 2025-02-14
 author: Mateus Harrington
+image: /07_dissemination/01_website/images/discoveries/colour2.png
 categories: [Data cleaning]
 description: Has super handy function for cleaning data, particularly cleaning column names
 ---

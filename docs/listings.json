@@ -9,13 +9,21 @@
     ]
   },
   {
-    "listing": "/07_dissemination/01_website/003_discoveries/index.html",
+    "listing": "/07_dissemination/01_website/004_discoveries/index.html",
     "items": [
-      "/07_dissemination/01_website/003_discoveries/2025-02-24-fastremap.html",
-      "/07_dissemination/01_website/003_discoveries/2025-02-24-ilastik.html",
-      "/07_dissemination/01_website/003_discoveries/2025-02-24-multiqc,-atria(maybe).html",
-      "/07_dissemination/01_website/003_discoveries/2025-01-28-here.html",
-      "/07_dissemination/01_website/003_discoveries/2025-02-14-janitor.html"
+      "/07_dissemination/01_website/004_discoveries/2025-04-22-tidytuesday.html",
+      "/07_dissemination/01_website/004_discoveries/2025-04-22-targets.html",
+      "/07_dissemination/01_website/004_discoveries/2025-02-24-multiqc,-atria(maybe).html",
+      "/07_dissemination/01_website/004_discoveries/2025-02-24-ilastik.html",
+      "/07_dissemination/01_website/004_discoveries/2025-02-24-fastremap.html",
+      "/07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html",
+      "/07_dissemination/01_website/004_discoveries/2025-01-28-here.html"
+    ]
+  },
+  {
+    "listing": "/07_dissemination/01_website/003_committe_alumni/index.html",
+    "items": [
+      "/07_dissemination/01_website/003_committe_alumni/dmc/dmc.html"
     ]
   },
   {
@@ -36,22 +44,6 @@
       "/07_dissemination/01_website/001_posts/03_behind-the-pval/index.html",
       "/07_dissemination/01_website/001_posts/02_recruiting/index.html",
       "/07_dissemination/01_website/001_posts/01_welcome/index.html"
-    ]
-  },
-  {
-    "listing": "/07_dissemination/01_website/004_discoveries/index.html",
-    "items": [
-      "/07_dissemination/01_website/004_discoveries/2025-02-24-fastremap.html",
-      "/07_dissemination/01_website/004_discoveries/2025-02-24-ilastik.html",
-      "/07_dissemination/01_website/004_discoveries/2025-02-24-multiqc,-atria(maybe).html",
-      "/07_dissemination/01_website/004_discoveries/2025-01-28-here.html",
-      "/07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html"
-    ]
-  },
-  {
-    "listing": "/07_dissemination/01_website/003_committe_alumni/index.html",
-    "items": [
-      "/07_dissemination/01_website/003_committe_alumni/dmc/dmc.html"
     ]
   }
 ]

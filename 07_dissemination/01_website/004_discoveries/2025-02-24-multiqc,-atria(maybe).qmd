@@ -3,6 +3,7 @@ title: MultiQC, Atria(maybe)
 date: 2025-02-24
 author: Umran Yaman
 categories: [Visualisation, Statistics, Reproducibility]
+image: /07_dissemination/01_website/images/discoveries/colour5.png
 description: MultiQC is the standard in bioinformatics reporting.
 ---
 

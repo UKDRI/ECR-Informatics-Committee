@@ -80,9 +80,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -132,7 +132,7 @@ window.Quarto = {
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -186,7 +186,9 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="RGF0YSUyMGNsZWFuaW5n">Data cleaning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGF0YSUyMHNjaWVuY2U=">Data science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGlwZWxpbmVz">Pipelines <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVwcm9kdWNpYmlsaXR5">Reproducibility <span class="quarto-category-count">(3)</span></div><div class="category" data-category="U3RhdGlzdGljcw==">Statistics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VmlzdWFsaXNhdGlvbg==">Visualisation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YXJyYXklMjBoYW5kbGluZyUzRg==">array handling? <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aW1hZ2UlMjBwcm9jZXNzaW5n">image processing <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -216,61 +218,112 @@ window.Quarto = {
 
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+</div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="YXJyYXklMjBoYW5kbGluZyUzRg==" data-listing-date-sort="1740355200000" data-listing-file-modified-sort="1740416395507" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="19">
-<a href="../../../07_dissemination/01_website/004_discoveries/2025-02-24-fastremap.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="RGF0YSUyMHNjaWVuY2U=" data-listing-date-sort="1745276400000" data-listing-file-modified-sort="1745319283957" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21">
+<a href="../../../07_dissemination/01_website/004_discoveries/2025-04-22-tidytuesday.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<p class="card-img-top">
+<img loading="lazy" src="../../../07_dissemination/01_website/images/discoveries/colour4.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Fastremap
+tidytuesday
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMHNjaWVuY2U='); return false;">
+Data science
+</div>
+</div>
 <div class="card-text listing-description">
-Renumber and relabel Numpy arrays at C++ speed and physically convert rectangular Numpy arrays between C and Fortran order using an in-place transposition.…
+TidyTuesday is a weekly social data project. Data is released weekly, and folk share their approaches for analysing it
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
-Christina Maat
+Mateus Harrington
 </div>
 <div class="listing-date">
-Feb 24, 2025
+Apr 22, 2025
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="aW1hZ2UlMjBwcm9jZXNzaW5n" data-listing-date-sort="1740355200000" data-listing-file-modified-sort="1740416395508" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
-<a href="../../../07_dissemination/01_website/004_discoveries/2025-02-24-ilastik.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-categories="UmVwcm9kdWNpYmlsaXR5JTJDUGlwZWxpbmVz" data-listing-date-sort="1745276400000" data-listing-file-modified-sort="1745319237505" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="36">
+<a href="../../../07_dissemination/01_website/004_discoveries/2025-04-22-targets.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<p class="card-img-top">
+<img loading="lazy" src="../../../07_dissemination/01_website/images/discoveries/colour3.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Ilastik
+targets
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('UmVwcm9kdWNpYmlsaXR5'); return false;">
+Reproducibility
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UGlwZWxpbmVz'); return false;">
+Pipelines
+</div>
+</div>
 <div class="card-text listing-description">
-Ilastik allows to segment images based on live training. You draw on the image examples of the different elements you want to segment and it updates the model live.
+A <span>Make</span>-like pipeline tool for statistics and data science in R
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
-Pierre Parutto
+Mateus Harrington
 </div>
 <div class="listing-date">
-Feb 24, 2025
+Apr 22, 2025
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="VmlzdWFsaXNhdGlvbiUyQ1N0YXRpc3RpY3MlMkNSZXByb2R1Y2liaWxpdHk=" data-listing-date-sort="1740355200000" data-listing-file-modified-sort="1740416888122" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="36">
+<div class="g-col-1" data-index="2" data-categories="VmlzdWFsaXNhdGlvbiUyQ1N0YXRpc3RpY3MlMkNSZXByb2R1Y2liaWxpdHk=" data-listing-date-sort="1740355200000" data-listing-file-modified-sort="1745319188352" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="36">
 <a href="../../../07_dissemination/01_website/004_discoveries/2025-02-24-multiqc,-atria(maybe).html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<p class="card-img-top">
+<img loading="lazy" src="../../../07_dissemination/01_website/images/discoveries/colour5.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 MultiQC, Atria(maybe)
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('VmlzdWFsaXNhdGlvbg=='); return false;">
+Visualisation
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('U3RhdGlzdGljcw=='); return false;">
+Statistics
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UmVwcm9kdWNpYmlsaXR5'); return false;">
+Reproducibility
+</div>
+</div>
 <div class="card-text listing-description">
 MultiQC is the standard in bioinformatics reporting.
 </div>
@@ -286,37 +339,81 @@ Feb 24, 2025
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="UmVwcm9kdWNpYmlsaXR5" data-listing-date-sort="1738022400000" data-listing-file-modified-sort="1739526469572" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
-<a href="../../../07_dissemination/01_website/004_discoveries/2025-01-28-here.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="3" data-categories="aW1hZ2UlMjBwcm9jZXNzaW5n" data-listing-date-sort="1740355200000" data-listing-file-modified-sort="1745319271892" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<a href="../../../07_dissemination/01_website/004_discoveries/2025-02-24-ilastik.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<p class="card-img-top">
+<img loading="lazy" src="../../../07_dissemination/01_website/images/discoveries/colour7.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-here
+Ilastik
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('aW1hZ2UlMjBwcm9jZXNzaW5n'); return false;">
+image processing
+</div>
+</div>
 <div class="card-text listing-description">
-A little package for managing file paths in R projects. Using <code>here</code> you can always get file paths that’re relative to the project root which’re expanded to the full system…
+Ilastik allows to segment images based on live training. You draw on the image examples of the different elements you want to segment and it updates the model live.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
-Mateus Harrington
+Pierre Parutto
 </div>
 <div class="listing-date">
-Jan 28, 2025
+Feb 24, 2025
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="RGF0YSUyMGNsZWFuaW5n" data-listing-date-sort="1739491200000" data-listing-file-modified-sort="1739525718719" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
+<div class="g-col-1" data-index="4" data-categories="YXJyYXklMjBoYW5kbGluZyUzRg==" data-listing-date-sort="1740355200000" data-listing-file-modified-sort="1745319259571" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="19">
+<a href="../../../07_dissemination/01_website/004_discoveries/2025-02-24-fastremap.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../../../07_dissemination/01_website/images/discoveries/colour6.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fastremap
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('YXJyYXklMjBoYW5kbGluZyUzRg=='); return false;">
+array handling?
+</div>
+</div>
+<div class="card-text listing-description">
+Renumber and relabel Numpy arrays at C++ speed and physically convert rectangular Numpy arrays between C and Fortran order using an in-place transposition.…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Christina Maat
+</div>
+<div class="listing-date">
+Feb 24, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="RGF0YSUyMGNsZWFuaW5n" data-listing-date-sort="1739491200000" data-listing-file-modified-sort="1745319108830" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
 <a href="../../../07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<p class="card-img-top">
+<img loading="lazy" src="../../../07_dissemination/01_website/images/discoveries/colour2.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 janitor
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMGNsZWFuaW5n'); return false;">
+Data cleaning
+</div>
+</div>
 <div class="card-text listing-description">
 Has super handy function for cleaning data, particularly cleaning column names
 </div>
@@ -326,6 +423,36 @@ Mateus Harrington
 </div>
 <div class="listing-date">
 Feb 14, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="UmVwcm9kdWNpYmlsaXR5" data-listing-date-sort="1738022400000" data-listing-file-modified-sort="1745315853459" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
+<a href="../../../07_dissemination/01_website/004_discoveries/2025-01-28-here.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../../../07_dissemination/01_website/images/discoveries/colour1.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+here
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('UmVwcm9kdWNpYmlsaXR5'); return false;">
+Reproducibility
+</div>
+</div>
+<div class="card-text listing-description">
+A little package for managing file paths in R projects. Using <code>here</code> you can always get file paths that’re relative to the project root which’re expanded to the full system…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Mateus Harrington
+</div>
+<div class="listing-date">
+Jan 28, 2025
 </div>
 </div>
 </div>
@@ -571,7 +698,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/ukdri\.github\.io\/ECR-Informatics-Committee\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

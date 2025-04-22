@@ -2,6 +2,9 @@
 title: here
 date: 2025-01-28
 author: Mateus Harrington
+title-block-banner: "#691C32"
+title-block-banner-color: "#F5F5F5"
+image: /07_dissemination/01_website/images/discoveries/colour1.png
 categories: [Reproducibility]
 description: "A little package for managing file paths in R projects. Using `here` you can always get file paths that're relative to the project root which're expanded to the full system path."
 ---
