@@ -79,7 +79,7 @@ title-block-banner-color: "{hex_colour}"
 
 ## Example Usage
 ```{formatted_language}
-# eval: false
+#| eval: false
 {row["Example Code"]}
 ```
 
