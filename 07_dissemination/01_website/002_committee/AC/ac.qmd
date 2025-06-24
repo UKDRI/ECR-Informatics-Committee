@@ -1,0 +1,64 @@
+---
+title: Austėja Čiulkinytė
+role: Member
+image: IMG_4077.jpeg
+about: 
+  template: jolla
+  links: 
+    #- icon: twitter
+     # text: twitter
+      #href: https://twitter.com/Hmateus4
+    - icon: orcid
+      text: ORCID
+      href: https://orcid.org/0000-0001-5268-5492
+    - icon: github
+      text: GitHub
+      href: https://github.com/AustejaCiulkinyte
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/causteja/
+authors:
+  - id: ac
+    #number: number
+    name:
+      given: Austėja
+      family: Čiulkinytė
+    #url: 
+    #email: string
+    #phone: string
+    degrees: BSc
+    orcid: https://orcid.org/0000-0001-5268-5492
+    #acknowledgements: string
+    roles: 
+      # see schema below
+      - website: creator
+      - Committee: member
+    #metadata: object
+    affiliations:
+      - ref: ukdri
+      - ref: lbc
+      - ref: edinburgh
+affiliations:
+  - id: ukdri
+    #number: number
+    name: UK Dementia Research Institute
+    #department: string
+    group: Díaz Castro
+    #address: string
+    #city: string
+    #region: string
+    #country: string
+    #postal-code: string
+    url: https://ukdri.ac.uk/ 
+  - id: lbc
+    name: Lothian Birth Cohorts
+    city: Edinburgh
+    url: https://lothian-birth-cohorts.ed.ac.uk/
+  - id: edinburgh
+    name: University of Edinburgh
+    group: Díaz Castro
+    city: Edinburgh
+    url: https://ed.ac.uk/ 
+---
+
+Hi! I am a PhD student on the Translational Neuroscience PhD programme at the University of Edinburgh. In my research, I investigate the molecular mechanisms by which Alzheimer's disease and cerebral small vessel disease affect the brain vasculature. To do so, I use a combination of proteomics (supervised by Blanca Díaz Castro, UKDRI Edinburgh), genomics and computational modelling approaches (supervised by Simon Cox and Sarah Harris, Lothian Birth Cohorts). Although I originally trained as a wet lab biochemist, I now spend more and more time doing data analysis and learning bioinformatics. I joined the committee to encourage other new learners to explore the informatics resources available via UK DRI and to help make informatics more accessible to all.

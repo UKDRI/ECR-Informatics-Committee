@@ -24,18 +24,19 @@
   {
     "listing": "/07_dissemination/01_website/003_committe_alumni/index.html",
     "items": [
-      "/07_dissemination/01_website/003_committe_alumni/dmc/dmc.html"
+      "/07_dissemination/01_website/003_committe_alumni/dmc/dmc.html",
+      "/07_dissemination/01_website/003_committe_alumni/SH/sh.html"
     ]
   },
   {
     "listing": "/07_dissemination/01_website/002_committee/index.html",
     "items": [
+      "/07_dissemination/01_website/002_committee/AC/ac.html",
       "/07_dissemination/01_website/002_committee/cam/cm.html",
       "/07_dissemination/01_website/002_committee/gmbh/gmbh.html",
       "/07_dissemination/01_website/002_committee/kkgr/kkgr.html",
       "/07_dissemination/01_website/002_committee/MSh/MSh.html",
-      "/07_dissemination/01_website/002_committee/par/par.html",
-      "/07_dissemination/01_website/002_committee/SH/sh.html"
+      "/07_dissemination/01_website/002_committee/par/par.html"
     ]
   },
   {
