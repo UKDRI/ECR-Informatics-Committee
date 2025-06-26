@@ -1,0 +1,25 @@
+---
+title: Samaneh Kouchaki
+role: Member
+image: profile.jpeg
+about: 
+  template: trestles
+  # links: 
+  #   - icon: twitter
+  #     text: twitter
+  #     href: https://twitter.com/davecash75
+  #   - icon: orcid
+  #     text: ORCID
+  #     href: https://orcid.org/0000-0001-7833-616X
+  #   - icon: github
+  #     text: GitHub
+  #     href: https://github.com/davecash75
+  #   - icon: file-person
+  #     text: Personal site
+  #     href: https://profiles.ucl.ac.uk/15006-dave-cash
+    #metadata: object
+---
+
+Samaneh  has extensive expertise in developing digital biomarkers and applied machine learning to analyse real healthcare data. 
+
+She has a track record of creating novel machine learning models for various healthcare applications, including compact language models and representation learning for Electronic Healthcare Records, and transformer-based and representation learning for in-home data. 
