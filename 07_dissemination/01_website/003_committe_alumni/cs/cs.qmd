@@ -1,0 +1,60 @@
+---
+title: Cynthia Sandor
+role: Member
+image: profile.jpeg
+about: 
+  template: trestles
+  links: 
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/CynthiaSandor4
+    - icon: orcid
+      text: ORCID
+      href: https://orcid.org/0000-0002-8905-1052
+authors:
+  - id: cs
+    #number: number
+    name:
+      given: Cynthia
+      family: Sandor
+    # url: https://healthbioscienceideas.github.io/
+    #email: string
+    #phone: string
+    degrees: PhD
+    orcid: 0000-0002-8905-1052
+    #acknowledgements: string
+    # roles: 
+    #   # see schema below
+    #   - website: creator
+    #   - Committee: co-chair
+    #metadata: object
+    affiliations:
+      - ref: ukdri
+      # - ref: ion
+affiliations:
+  - id: ukdri
+    #number: number
+    name: UK Dementia Research Institue
+    #department: string
+    group: Sandor
+    #address: string
+    #city: string
+    #region: string
+    #country: string
+    #postal-code: string
+    url: https://ukdri.ac.uk/ 
+  # - id: ion
+  #   name: UCL Queen Square Institute of Neurology
+  #   group: Fox
+  #   city: London
+  #   url: https://www.ucl.ac.uk/drc/research-clinical-trials/advanced-imaging-group
+---
+
+Cynthia Sandor was trained as a veterinary surgeon at the University of Liège and completed her PhD in statistical genetics in animal and human genetics under Professor Michel Georges. 
+She then moved to Harvard Medical School and the Broad Institute, where she contributed to multiple genetic studies on autoimmune diseases. 
+Following this, she undertook postdoctoral research at the University of Oxford, focusing on the validation of induced pluripotent stem cell–derived neuronal models for Parkinson’s disease using multi-omics datasets.
+
+Cynthia later joined Cardiff University, where she began her first independent position after being awarded a Sêr Cymru II (Rising Star) Fellowship and the UK DRI Emerging Leader award at the UK DRI at Cardiff, sponsored by Professor Caleb Webber. 
+Her research there aimed to unravel disease heterogeneity in Parkinson’s disease.
+
+In 2024, Cynthia became the Edmond J. Safra Lecturer in Parkinson’s Disease in the Department of Brain Sciences at Imperial College London, and she is currently a UKRI Future Leaders Fellow and a group leader of UKDRI.
