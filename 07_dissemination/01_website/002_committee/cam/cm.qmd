@@ -25,7 +25,7 @@ authors:
       family: Maat
     #email: string
     #phone: string
-    degrees: MSc
+    degrees: PhD
     orcid: 0000-0003-3565-1535
     #acknowledgements: string
     roles: 
@@ -54,4 +54,4 @@ affiliations:
     url: https://ukdri.ac.uk/centres/ucl
 ---
 
-In the lab of Marc Busche (UKDRI at UCL) I am studying Alzheimer's Disease using spatial transcriptomics and 2-photon imaging. When learning to work with advanced data analysis methods, I realized that we were not making full use of the incredibly rich informatics community at the UKDRI. By creating means for (starting) informaticians to connect - through events or digital platforms - I hope to contribute to making the informatics community a place that both propels cutting-edge computational approaches in dementia research and serves as a springboard to those breaking into the field. 2023-2025 Co-chair.
+In the lab of Marc Busche (UKDRI at UCL) I am studying Alzheimer's Disease using spatial transcriptomics and 2-photon imaging. When learning to work with advanced data analysis methods, I realized that we were not making full use of the incredibly rich informatics community at the UKDRI. By creating means for (starting) informaticians to connect - through events or digital platforms - I hope to contribute to making the informatics community a place that both propels cutting-edge computational approaches in dementia research and serves as a springboard to those breaking into the field. 2023-2025 co-chair.
