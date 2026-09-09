@@ -30,7 +30,7 @@ authors:
     #acknowledgements: string
     roles: 
       # see schema below
-      - Committee: member
+      - Committee: Member
     #metadata: object
     affiliations:
       - ref: ukdri
