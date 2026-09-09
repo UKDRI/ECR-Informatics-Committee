@@ -1,6 +1,6 @@
 ---
 title: Christina Maat
-role: Co-Chair
+role: Member
 image: profile_pic.jpg
 about: 
   template: jolla
@@ -30,7 +30,7 @@ authors:
     #acknowledgements: string
     roles: 
       # see schema below
-      - Committee: co-chair
+      - Committee: member
     #metadata: object
     affiliations:
       - ref: ukdri
@@ -54,4 +54,4 @@ affiliations:
     url: https://ukdri.ac.uk/centres/ucl
 ---
 
-In the labs of Soyon Hong (UKDRI at UCL) and Kenneth Harris (Cortex Lab at UCL) I am studying the role of microglia in Alzheimer's Disease using spatial transcriptomics. When learning to work with advanced data analysis methods, I realized that we were not making full use of the incredibly rich informatics community at the UKDRI. By creating means for (starting) informaticians to connect - through events or digital platforms - I hope to contribute to making the informatics community a place that both propels cutting-edge computational approaches in dementia research and serves as a springboard to those breaking into the field.
+In the lab of Marc Busche (UKDRI at UCL) I am studying Alzheimer's Disease using spatial transcriptomics and 2-photon imaging. When learning to work with advanced data analysis methods, I realized that we were not making full use of the incredibly rich informatics community at the UKDRI. By creating means for (starting) informaticians to connect - through events or digital platforms - I hope to contribute to making the informatics community a place that both propels cutting-edge computational approaches in dementia research and serves as a springboard to those breaking into the field. 2023-2025 Co-chair.
