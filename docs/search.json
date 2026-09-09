@@ -1,5 +1,68 @@
 [
   {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-04-22-tidytuesday.html",
+    "href": "07_dissemination/01_website/004_discoveries/2025-04-22-tidytuesday.html",
+    "title": "tidytuesday",
+    "section": "",
+    "text": "A fun data science community to participate in and learn with"
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-04-22-tidytuesday.html#problem-solved",
+    "href": "07_dissemination/01_website/004_discoveries/2025-04-22-tidytuesday.html#problem-solved",
+    "title": "tidytuesday",
+    "section": "",
+    "text": "A fun data science community to participate in and learn with"
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-04-22-tidytuesday.html#example-usage",
+    "href": "07_dissemination/01_website/004_discoveries/2025-04-22-tidytuesday.html#example-usage",
+    "title": "tidytuesday",
+    "section": "Example Usage",
+    "text": "Example Usage\n\nnan"
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-04-22-tidytuesday.html#additional-resources",
+    "href": "07_dissemination/01_website/004_discoveries/2025-04-22-tidytuesday.html#additional-resources",
+    "title": "tidytuesday",
+    "section": "Additional Resources",
+    "text": "Additional Resources\n\nSource Code: https://github.com/rfordatascience/tidytuesday"
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-04-22-tidytuesday.html#notes",
+    "href": "07_dissemination/01_website/004_discoveries/2025-04-22-tidytuesday.html#notes",
+    "title": "tidytuesday",
+    "section": "Notes",
+    "text": "Notes\nnan"
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-01-28-here.html",
+    "href": "07_dissemination/01_website/004_discoveries/2025-01-28-here.html",
+    "title": "here",
+    "section": "",
+    "text": "Useful for managing file paths in Quarto/R Markdown files. If you have a nested .qmd or .rmd and want to put file paths in, you’ll know when they render they set the working directory to the location of that file and not the project root."
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-01-28-here.html#problem-solved",
+    "href": "07_dissemination/01_website/004_discoveries/2025-01-28-here.html#problem-solved",
+    "title": "here",
+    "section": "",
+    "text": "Useful for managing file paths in Quarto/R Markdown files. If you have a nested .qmd or .rmd and want to put file paths in, you’ll know when they render they set the working directory to the location of that file and not the project root."
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-01-28-here.html#example-usage",
+    "href": "07_dissemination/01_website/004_discoveries/2025-01-28-here.html#example-usage",
+    "title": "here",
+    "section": "Example Usage",
+    "text": "Example Usage\n\n# Create a new project, check you've got a .Rproj file in the project root.\n# you can then just use the function:\nhere::here() # get the project path\n\n# Example reading fake file\nfile &lt;- here::here(\"data_folder/example_table.csv\")\nprint(file)\n# Read in data\n# data &lt;- read.csv(file)"
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-01-28-here.html#additional-resources",
+    "href": "07_dissemination/01_website/004_discoveries/2025-01-28-here.html#additional-resources",
+    "title": "here",
+    "section": "Additional Resources",
+    "text": "Additional Resources\n\nSource Code: https://github.com/r-lib/here/"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Events and news",
@@ -19,41 +82,6 @@
     "title": "Discoveries",
     "section": "",
     "text": "You can find the form to add new discoveries here: https://forms.gle/PCpRe214Jjptm8Cz8\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\ntidytuesday\n\n\n\nData science\n\n\n\nTidyTuesday is a weekly social data project. Data is released weekly, and folk share their approaches for analysing it\n\n\n\nMateus Harrington\n\n\nApr 22, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntargets\n\n\n\nReproducibility\n\n\nPipelines\n\n\n\nA Make-like pipeline tool for statistics and data science in R\n\n\n\nMateus Harrington\n\n\nApr 22, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMultiQC, Atria(maybe)\n\n\n\nVisualisation\n\n\nStatistics\n\n\nReproducibility\n\n\n\nMultiQC is the standard in bioinformatics reporting.\n\n\n\nUmran Yaman\n\n\nFeb 24, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIlastik\n\n\n\nimage processing\n\n\n\nIlastik allows to segment images based on live training. You draw on the image examples of the different elements you want to segment and it updates the model live.\n\n\n\nPierre Parutto\n\n\nFeb 24, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFastremap\n\n\n\narray handling?\n\n\n\nRenumber and relabel Numpy arrays at C++ speed and physically convert rectangular Numpy arrays between C and Fortran order using an in-place transposition.…\n\n\n\nChristina Maat\n\n\nFeb 24, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\njanitor\n\n\n\nData cleaning\n\n\n\nHas super handy function for cleaning data, particularly cleaning column names\n\n\n\nMateus Harrington\n\n\nFeb 14, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nhere\n\n\n\nReproducibility\n\n\n\nA little package for managing file paths in R projects. Using here you can always get file paths that’re relative to the project root which’re expanded to the full system…\n\n\n\nMateus Harrington\n\n\nJan 28, 2025\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "07_dissemination/01_website/004_discoveries/2025-04-22-targets.html",
-    "href": "07_dissemination/01_website/004_discoveries/2025-04-22-targets.html",
-    "title": "targets",
-    "section": "",
-    "text": "Lets you make efficient pipelines in R to save rerunning lengthy steps of processing, and improve reproducibly."
-  },
-  {
-    "objectID": "07_dissemination/01_website/004_discoveries/2025-04-22-targets.html#problem-solved",
-    "href": "07_dissemination/01_website/004_discoveries/2025-04-22-targets.html#problem-solved",
-    "title": "targets",
-    "section": "",
-    "text": "Lets you make efficient pipelines in R to save rerunning lengthy steps of processing, and improve reproducibly."
-  },
-  {
-    "objectID": "07_dissemination/01_website/004_discoveries/2025-04-22-targets.html#example-usage",
-    "href": "07_dissemination/01_website/004_discoveries/2025-04-22-targets.html#example-usage",
-    "title": "targets",
-    "section": "Example Usage",
-    "text": "Example Usage\n\nnan"
-  },
-  {
-    "objectID": "07_dissemination/01_website/004_discoveries/2025-04-22-targets.html#additional-resources",
-    "href": "07_dissemination/01_website/004_discoveries/2025-04-22-targets.html#additional-resources",
-    "title": "targets",
-    "section": "Additional Resources",
-    "text": "Additional Resources\n\nSource Code: https://github.com/ropensci/targets"
-  },
-  {
-    "objectID": "07_dissemination/01_website/004_discoveries/2025-04-22-targets.html#notes",
-    "href": "07_dissemination/01_website/004_discoveries/2025-04-22-targets.html#notes",
-    "title": "targets",
-    "section": "Notes",
-    "text": "Notes\nNice documentation for the package can be found here: https://books.ropensci.org/targets/"
   },
   {
     "objectID": "07_dissemination/01_website/004_discoveries/2025-02-24-ilastik.html",
@@ -77,41 +105,6 @@
     "text": "Additional Resources\n\nSource Code: https://www.ilastik.org/"
   },
   {
-    "objectID": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html",
-    "href": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html",
-    "title": "janitor",
-    "section": "",
-    "text": "I use it most often immediately after I read in a file to clean the column names. It’ll do things like remove special characters and replace spaces with underscores."
-  },
-  {
-    "objectID": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html#problem-solved",
-    "href": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html#problem-solved",
-    "title": "janitor",
-    "section": "",
-    "text": "I use it most often immediately after I read in a file to clean the column names. It’ll do things like remove special characters and replace spaces with underscores."
-  },
-  {
-    "objectID": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html#example-usage",
-    "href": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html#example-usage",
-    "title": "janitor",
-    "section": "Example Usage",
-    "text": "Example Usage\n\n# Data with dirty column names\nhead(iris)\n\n  Sepal.Length Sepal.Width Petal.Length Petal.Width Species\n1          5.1         3.5          1.4         0.2  setosa\n2          4.9         3.0          1.4         0.2  setosa\n3          4.7         3.2          1.3         0.2  setosa\n4          4.6         3.1          1.5         0.2  setosa\n5          5.0         3.6          1.4         0.2  setosa\n6          5.4         3.9          1.7         0.4  setosa\n\n# Easy cleaning!\niris |&gt;\n  janitor::clean_names() |&gt;\n  head()\n\n  sepal_length sepal_width petal_length petal_width species\n1          5.1         3.5          1.4         0.2  setosa\n2          4.9         3.0          1.4         0.2  setosa\n3          4.7         3.2          1.3         0.2  setosa\n4          4.6         3.1          1.5         0.2  setosa\n5          5.0         3.6          1.4         0.2  setosa\n6          5.4         3.9          1.7         0.4  setosa"
-  },
-  {
-    "objectID": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html#additional-resources",
-    "href": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html#additional-resources",
-    "title": "janitor",
-    "section": "Additional Resources",
-    "text": "Additional Resources\n\nSource Code: https://github.com/sfirke/janitor"
-  },
-  {
-    "objectID": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html#notes",
-    "href": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html#notes",
-    "title": "janitor",
-    "section": "Notes",
-    "text": "Notes\nnan"
-  },
-  {
     "objectID": "07_dissemination/01_website/003_committe_alumni/sk/sk.html",
     "href": "07_dissemination/01_website/003_committe_alumni/sk/sk.html",
     "title": "Samaneh Kouchaki",
@@ -119,39 +112,39 @@
     "text": "Samaneh has extensive expertise in developing digital biomarkers and applied machine learning to analyse real healthcare data.\nShe has a track record of creating novel machine learning models for various healthcare applications, including compact language models and representation learning for Electronic Healthcare Records, and transformer-based and representation learning for in-home data."
   },
   {
-    "objectID": "07_dissemination/01_website/003_committe_alumni/dmc/dmc.html",
-    "href": "07_dissemination/01_website/003_committe_alumni/dmc/dmc.html",
-    "title": "David Cash",
+    "objectID": "07_dissemination/01_website/003_committe_alumni/index.html",
+    "href": "07_dissemination/01_website/003_committe_alumni/index.html",
+    "title": "Alumni Committee Members",
     "section": "",
-    "text": "I’m a professorial research fellow at the Dementia Research Centre in the UCL Queen Square Institute of Neurology, where I lead the imaging and data management activities for high-profile studies in ageing (the Insight 46 neuroimaging sub-study of the MRC National Survey for Health and Development) and global multicentre studies in autosomal dominant forms of Alzheimer’s disease and frontotemporal dementia (GENFI). I have medical imaging acquisition, analysis and data management experiences in both academic and industrial settings. I worked five years at IXICO Ltd, a medical imaging contract research organisation, where I managed the imaging in clinical trials in Alzheimer’s disease and oncology for various pharmaceutical sponsors. I collobarate heavily with the Hawkes Institute (formerly known as Centre for Medical Image Computing (CMIC)) to help translate cutting edge informatics and medical imaging analysis techniques are being implemented into clinical research.\nI am also the primary investigator on Health and Bioscience IDEAS, a UK Research and Innovation funded programme to train researchers on how to use medical imaging data more effectively within their work. We have developed numerous interactive coding workshops helping researchers get involved with medical imaging analysis and data management.\nI have an active role on various national and international committees working on imaging in Alzheimer’s disease, including the Dominantly Inherited Alzheimer Network (DIAN), the Alzheimer’s Disease Neuroimaging Initiative (ADNI), the GENetic Frontotemporal Initiative (GENFI). I am Immediate Past Chair of the ISTAART Neuroimaging PIA, an organization of over 1700 neuroimaging researchers working in dementia."
+    "text": "Austėja Čiulkinytė\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCynthia Sandor\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDavid Cash\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKiran K G Ravindran\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSamaneh Kouchaki\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSteve Hill\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "07_dissemination/01_website/003_committe_alumni/SH/sh.html",
-    "href": "07_dissemination/01_website/003_committe_alumni/SH/sh.html",
-    "title": "Steve Hill",
+    "objectID": "07_dissemination/01_website/003_committe_alumni/cs/cs.html",
+    "href": "07_dissemination/01_website/003_committe_alumni/cs/cs.html",
+    "title": "Cynthia Sandor",
     "section": "",
-    "text": "I am an Alzheimer’s Society Fellow in the lab of Blanca Díaz Castro (UKDRI at Edinburgh). My current work primarily uses proteomics to study astrocyte endfeet. I am a trained molecular biologist and self-taught in informatics data analyses. I joined the committee to bridge the gap between the wet lab scientists and informaticians of the UK DRI. I try to represent my experience from this perspective to ensure the theme is inclusive to all levels of experience."
+    "text": "Cynthia Sandor was trained as a veterinary surgeon at the University of Liège and completed her PhD in statistical genetics in animal and human genetics under Professor Michel Georges. She then moved to Harvard Medical School and the Broad Institute, where she contributed to multiple genetic studies on autoimmune diseases. Following this, she undertook postdoctoral research at the University of Oxford, focusing on the validation of induced pluripotent stem cell–derived neuronal models for Parkinson’s disease using multi-omics datasets.\nCynthia later joined Cardiff University, where she began her first independent position after being awarded a Sêr Cymru II (Rising Star) Fellowship and the UK DRI Emerging Leader award at the UK DRI at Cardiff, sponsored by Professor Caleb Webber. Her research there aimed to unravel disease heterogeneity in Parkinson’s disease.\nIn 2024, Cynthia became the Edmond J. Safra Lecturer in Parkinson’s Disease in the Department of Brain Sciences at Imperial College London, and she is currently a UKRI Future Leaders Fellow and a group leader of UKDRI."
   },
   {
-    "objectID": "07_dissemination/01_website/002_committee/kkgr/kkgr.html",
-    "href": "07_dissemination/01_website/002_committee/kkgr/kkgr.html",
-    "title": "Kiran K G Ravindran",
+    "objectID": "07_dissemination/01_website/003_committe_alumni/AC/ac.html",
+    "href": "07_dissemination/01_website/003_committe_alumni/AC/ac.html",
+    "title": "Austėja Čiulkinytė",
     "section": "",
-    "text": "I am a Postdoctoral Researcher at the Surrey Sleep Research Centre, University of Surrey, and UK DRI Care Research & Technology Centre (CRT) at Imperial College London and University of Surrey, Guildford. I am a biomedical engineer interested in all things “SLEEP”! I joined the committee to represent the data analytics and machine learning side of CRT."
+    "text": "Hi! I am a PhD student on the Translational Neuroscience PhD programme at the University of Edinburgh. In my research, I investigate the molecular mechanisms by which Alzheimer’s disease and cerebral small vessel disease affect the brain vasculature. To do so, I use a combination of proteomics (supervised by Blanca Díaz Castro, UKDRI Edinburgh), genomics and computational modelling approaches (supervised by Simon Cox and Sarah Harris, Lothian Birth Cohorts). Although I originally trained as a wet lab biochemist, I now spend more and more time doing data analysis and learning bioinformatics. I joined the committee to encourage other new learners to explore the informatics resources available via UK DRI and to help make informatics more accessible to all."
   },
   {
-    "objectID": "07_dissemination/01_website/002_committee/gmbh/gmbh.html",
-    "href": "07_dissemination/01_website/002_committee/gmbh/gmbh.html",
-    "title": "Gabriel Mateus Bernardo Harrington",
+    "objectID": "07_dissemination/01_website/002_committee/index.html",
+    "href": "07_dissemination/01_website/002_committee/index.html",
+    "title": "Committee Members",
     "section": "",
-    "text": "I’m a post-doc bioinformatician in the Webber lab in the Cardiff UKDRI. I work mainly on Alzheimer’s disease with a focus on the neurovasculature side of things, typically working with single nuclei seq data.\nI’ve a big interest in reproducibility in science! A lot of science isn’t done to a particularly high standard, so I’m very keen to try and help build community around better practises in the UKDRI (Git repo templates, training, support networks, etc). I’d like to make it easier for folk to adopt better practises and make their science more transparent so we can all learn from each other and beat these unpleasent diseases sooner :)"
+    "text": "Committee alumni can be found here\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChristina Maat\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\nrole\n\n\nCo-Chair\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaryam Shoai\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPierre Parutto\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "07_dissemination/01_website/002_committee/MSh/MSh.html",
-    "href": "07_dissemination/01_website/002_committee/MSh/MSh.html",
-    "title": "Maryam Shoai",
+    "objectID": "07_dissemination/01_website/002_committee/cam/cm.html",
+    "href": "07_dissemination/01_website/002_committee/cam/cm.html",
+    "title": "Christina Maat",
     "section": "",
-    "text": "Affiliated and member of UKDRI and ECR Informatics committee since creation.\nWho: I am a senior research fellow in statistical genetics and have been working in the Hardy lab.\nWhy? I joined the ECR committee with the hope of helping to create a support network of informaticians/statisticians with varying degrees of experience for researchers in Genomics, Informatics and Statistics. It doesn’t matter if you are a master of the craft or a beginner, we want to form a network that will enrich your ECR experience."
+    "text": "In the lab of Marc Busche (UKDRI at UCL) I am studying Alzheimer’s Disease using spatial transcriptomics and 2-photon imaging. When learning to work with advanced data analysis methods, I realized that we were not making full use of the incredibly rich informatics community at the UKDRI. By creating means for (starting) informaticians to connect - through events or digital platforms - I hope to contribute to making the informatics community a place that both propels cutting-edge computational approaches in dementia research and serves as a springboard to those breaking into the field. 2023-2025 co-chair."
   },
   {
     "objectID": "07_dissemination/01_website/001_posts/05_bioinformatics_bytes_cafe/index.html",
@@ -189,25 +182,18 @@
     "text": "The inaugural Bioinformatics Bytes Café is scheduled for 2025-02-28 at 14:00 via Zoom, please come along!\nThe idea here is to get informatics folks together, sharing cool ideas and chatting. We’ll be starting with a discoveries session where we showcase some cool tools/packages rapid fire. Then we’ll have a brief presentation around the UK DRI GitHub and we’ll finish with a discussion session.\nWe’re very open to changing this structure if that’s what folk want, so please get in touch with any feedback, we are here for you! 😄\nYou don’t have to be a hardcore informatician, if you’re learning or planning to learn informatics related stuff then you are part of the community and should be there!\nYou can find details, a calendar invite and the zoom link to join on the DRI portal here.\nHope to see many of you there!"
   },
   {
-    "objectID": "07_dissemination/01_website/002_committee/AC/ac.html",
-    "href": "07_dissemination/01_website/002_committee/AC/ac.html",
-    "title": "Austėja Čiulkinytė",
+    "objectID": "07_dissemination/01_website/002_committee/MSh/MSh.html",
+    "href": "07_dissemination/01_website/002_committee/MSh/MSh.html",
+    "title": "Maryam Shoai",
     "section": "",
-    "text": "Hi! I am a PhD student on the Translational Neuroscience PhD programme at the University of Edinburgh. In my research, I investigate the molecular mechanisms by which Alzheimer’s disease and cerebral small vessel disease affect the brain vasculature. To do so, I use a combination of proteomics (supervised by Blanca Díaz Castro, UKDRI Edinburgh), genomics and computational modelling approaches (supervised by Simon Cox and Sarah Harris, Lothian Birth Cohorts). Although I originally trained as a wet lab biochemist, I now spend more and more time doing data analysis and learning bioinformatics. I joined the committee to encourage other new learners to explore the informatics resources available via UK DRI and to help make informatics more accessible to all."
+    "text": "Affiliated and member of UKDRI and ECR Informatics committee since creation.\nWho: I am a senior research fellow in statistical genetics and have been working in the Hardy lab.\nWhy? I joined the ECR committee with the hope of helping to create a support network of informaticians/statisticians with varying degrees of experience for researchers in Genomics, Informatics and Statistics. It doesn’t matter if you are a master of the craft or a beginner, we want to form a network that will enrich your ECR experience."
   },
   {
-    "objectID": "07_dissemination/01_website/002_committee/cam/cm.html",
-    "href": "07_dissemination/01_website/002_committee/cam/cm.html",
-    "title": "Christina Maat",
+    "objectID": "07_dissemination/01_website/002_committee/gmbh/gmbh.html",
+    "href": "07_dissemination/01_website/002_committee/gmbh/gmbh.html",
+    "title": "Gabriel Mateus Bernardo Harrington",
     "section": "",
-    "text": "In the lab of Marc Busche (UKDRI at UCL) I am studying Alzheimer’s Disease using spatial transcriptomics and 2-photon imaging. When learning to work with advanced data analysis methods, I realized that we were not making full use of the incredibly rich informatics community at the UKDRI. By creating means for (starting) informaticians to connect - through events or digital platforms - I hope to contribute to making the informatics community a place that both propels cutting-edge computational approaches in dementia research and serves as a springboard to those breaking into the field. 2023-2025 co-chair."
-  },
-  {
-    "objectID": "07_dissemination/01_website/002_committee/index.html",
-    "href": "07_dissemination/01_website/002_committee/index.html",
-    "title": "Committee Members",
-    "section": "",
-    "text": "Committee alumni can be found here\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChristina Maat\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\nrole\n\n\nCo-Chair\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaryam Shoai\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPierre Parutto\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "I’m a post-doc bioinformatician in the Webber lab in the Cardiff UKDRI. I work mainly on Alzheimer’s disease with a focus on the neurovasculature side of things, typically working with single nuclei seq data.\nI’ve a big interest in reproducibility in science! A lot of science isn’t done to a particularly high standard, so I’m very keen to try and help build community around better practises in the UKDRI (Git repo templates, training, support networks, etc). I’d like to make it easier for folk to adopt better practises and make their science more transparent so we can all learn from each other and beat these unpleasent diseases sooner :)"
   },
   {
     "objectID": "07_dissemination/01_website/002_committee/par/par.html",
@@ -217,46 +203,25 @@
     "text": "Hello there! I am currently a postdoctoral researcher at the department of Clinical Neurosciences at the University of Cambridge and UKDRI. I work at the intersection between cellular biology, neurosciences, microscopy and data modelling with a particular interest in explaining complex biological systems from first principles."
   },
   {
-    "objectID": "07_dissemination/01_website/003_committe_alumni/cs/cs.html",
-    "href": "07_dissemination/01_website/003_committe_alumni/cs/cs.html",
-    "title": "Cynthia Sandor",
+    "objectID": "07_dissemination/01_website/003_committe_alumni/SH/sh.html",
+    "href": "07_dissemination/01_website/003_committe_alumni/SH/sh.html",
+    "title": "Steve Hill",
     "section": "",
-    "text": "Cynthia Sandor was trained as a veterinary surgeon at the University of Liège and completed her PhD in statistical genetics in animal and human genetics under Professor Michel Georges. She then moved to Harvard Medical School and the Broad Institute, where she contributed to multiple genetic studies on autoimmune diseases. Following this, she undertook postdoctoral research at the University of Oxford, focusing on the validation of induced pluripotent stem cell–derived neuronal models for Parkinson’s disease using multi-omics datasets.\nCynthia later joined Cardiff University, where she began her first independent position after being awarded a Sêr Cymru II (Rising Star) Fellowship and the UK DRI Emerging Leader award at the UK DRI at Cardiff, sponsored by Professor Caleb Webber. Her research there aimed to unravel disease heterogeneity in Parkinson’s disease.\nIn 2024, Cynthia became the Edmond J. Safra Lecturer in Parkinson’s Disease in the Department of Brain Sciences at Imperial College London, and she is currently a UKRI Future Leaders Fellow and a group leader of UKDRI."
+    "text": "I am an Alzheimer’s Society Fellow in the lab of Blanca Díaz Castro (UKDRI at Edinburgh). My current work primarily uses proteomics to study astrocyte endfeet. I am a trained molecular biologist and self-taught in informatics data analyses. I joined the committee to bridge the gap between the wet lab scientists and informaticians of the UK DRI. I try to represent my experience from this perspective to ensure the theme is inclusive to all levels of experience."
   },
   {
-    "objectID": "07_dissemination/01_website/003_committe_alumni/index.html",
-    "href": "07_dissemination/01_website/003_committe_alumni/index.html",
-    "title": "Alumni Committee Members",
+    "objectID": "07_dissemination/01_website/003_committe_alumni/dmc/dmc.html",
+    "href": "07_dissemination/01_website/003_committe_alumni/dmc/dmc.html",
+    "title": "David Cash",
     "section": "",
-    "text": "Austėja Čiulkinytė\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCynthia Sandor\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDavid Cash\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKiran K G Ravindran\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSamaneh Kouchaki\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSteve Hill\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "I’m a professorial research fellow at the Dementia Research Centre in the UCL Queen Square Institute of Neurology, where I lead the imaging and data management activities for high-profile studies in ageing (the Insight 46 neuroimaging sub-study of the MRC National Survey for Health and Development) and global multicentre studies in autosomal dominant forms of Alzheimer’s disease and frontotemporal dementia (GENFI). I have medical imaging acquisition, analysis and data management experiences in both academic and industrial settings. I worked five years at IXICO Ltd, a medical imaging contract research organisation, where I managed the imaging in clinical trials in Alzheimer’s disease and oncology for various pharmaceutical sponsors. I collobarate heavily with the Hawkes Institute (formerly known as Centre for Medical Image Computing (CMIC)) to help translate cutting edge informatics and medical imaging analysis techniques are being implemented into clinical research.\nI am also the primary investigator on Health and Bioscience IDEAS, a UK Research and Innovation funded programme to train researchers on how to use medical imaging data more effectively within their work. We have developed numerous interactive coding workshops helping researchers get involved with medical imaging analysis and data management.\nI have an active role on various national and international committees working on imaging in Alzheimer’s disease, including the Dominantly Inherited Alzheimer Network (DIAN), the Alzheimer’s Disease Neuroimaging Initiative (ADNI), the GENetic Frontotemporal Initiative (GENFI). I am Immediate Past Chair of the ISTAART Neuroimaging PIA, an organization of over 1700 neuroimaging researchers working in dementia."
   },
   {
-    "objectID": "07_dissemination/01_website/004_discoveries/2025-01-28-here.html",
-    "href": "07_dissemination/01_website/004_discoveries/2025-01-28-here.html",
-    "title": "here",
+    "objectID": "07_dissemination/01_website/003_committe_alumni/kkgr/kkgr.html",
+    "href": "07_dissemination/01_website/003_committe_alumni/kkgr/kkgr.html",
+    "title": "Kiran K G Ravindran",
     "section": "",
-    "text": "Useful for managing file paths in Quarto/R Markdown files. If you have a nested .qmd or .rmd and want to put file paths in, you’ll know when they render they set the working directory to the location of that file and not the project root."
-  },
-  {
-    "objectID": "07_dissemination/01_website/004_discoveries/2025-01-28-here.html#problem-solved",
-    "href": "07_dissemination/01_website/004_discoveries/2025-01-28-here.html#problem-solved",
-    "title": "here",
-    "section": "",
-    "text": "Useful for managing file paths in Quarto/R Markdown files. If you have a nested .qmd or .rmd and want to put file paths in, you’ll know when they render they set the working directory to the location of that file and not the project root."
-  },
-  {
-    "objectID": "07_dissemination/01_website/004_discoveries/2025-01-28-here.html#example-usage",
-    "href": "07_dissemination/01_website/004_discoveries/2025-01-28-here.html#example-usage",
-    "title": "here",
-    "section": "Example Usage",
-    "text": "Example Usage\n\n# Create a new project, check you've got a .Rproj file in the project root.\n# you can then just use the function:\nhere::here() # get the project path\n\n# Example reading fake file\nfile &lt;- here::here(\"data_folder/example_table.csv\")\nprint(file)\n# Read in data\n# data &lt;- read.csv(file)"
-  },
-  {
-    "objectID": "07_dissemination/01_website/004_discoveries/2025-01-28-here.html#additional-resources",
-    "href": "07_dissemination/01_website/004_discoveries/2025-01-28-here.html#additional-resources",
-    "title": "here",
-    "section": "Additional Resources",
-    "text": "Additional Resources\n\nSource Code: https://github.com/r-lib/here/"
+    "text": "I am a Postdoctoral Researcher at the Surrey Sleep Research Centre, University of Surrey, and UK DRI Care Research & Technology Centre (CRT) at Imperial College London and University of Surrey, Guildford. I am a biomedical engineer interested in all things “SLEEP”! I joined the committee to represent the data analytics and machine learning side of CRT."
   },
   {
     "objectID": "07_dissemination/01_website/004_discoveries/2025-02-24-fastremap.html",
@@ -301,41 +266,6 @@
     "text": "Additional Resources\n\nSource Code: https://seqera.io/multiqc/"
   },
   {
-    "objectID": "07_dissemination/01_website/004_discoveries/2025-04-22-tidytuesday.html",
-    "href": "07_dissemination/01_website/004_discoveries/2025-04-22-tidytuesday.html",
-    "title": "tidytuesday",
-    "section": "",
-    "text": "A fun data science community to participate in and learn with"
-  },
-  {
-    "objectID": "07_dissemination/01_website/004_discoveries/2025-04-22-tidytuesday.html#problem-solved",
-    "href": "07_dissemination/01_website/004_discoveries/2025-04-22-tidytuesday.html#problem-solved",
-    "title": "tidytuesday",
-    "section": "",
-    "text": "A fun data science community to participate in and learn with"
-  },
-  {
-    "objectID": "07_dissemination/01_website/004_discoveries/2025-04-22-tidytuesday.html#example-usage",
-    "href": "07_dissemination/01_website/004_discoveries/2025-04-22-tidytuesday.html#example-usage",
-    "title": "tidytuesday",
-    "section": "Example Usage",
-    "text": "Example Usage\n\nnan"
-  },
-  {
-    "objectID": "07_dissemination/01_website/004_discoveries/2025-04-22-tidytuesday.html#additional-resources",
-    "href": "07_dissemination/01_website/004_discoveries/2025-04-22-tidytuesday.html#additional-resources",
-    "title": "tidytuesday",
-    "section": "Additional Resources",
-    "text": "Additional Resources\n\nSource Code: https://github.com/rfordatascience/tidytuesday"
-  },
-  {
-    "objectID": "07_dissemination/01_website/004_discoveries/2025-04-22-tidytuesday.html#notes",
-    "href": "07_dissemination/01_website/004_discoveries/2025-04-22-tidytuesday.html#notes",
-    "title": "tidytuesday",
-    "section": "Notes",
-    "text": "Notes\nnan"
-  },
-  {
     "objectID": "07_dissemination/01_website/about.html",
     "href": "07_dissemination/01_website/about.html",
     "title": "About",
@@ -350,17 +280,73 @@
     "text": "Sign up for our mailing list to keep up to date here\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBioinformatics Bytes Café, take two!\n\n\nTuning into cell-cell interactions\n\n\n\nnews\n\n\nevents\n\n\n\n\n\n\n\n\n\nApr 28, 2025\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nBioinformatics Bytes Café\n\n\nA new community building event!\n\n\n\nnews\n\n\nevents\n\n\n\n\n\n\n\n\n\nFeb 27, 2025\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nBehind the P-value\n\n\nThe first entry in our new seminar series!\n\n\n\nnews\n\n\nevents\n\n\n\n\n\n\n\n\n\nOct 18, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nNew committee members needed!\n\n\n\n\n\n\nnews\n\n\ncommittee\n\n\n\n\n\n\n\n\n\nOct 17, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome!\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 16, 2024\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "07_dissemination/01_website/003_committe_alumni/kkgr/kkgr.html",
-    "href": "07_dissemination/01_website/003_committe_alumni/kkgr/kkgr.html",
-    "title": "Kiran K G Ravindran",
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html",
+    "href": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html",
+    "title": "janitor",
     "section": "",
-    "text": "I am a Postdoctoral Researcher at the Surrey Sleep Research Centre, University of Surrey, and UK DRI Care Research & Technology Centre (CRT) at Imperial College London and University of Surrey, Guildford. I am a biomedical engineer interested in all things “SLEEP”! I joined the committee to represent the data analytics and machine learning side of CRT."
+    "text": "I use it most often immediately after I read in a file to clean the column names. It’ll do things like remove special characters and replace spaces with underscores."
   },
   {
-    "objectID": "07_dissemination/01_website/003_committe_alumni/AC/ac.html",
-    "href": "07_dissemination/01_website/003_committe_alumni/AC/ac.html",
-    "title": "Austėja Čiulkinytė",
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html#problem-solved",
+    "href": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html#problem-solved",
+    "title": "janitor",
     "section": "",
-    "text": "Hi! I am a PhD student on the Translational Neuroscience PhD programme at the University of Edinburgh. In my research, I investigate the molecular mechanisms by which Alzheimer’s disease and cerebral small vessel disease affect the brain vasculature. To do so, I use a combination of proteomics (supervised by Blanca Díaz Castro, UKDRI Edinburgh), genomics and computational modelling approaches (supervised by Simon Cox and Sarah Harris, Lothian Birth Cohorts). Although I originally trained as a wet lab biochemist, I now spend more and more time doing data analysis and learning bioinformatics. I joined the committee to encourage other new learners to explore the informatics resources available via UK DRI and to help make informatics more accessible to all."
+    "text": "I use it most often immediately after I read in a file to clean the column names. It’ll do things like remove special characters and replace spaces with underscores."
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html#example-usage",
+    "href": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html#example-usage",
+    "title": "janitor",
+    "section": "Example Usage",
+    "text": "Example Usage\n\n# Data with dirty column names\nhead(iris)\n\n  Sepal.Length Sepal.Width Petal.Length Petal.Width Species\n1          5.1         3.5          1.4         0.2  setosa\n2          4.9         3.0          1.4         0.2  setosa\n3          4.7         3.2          1.3         0.2  setosa\n4          4.6         3.1          1.5         0.2  setosa\n5          5.0         3.6          1.4         0.2  setosa\n6          5.4         3.9          1.7         0.4  setosa\n\n# Easy cleaning!\niris |&gt;\n  janitor::clean_names() |&gt;\n  head()\n\n  sepal_length sepal_width petal_length petal_width species\n1          5.1         3.5          1.4         0.2  setosa\n2          4.9         3.0          1.4         0.2  setosa\n3          4.7         3.2          1.3         0.2  setosa\n4          4.6         3.1          1.5         0.2  setosa\n5          5.0         3.6          1.4         0.2  setosa\n6          5.4         3.9          1.7         0.4  setosa"
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html#additional-resources",
+    "href": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html#additional-resources",
+    "title": "janitor",
+    "section": "Additional Resources",
+    "text": "Additional Resources\n\nSource Code: https://github.com/sfirke/janitor"
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html#notes",
+    "href": "07_dissemination/01_website/004_discoveries/2025-02-14-janitor.html#notes",
+    "title": "janitor",
+    "section": "Notes",
+    "text": "Notes\nnan"
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-04-22-targets.html",
+    "href": "07_dissemination/01_website/004_discoveries/2025-04-22-targets.html",
+    "title": "targets",
+    "section": "",
+    "text": "Lets you make efficient pipelines in R to save rerunning lengthy steps of processing, and improve reproducibly."
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-04-22-targets.html#problem-solved",
+    "href": "07_dissemination/01_website/004_discoveries/2025-04-22-targets.html#problem-solved",
+    "title": "targets",
+    "section": "",
+    "text": "Lets you make efficient pipelines in R to save rerunning lengthy steps of processing, and improve reproducibly."
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-04-22-targets.html#example-usage",
+    "href": "07_dissemination/01_website/004_discoveries/2025-04-22-targets.html#example-usage",
+    "title": "targets",
+    "section": "Example Usage",
+    "text": "Example Usage\n\nnan"
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-04-22-targets.html#additional-resources",
+    "href": "07_dissemination/01_website/004_discoveries/2025-04-22-targets.html#additional-resources",
+    "title": "targets",
+    "section": "Additional Resources",
+    "text": "Additional Resources\n\nSource Code: https://github.com/ropensci/targets"
+  },
+  {
+    "objectID": "07_dissemination/01_website/004_discoveries/2025-04-22-targets.html#notes",
+    "href": "07_dissemination/01_website/004_discoveries/2025-04-22-targets.html#notes",
+    "title": "targets",
+    "section": "Notes",
+    "text": "Notes\nNice documentation for the package can be found here: https://books.ropensci.org/targets/"
   }
 ]

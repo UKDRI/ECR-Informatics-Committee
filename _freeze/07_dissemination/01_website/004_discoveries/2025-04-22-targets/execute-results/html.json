@@ -1,0 +1,15 @@
+{
+  "hash": "d168fa43bdf3dccbc7ad27249bebd286",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: targets\ndate: 2025-04-22\nauthor: Mateus Harrington\nimage: /07_dissemination/01_website/images/discoveries/colour3.png\ncategories: [Reproducibility, Pipelines]\ndescription: \"A [Make](https://www.gnu.org/software/make/)-like pipeline tool for statistics and data science in R\"\n---\n\n\n\n\n## Problem Solved\nLets you make efficient pipelines in R to save rerunning lengthy steps of processing, and improve reproducibly.\n\n## Example Usage\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nnan\n```\n:::\n\n\n\n\n## Additional Resources\n- Source Code: [https://github.com/ropensci/targets](https://github.com/ropensci/targets)\n\n## Notes\nNice documentation for the package can be found here: https://books.ropensci.org/targets/\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

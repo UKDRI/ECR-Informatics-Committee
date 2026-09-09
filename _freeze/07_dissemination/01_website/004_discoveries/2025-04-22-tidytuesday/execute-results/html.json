@@ -1,0 +1,15 @@
+{
+  "hash": "96d3f995fc4d34f03e785067dd8ad38f",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: tidytuesday\ndate: 2025-04-22\nauthor: Mateus Harrington\nimage: /07_dissemination/01_website/images/discoveries/colour4.png\ncategories: [Data science]\ndescription: TidyTuesday is a weekly social data project. Data is released weekly, and folk share their approaches for analysing it\n---\n\n\n\n\n## Problem Solved\nA fun data science community to participate in and learn with\n\n## Example Usage\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nnan\n```\n:::\n\n\n\n\n## Additional Resources\n- Source Code: [https://github.com/rfordatascience/tidytuesday](https://github.com/rfordatascience/tidytuesday)\n\n## Notes\nnan\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

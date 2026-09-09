@@ -1,0 +1,15 @@
+{
+  "hash": "c82720084d06bc68c29bf22131102dbc",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: here\ndate: 2025-01-28\nauthor: Mateus Harrington\ntitle-block-banner: \"#691C32\"\ntitle-block-banner-color: \"#F5F5F5\"\nimage: /07_dissemination/01_website/images/discoveries/colour1.png\ncategories: [Reproducibility]\ndescription: \"A little package for managing file paths in R projects. Using `here` you can always get file paths that're relative to the project root which're expanded to the full system path.\"\n---\n\n\n\n\n## Problem Solved\nUseful for managing file paths in [Quarto](https://quarto.org/)/R Markdown files. If you have a nested .qmd or .rmd and want to put file paths in, you'll know when they render they set the working directory to the location of that file and not the project root.\n\n## Example Usage\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# Create a new project, check you've got a .Rproj file in the project root.\n# you can then just use the function:\nhere::here() # get the project path\n\n# Example reading fake file\nfile <- here::here(\"data_folder/example_table.csv\")\nprint(file)\n# Read in data\n# data <- read.csv(file)\n```\n:::\n\n\n\n\n## Additional Resources\n- Source Code: [https://github.com/r-lib/here/](https://github.com/r-lib/here/)\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
