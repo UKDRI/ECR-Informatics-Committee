@@ -36,7 +36,7 @@ affiliations:
   - id: ukdri
     name: UK Dementia Research Institute
     group: Dijk
-    url: https://ukdri.ac.uk/
+    url: https://www.ukdri.ac.uk/labs/dijk-lab
   - id: Surrey
     name: University of Surrey
     group: Dijk
