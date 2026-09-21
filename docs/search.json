@@ -137,7 +137,7 @@
     "href": "07_dissemination/01_website/002_committee/index.html",
     "title": "Committee Members",
     "section": "",
-    "text": "Committee alumni can be found here\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChristina Maat\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\nrole\n\n\nCo-Chair\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaryam Shoai\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPierre Parutto\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Committee alumni can be found here\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChristina Maat\n\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\nrole\n\n\nCo-Chair\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaryam Shoai\n\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPierre Parutto\n\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTamas Foldes\n\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "07_dissemination/01_website/002_committee/cam/cm.html",
@@ -348,5 +348,12 @@
     "title": "targets",
     "section": "Notes",
     "text": "Notes\nNice documentation for the package can be found here: https://books.ropensci.org/targets/"
+  },
+  {
+    "objectID": "07_dissemination/01_website/002_committee/taf/taf.html",
+    "href": "07_dissemination/01_website/002_committee/taf/taf.html",
+    "title": "Tamas Foldes",
+    "section": "",
+    "text": "I am a Research Fellow in Professor Derk-Jan Dijk’s lab at the UK DRI Centre for Care Research & Technology (University of Surrey), where I evaluate and implement new technologies for the longitudinal assessment of brain function, symptoms and behaviour in people living with dementia. I came to dementia research from a background spanning computer science and cognitive neuroscience (PhD, Cardiff University), and I have a particular interest in open-source research software, machine learning for wearable and remote-monitoring data, and reproducible analysis pipelines. I joined the ECR Informatics Committee to help connect informaticians across UK DRI centres and to support those breaking into computational dementia research."
   }
 ]

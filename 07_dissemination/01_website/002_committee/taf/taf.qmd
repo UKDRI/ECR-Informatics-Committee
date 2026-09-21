@@ -1,0 +1,47 @@
+---
+title: Tamas Foldes
+role: Member
+image: profile.png
+about:
+  template: jolla
+  links:
+    - icon: globe
+      text: Website
+      href: https://andreifoldes.github.io
+    - icon: cloud
+      text: Bluesky
+      href: https://bsky.app/profile/sinandrei.bsky.social
+    - icon: orcid
+      text: ORCID
+      href: https://orcid.org/0000-0002-0623-9149
+    - icon: github
+      text: GitHub
+      href: https://github.com/andreifoldes
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/andreifoldes
+authors:
+  - id: taf
+    name:
+      given: Tamas Andrei
+      family: Foldes
+    degrees: PhD
+    orcid: 0000-0002-0623-9149
+    roles:
+      - Committee: Member
+    affiliations:
+      - ref: ukdri
+      - ref: Surrey
+affiliations:
+  - id: ukdri
+    name: UK Dementia Research Institute
+    group: Dijk
+    url: https://ukdri.ac.uk/
+  - id: Surrey
+    name: University of Surrey
+    group: Dijk
+    city: Guildford
+    url: https://ukdri.ac.uk/centres/care-research-technology
+---
+
+I am a Research Fellow in Professor Derk-Jan Dijk's lab at the UK DRI Centre for Care Research & Technology (University of Surrey), where I evaluate and implement new technologies for the longitudinal assessment of brain function, symptoms and behaviour in people living with dementia. I came to dementia research from a background spanning computer science and cognitive neuroscience (PhD, Cardiff University), and I have a particular interest in open-source research software, machine learning for wearable and remote-monitoring data, and reproducible analysis pipelines. I joined the ECR Informatics Committee to help connect informaticians across UK DRI centres and to support those breaking into computational dementia research.
