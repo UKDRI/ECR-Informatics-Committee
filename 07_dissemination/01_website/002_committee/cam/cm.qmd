@@ -40,7 +40,7 @@ affiliations:
     #number: number
     name: UK Dementia Research Institue
     #department: string
-    group: Hong
+    group: Busche
     #address: string
     #city: string
     #region: string
@@ -49,7 +49,7 @@ affiliations:
     url: https://ukdri.ac.uk/ 
   - id: UCL
     name: University College London
-    group: Hong
+    group: Busche
     city: London
     url: https://ukdri.ac.uk/centres/ucl
 ---

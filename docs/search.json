@@ -133,11 +133,18 @@
     "text": "Hi! I am a PhD student on the Translational Neuroscience PhD programme at the University of Edinburgh. In my research, I investigate the molecular mechanisms by which Alzheimer’s disease and cerebral small vessel disease affect the brain vasculature. To do so, I use a combination of proteomics (supervised by Blanca Díaz Castro, UKDRI Edinburgh), genomics and computational modelling approaches (supervised by Simon Cox and Sarah Harris, Lothian Birth Cohorts). Although I originally trained as a wet lab biochemist, I now spend more and more time doing data analysis and learning bioinformatics. I joined the committee to encourage other new learners to explore the informatics resources available via UK DRI and to help make informatics more accessible to all."
   },
   {
+    "objectID": "07_dissemination/01_website/002_committee/par/par.html",
+    "href": "07_dissemination/01_website/002_committee/par/par.html",
+    "title": "Pierre Parutto",
+    "section": "",
+    "text": "Hello there! I am currently a postdoctoral researcher at the department of Clinical Neurosciences at the University of Cambridge and UKDRI. I work at the intersection between cellular biology, neurosciences, microscopy and data modelling with a particular interest in explaining complex biological systems from first principles."
+  },
+  {
     "objectID": "07_dissemination/01_website/002_committee/index.html",
     "href": "07_dissemination/01_website/002_committee/index.html",
     "title": "Committee Members",
     "section": "",
-    "text": "Committee alumni can be found here\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChristina Maat\n\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\n\nrole\n\n\nCo-Chair\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaryam Shoai\n\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPierre Parutto\n\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTamas Foldes\n\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Committee alumni can be found here\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChristina Maat\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGabriel Mateus Bernardo Harrington\n\n\n\n\nrole\n\n\nCo-Chair\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaryam Shoai\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNan Fletcher-Lloyd\n\n\n\n\nrole\n\n\nCo-Chair\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPierre Parutto\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTamas Foldes\n\n\n\n\nrole\n\n\nMember\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "07_dissemination/01_website/002_committee/cam/cm.html",
@@ -196,11 +203,18 @@
     "text": "I’m a post-doc bioinformatician in the Webber lab in the Cardiff UKDRI. I work mainly on Alzheimer’s disease with a focus on the neurovasculature side of things, typically working with single nuclei seq data.\nI’ve a big interest in reproducibility in science! A lot of science isn’t done to a particularly high standard, so I’m very keen to try and help build community around better practises in the UKDRI (Git repo templates, training, support networks, etc). I’d like to make it easier for folk to adopt better practises and make their science more transparent so we can all learn from each other and beat these unpleasent diseases sooner :)"
   },
   {
-    "objectID": "07_dissemination/01_website/002_committee/par/par.html",
-    "href": "07_dissemination/01_website/002_committee/par/par.html",
-    "title": "Pierre Parutto",
+    "objectID": "07_dissemination/01_website/002_committee/nfl/nfl.html",
+    "href": "07_dissemination/01_website/002_committee/nfl/nfl.html",
+    "title": "Nan Fletcher-Lloyd",
     "section": "",
-    "text": "Hello there! I am currently a postdoctoral researcher at the department of Clinical Neurosciences at the University of Cambridge and UKDRI. I work at the intersection between cellular biology, neurosciences, microscopy and data modelling with a particular interest in explaining complex biological systems from first principles."
+    "text": "I am a Postdoctoral Research Associate at the UK Dementia Research Institute’s Care Research & Technology Centre in the Department of Brain Sciences at Imperial College London. I completed a PhD in machine learning for clinical applications in ageing and dementia. My research sits at the intersection of machine learning, clinical decision support, and public health, with a focus on developing interpretable and fairness-aware AI for biomedical discovery and clinically meaningful decision-making. The work spans predictive modelling for dementia and other neurodegenerative conditions, with the aim of supporting risk assessment, earlier intervention, and responsible translation of AI into healthcare."
+  },
+  {
+    "objectID": "07_dissemination/01_website/002_committee/taf/taf.html",
+    "href": "07_dissemination/01_website/002_committee/taf/taf.html",
+    "title": "Tamas Foldes",
+    "section": "",
+    "text": "I am a Research Fellow in Professor Derk-Jan Dijk’s lab at the UK DRI Centre for Care Research & Technology (University of Surrey), where I try to evaluate and implement new technologies for the longitudinal assessment of symptoms and behaviour in people living with dementia. I am particularly interested in ultra-brief smartphone-based assessment of cognition, affect and sleep that can interoperate with wearables and nearables, as well as in secondary data reuse and harmonization in the service of drawing causal inference from cohort data on environmental and lifestyle factors impacting dementia outcomes. I joined the ECR Informatics Committee to help connect informaticians across UK DRI centres and to support those interested in computational dementia research."
   },
   {
     "objectID": "07_dissemination/01_website/003_committe_alumni/SH/sh.html",
@@ -348,12 +362,5 @@
     "title": "targets",
     "section": "Notes",
     "text": "Notes\nNice documentation for the package can be found here: https://books.ropensci.org/targets/"
-  },
-  {
-    "objectID": "07_dissemination/01_website/002_committee/taf/taf.html",
-    "href": "07_dissemination/01_website/002_committee/taf/taf.html",
-    "title": "Tamas Foldes",
-    "section": "",
-    "text": "I am a Research Fellow in Professor Derk-Jan Dijk’s lab at the UK DRI Centre for Care Research & Technology (University of Surrey), where I try to evaluate and implement new technologies for the longitudinal assessment of symptoms and behaviour in people living with dementia. I am particularly interested in ultra-brief smartphone-based assessment of cognition, affect and sleep that can interoperate with wearables and nearables, as well as in secondary data reuse and harmonization in the service of drawing causal inference from cohort data on environmental and lifestyle factors impacting dementia outcomes. I joined the ECR Informatics Committee to help connect informaticians across UK DRI centres and to support those interested in computational dementia research."
   }
 ]

@@ -1,0 +1,50 @@
+---
+title: Nan Fletcher-Lloyd
+role: Co-Chair
+image: Headshot_nfl.jpg
+about: 
+  template: trestles
+  links: 
+    - icon: orcid
+      text: ORCID
+      href: https://orcid.org/0000-0003-2002-5945
+    - icon: github
+      text: GitHub
+      href: https://github.com/NVFL
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/nan-fletcher-lloyd/
+authors:
+  - id: nfl
+    #number: number
+    name:
+      given: Nan
+      family: Fletcher-Lloyd
+    #email: string
+    #phone: string
+    degrees: PhD
+    orcid: 0000-0003-2002-5945
+    #acknowledgements: string
+    roles: 
+      # see schema below
+      - Committee: co-chair
+    #metadata: object
+    affiliations:
+      - ref: ukdri
+      - ref: imperial
+affiliations:
+  - id: ukdri
+    #number: number
+    name: UK Dementia Research Institue
+    #department: string
+    group: UK DRI Care Research & Technology Centre
+    url: https://www.ukdri.ac.uk/centres/care-research-technology
+  - id: imperial
+    #number: number
+    name: Imperial College London
+    department: Department of Brain Sciences
+    url: https://www.imperial.ac.uk/brain-sciences/
+---
+
+I am a Postdoctoral Research Associate at the UK Dementia Research Institute’s Care Research & Technology Centre in the Department of Brain Sciences at Imperial College London. I completed a PhD in machine learning for clinical applications in ageing and dementia. My research sits at the intersection of machine learning, clinical decision support, and public health, with a focus on developing interpretable and fairness-aware AI for biomedical discovery and clinically meaningful decision-making. The work spans predictive modelling for dementia and other neurodegenerative conditions, with the aim of supporting risk assessment, earlier intervention, and responsible translation of AI into healthcare.
+
